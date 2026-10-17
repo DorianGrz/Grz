@@ -39,14 +39,16 @@
         {%- for m in p.media -%}
           <div class="lk-gallery__slide" data-media-id="{{ m.id }}">
             {%- if forloop.first -%}
-              {{ m.preview_image | image_url: width: 1200 | image_tag: widths: '400, 600, 800, 1200', sizes: '(min-width: 990px) 560px, 88vw', loading: 'eager', fetchpriority: 'high', alt: m.alt }}
+              {{ m.preview_image | image_url: width: 1200 | image_tag: widths: '400, 600, 800, 1200', sizes: '(min-width: 990px) 560px, 86vw', loading: 'eager', fetchpriority: 'high', alt: m.alt }}
             {%- else -%}
-              {{ m.preview_image | image_url: width: 1200 | image_tag: widths: '400, 600, 800, 1200', sizes: '(min-width: 990px) 560px, 88vw', loading: 'lazy', alt: m.alt }}
+              {{ m.preview_image | image_url: width: 1200 | image_tag: widths: '400, 600, 800, 1200', sizes: '(min-width: 990px) 560px, 86vw', loading: 'lazy', decoding: 'async', alt: m.alt }}
             {%- endif -%}
           </div>
         {%- endfor -%}
       </div>
       {%- if p.media.size > 1 -%}
+        <button type="button" class="lk-gal-nav lk-gal-nav--prev" data-lk-prev aria-label="Poprzednie zdjęcie" disabled><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg></button>
+        <button type="button" class="lk-gal-nav lk-gal-nav--next" data-lk-next aria-label="Następne zdjęcie"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg></button>
         <div class="lk-dots" data-lk-dots>
           {%- for m in p.media -%}
             <button type="button" aria-label="Zdjęcie {{ forloop.index }}" data-index="{{ forloop.index0 }}" {% if forloop.first %}aria-current="true"{% endif %}></button>
@@ -176,18 +178,28 @@
       if (input.dataset.media) goTo(track.querySelector('[data-media-id="' + input.dataset.media + '"]'));
     });
 
+    var current = 0;
+    var prev = root.querySelector('[data-lk-prev]');
+    var next = root.querySelector('[data-lk-next]');
+    function setCurrent(idx) {
+      current = idx;
+      dots.forEach(function (d, i) { d.setAttribute('aria-current', i === idx ? 'true' : 'false'); });
+      if (prev) prev.disabled = idx <= 0;
+      if (next) next.disabled = idx >= track.children.length - 1;
+    }
+
     document.addEventListener('click', function (e) {
       var dot = e.target.closest('#lk-{{ section.id }} [data-lk-dots] button');
-      if (!dot) return;
-      goTo(track.children[Number(dot.dataset.index)]);
+      if (dot) { goTo(track.children[Number(dot.dataset.index)]); return; }
+      if (e.target.closest('#lk-{{ section.id }} [data-lk-prev]')) { goTo(track.children[current - 1]); return; }
+      if (e.target.closest('#lk-{{ section.id }} [data-lk-next]')) { goTo(track.children[current + 1]); }
     });
 
     if (track && dots.length && 'IntersectionObserver' in window) {
       var io = new IntersectionObserver(function (entries) {
         entries.forEach(function (en) {
           if (!en.isIntersecting) return;
-          var idx = Array.prototype.indexOf.call(track.children, en.target);
-          dots.forEach(function (d, i) { d.setAttribute('aria-current', i === idx ? 'true' : 'false'); });
+          setCurrent(Array.prototype.indexOf.call(track.children, en.target));
         });
       }, { root: track, threshold: 0.6 });
       Array.prototype.forEach.call(track.children, function (s) { io.observe(s); });
