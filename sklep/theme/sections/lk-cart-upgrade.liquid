@@ -1,0 +1,51 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign p = section.settings.product
+  assign small = p.variants.first
+  assign big = p.variants.last
+  assign qty = 0
+  for item in cart.items
+    if item.variant_id == small.id
+      assign qty = item.quantity
+    endif
+  endfor
+  assign diff = big.price | minus: small.price
+-%}
+{%- if p != blank and qty > 0 and big.available -%}
+<div class="lk-upg" id="lk-{{ section.id }}">
+  <strong>{{ section.settings.heading }}</strong>
+  <span>Dopłać {{ diff | money }} i weź zestaw {{ big.title | split: ':' | first }}: {{ big.title | split: ': ' | last }} zamiast {{ small.title | split: ': ' | last }}.</span>
+  <button type="button" class="lk-btn" data-lk-upgrade data-from="{{ small.id }}" data-to="{{ big.id }}" data-qty="{{ qty }}">{{ section.settings.button }}</button>
+</div>
+<script>
+  (function () {
+    var box = document.getElementById('lk-{{ section.id }}');
+    if (!box || box.dataset.lkInit) return;
+    box.dataset.lkInit = '1';
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('#lk-{{ section.id }} [data-lk-upgrade]');
+      if (!btn) return;
+      btn.disabled = true;
+      var updates = {};
+      updates[btn.dataset.from] = 0;
+      updates[btn.dataset.to] = Number(btn.dataset.qty);
+      fetch('{{ routes.cart_update_url }}.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ updates: updates })
+      }).then(function () { window.location.reload(); }, function () { btn.disabled = false; });
+    });
+  })();
+</script>
+{%- endif -%}
+{% schema %}
+{
+  "name": "LK Upsell w koszyku",
+  "tag": "div",
+  "settings": [
+    { "type": "product", "id": "product", "label": "Produkt" },
+    { "type": "text", "id": "heading", "label": "Nagłówek", "default": "Masz więcej miejsc do ozdobienia?" },
+    { "type": "text", "id": "button", "label": "Tekst przycisku", "default": "Zamień na zestaw Cały dom" }
+  ]
+}
+{% endschema %}
