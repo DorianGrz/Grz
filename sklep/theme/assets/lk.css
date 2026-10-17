@@ -74,7 +74,6 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-brand img { height: 34px; width: auto; }
 .lk-brand__name { font: 600 20px/1 var(--lk-serif); color: var(--lk-green); text-decoration: none; }
 .lk-hero__grid { display: grid; gap: 12px; }
-.lk-buy__after { margin-top: 14px; }
 .lk-gallery { position: relative; margin: 0 -16px; }
 .lk-gallery__track {
   display: flex; gap: 8px; overflow-x: auto; scroll-snap-type: x mandatory;
@@ -88,20 +87,28 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-dots button[aria-current="true"] { background: var(--lk-green); }
 
 .lk-buy__price-note { font-size: 14px; color: var(--lk-muted); margin-bottom: 14px; }
-.lk-opts { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 0 0 14px; padding: 0; border: 0; }
+.lk-sub { font-size: 15px; line-height: 1.5; color: var(--lk-muted); margin: 0 0 16px; max-width: 46ch; }
+.lk-opts { display: grid; grid-template-columns: 1fr; gap: 12px; margin: 0 0 14px; padding: 0; border: 0; min-width: 0; }
 .lk-opt { position: relative; display: block; cursor: pointer; }
 .lk-opt input { position: absolute; opacity: 0; pointer-events: none; }
 .lk-opt__body {
-  display: flex; flex-direction: column; gap: 2px; height: 100%;
-  padding: 12px; border: 2px solid var(--lk-line); border-radius: var(--lk-radius); background: var(--lk-white);
+  display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px;
+  padding: 14px 16px; border: 1.5px solid var(--lk-line); border-radius: var(--lk-radius); background: var(--lk-white);
+  transition: border-color .15s ease, background .15s ease, box-shadow .15s ease;
 }
-.lk-opt input:checked + .lk-opt__body { border-color: var(--lk-green); box-shadow: 0 0 0 1px var(--lk-green) inset; }
+.lk-opt:hover .lk-opt__body { border-color: #c9bfae; }
+.lk-opt input:checked + .lk-opt__body { border-color: var(--lk-green); background: #f2f7f3; box-shadow: 0 0 0 1px var(--lk-green) inset; }
 .lk-opt input:focus-visible + .lk-opt__body { outline: 3px solid var(--lk-gold); outline-offset: 2px; }
-.lk-opt__badge { position: absolute; top: -10px; right: 10px; background: var(--lk-gold); color: var(--lk-white); font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 999px; }
-.lk-opt__name { font-weight: 700; font-size: 15px; }
-.lk-opt__meta { font-size: 13px; color: var(--lk-muted); }
-.lk-opt__price { font-weight: 700; font-size: 18px; color: var(--lk-green); margin-top: 4px; }
-.lk-opt__save { font-size: 12px; color: var(--lk-gold); font-weight: 600; }
+.lk-opt__radio { flex: 0 0 20px; width: 20px; height: 20px; border-radius: 50%; border: 2px solid #c9bfae; background: var(--lk-white); display: block !important; transition: all .15s ease; }
+.lk-opt input:checked + .lk-opt__body .lk-opt__radio { border-color: var(--lk-green); background: var(--lk-green); box-shadow: inset 0 0 0 3px var(--lk-white); }
+.lk-opt__main { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 2px; }
+.lk-opt__side { flex: 0 0 auto; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; text-align: right; }
+.lk-opt__badge { position: absolute; top: -10px; right: 14px; background: var(--lk-gold); color: var(--lk-white); font-size: 11px; font-weight: 700; letter-spacing: .02em; padding: 3px 10px; border-radius: 999px; }
+.lk-opt__name { font-weight: 700; font-size: 16px; line-height: 1.2; color: var(--lk-ink); }
+.lk-opt__meta { font-size: 13px; line-height: 1.3; color: var(--lk-muted); }
+.lk-opt__price { font-weight: 700; font-size: 19px; line-height: 1.1; color: var(--lk-green); white-space: nowrap; }
+.lk-opt__break { flex-basis: 100%; height: 0; display: block !important; }
+.lk-opt__save { margin: 2px 0 0 32px; font-size: 12px; font-weight: 700; color: #8a6424; background: #f6ecd9; padding: 2px 8px; border-radius: 999px; }
 .lk-perks { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin: 16px 0 0; padding: 0; list-style: none; }
 .lk-perk { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 12px 6px; text-align: center; background: var(--lk-white); border: 1px solid var(--lk-line); border-radius: 12px; }
 .lk-perk__ico { width: 34px; height: 34px; margin-bottom: 4px; border-radius: 50%; background: #e6eee7; color: var(--lk-green); display: flex !important; align-items: center; justify-content: center; }
