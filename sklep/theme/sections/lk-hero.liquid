@@ -93,11 +93,18 @@
         </button>
       {%- endform -%}
 
-      {%- if section.settings.eta_text != blank -%}
-        <p class="lk-eta">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h11v9H3zM14 9h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>
-          <span>{{ section.settings.eta_text }}</span>
-        </p>
+      {%- if section.settings.eta_ship != blank and section.settings.eta_delivery != blank -%}
+        <div class="lk-eta" role="group" aria-label="Czas dostawy">
+          <div class="lk-eta__step">
+            <span class="lk-eta__ico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg></span>
+            <span class="lk-eta__txt"><b>Wysyłka</b>{{ section.settings.eta_ship }}</span>
+          </div>
+          <span class="lk-eta__line" aria-hidden="true"></span>
+          <div class="lk-eta__step">
+            <span class="lk-eta__ico"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg></span>
+            <span class="lk-eta__txt"><b>Dostawa</b>{{ section.settings.eta_delivery }}</span>
+          </div>
+        </div>
       {%- endif -%}
 
       <ul class="lk-trust">
@@ -179,7 +186,8 @@
     { "type": "number", "id": "meters_2", "label": "Metry w wariancie 2", "default": 6 },
     { "type": "text", "id": "badge", "label": "Plakietka", "default": "Najniższa cena za metr" },
     { "type": "number", "id": "badge_index", "label": "Plakietka przy wariancie", "default": 2 },
-    { "type": "text", "id": "eta_text", "label": "Czas dostawy", "default": "Wysyłka 1 do 3 dni, dostawa 3 do 5 dni." },
+    { "type": "text", "id": "eta_ship", "label": "Czas wysyłki", "default": "1 do 3 dni" },
+    { "type": "text", "id": "eta_delivery", "label": "Czas dostawy", "default": "3 do 5 dni" },
     { "type": "text", "id": "trust_1", "label": "Zaleta 1", "default": "Darmowa dostawa do całej Polski" },
     { "type": "text", "id": "trust_2", "label": "Zaleta 2", "default": "30 dni na zwrot bez podawania przyczyny" },
     { "type": "text", "id": "trust_3", "label": "Zaleta 3", "default": "Bezpieczna płatność w kasie Shopify" }
