@@ -1,0 +1,37 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+<section class="lk-root lk-sec" id="lk-{{ section.id }}">
+  <div class="lk-wrap">
+    <h2 class="lk-h2">{{ section.settings.heading }}</h2>
+    <ol class="lk-timeline">
+      {%- for block in section.blocks -%}
+        <li {{ block.shopify_attributes }}>
+          <span class="lk-timeline__ico">{{ forloop.index }}</span>
+          <div><strong>{{ block.settings.title }}</strong><span>{{ block.settings.text }}</span></div>
+        </li>
+      {%- endfor -%}
+    </ol>
+    {%- if section.settings.note != blank -%}
+      <div class="lk-center lk-lead" style="margin-top:18px">{{ section.settings.note }}</div>
+    {%- endif -%}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "LK Dostawa i zwroty",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Nagłówek", "default": "Dostawa i zwroty" },
+    { "type": "richtext", "id": "note", "label": "Dopisek", "default": "<p>Szczegóły znajdziesz na stronie <a href=\"/pages/dostawa-i-zwroty\">Dostawa i zwroty</a>.</p>" }
+  ],
+  "blocks": [
+    {
+      "type": "stage",
+      "name": "Etap",
+      "settings": [
+        { "type": "text", "id": "title", "label": "Tytuł", "default": "Etap" },
+        { "type": "text", "id": "text", "label": "Opis", "default": "Opis" }
+      ]
+    }
+  ]
+}
+{% endschema %}

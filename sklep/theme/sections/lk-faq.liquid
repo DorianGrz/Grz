@@ -1,0 +1,33 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+<section class="lk-root lk-sec lk-sec--alt" id="lk-{{ section.id }}">
+  <div class="lk-wrap lk-narrow">
+    <h2 class="lk-h2">{{ section.settings.heading }}</h2>
+    <div class="lk-faq">
+      {%- for block in section.blocks -%}
+        <details {{ block.shopify_attributes }}>
+          <summary>{{ block.settings.q }}</summary>
+          <div class="lk-faq__a">{{ block.settings.a }}</div>
+        </details>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "LK FAQ",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Nagłówek", "default": "Najczęstsze pytania" }
+  ],
+  "blocks": [
+    {
+      "type": "qa",
+      "name": "Pytanie",
+      "settings": [
+        { "type": "text", "id": "q", "label": "Pytanie", "default": "Pytanie" },
+        { "type": "richtext", "id": "a", "label": "Odpowiedź", "default": "<p>Odpowiedź</p>" }
+      ]
+    }
+  ]
+}
+{% endschema %}

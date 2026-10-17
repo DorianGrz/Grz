@@ -1,0 +1,18 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+<section class="lk-root lk-sec lk-sec--green" id="lk-{{ section.id }}">
+  <div class="lk-wrap lk-guar">
+    <div class="lk-guar__seal">30<small>dni</small></div>
+    <h2 class="lk-h2">{{ section.settings.heading }}</h2>
+    <div>{{ section.settings.text }}</div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "LK Gwarancja",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Nagłówek", "default": "Jeśli girlanda nie wygląda jak na filmie, oddasz ją w 30 dni" },
+    { "type": "richtext", "id": "text", "label": "Tekst", "default": "<p>Napisz do nas, odeślij girlandę, a zwrócimy Ci całą kwotę za towar. Bez pytania o powód. Koszt odesłania paczki ponosisz Ty.</p>" }
+  ]
+}
+{% endschema %}

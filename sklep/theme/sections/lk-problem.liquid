@@ -1,0 +1,17 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+<section class="lk-root lk-sec lk-sec--alt" id="lk-{{ section.id }}">
+  <div class="lk-wrap lk-narrow lk-center">
+    <p class="lk-problem__quote">{{ section.settings.quote }}</p>
+    <div class="lk-lead">{{ section.settings.text }}</div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "LK Problem",
+  "tag": "div",
+  "settings": [
+    { "type": "textarea", "id": "quote", "label": "Zdanie główne", "default": "Co roku obiecujesz sobie, że w te święta dom będzie wyglądał jak z Pinteresta, a kończy się na łańcuchu lampek z marketu." },
+    { "type": "richtext", "id": "text", "label": "Tekst", "default": "<p>Żywe gałązki usychają w ciepłym mieszkaniu i sypią igłami po podłodze. Tanie girlandy z marketu są rzadkie i płaskie, więc kominek dalej wygląda pusto. Girlanda Cedrowa jest gęsta jak prawdziwa i wystarczy ją rozłożyć.</p>" }
+  ]
+}
+{% endschema %}

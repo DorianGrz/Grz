@@ -1,0 +1,15 @@
+{%- comment -%}
+  Obraz z ustawienia albo zdjęcie produktu o podanym numerze.
+  Parametry: image, p (produkt), idx (numer zdjęcia od 1), sizes
+{%- endcomment -%}
+{%- liquid
+  assign src = image
+  if src == blank and p != blank and idx > 0
+    assign i0 = idx | minus: 1
+    assign src = p.media[i0].preview_image
+  endif
+  assign alt_text = src.alt | default: p.title
+-%}
+{%- if src != blank -%}
+  {{ src | image_url: width: 1000 | image_tag: widths: '360, 540, 720, 1000', sizes: sizes, loading: 'lazy', alt: alt_text }}
+{%- endif -%}

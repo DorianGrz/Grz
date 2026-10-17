@@ -1,0 +1,50 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign p = product
+  if section.settings.product != blank
+    assign p = section.settings.product
+  endif
+-%}
+{%- liquid
+  assign before_ok = false
+  if section.settings.before != blank or section.settings.before_index > 0
+    assign before_ok = true
+  endif
+-%}
+{%- if before_ok -%}
+<section class="lk-root lk-sec lk-sec--alt" id="lk-{{ section.id }}">
+  <div class="lk-wrap">
+    <h2 class="lk-h2">{{ section.settings.heading }}</h2>
+    <div class="lk-ba">
+      <figure>
+        {% render 'lk-img', image: section.settings.before, p: p, idx: section.settings.before_index, sizes: '50vw' %}
+        <figcaption>{{ section.settings.before_label }}</figcaption>
+      </figure>
+      <figure>
+        {% render 'lk-img', image: section.settings.after, p: p, idx: section.settings.after_index, sizes: '50vw' %}
+        <figcaption>{{ section.settings.after_label }}</figcaption>
+      </figure>
+    </div>
+    {%- if section.settings.caption != blank -%}
+      <p class="lk-center lk-lead" style="margin-top:16px">{{ section.settings.caption }}</p>
+    {%- endif -%}
+  </div>
+</section>
+{%- endif -%}
+{% schema %}
+{
+  "name": "LK Przed i po",
+  "tag": "div",
+  "settings": [
+    { "type": "product", "id": "product", "label": "Produkt (strona główna)" },
+    { "type": "text", "id": "heading", "label": "Nagłówek", "default": "Ten sam kominek. Pięć minut różnicy." },
+    { "type": "image_picker", "id": "before", "label": "Obraz przed" },
+    { "type": "number", "id": "before_index", "label": "Zdjęcie przed nr (0 = brak)", "default": 0 },
+    { "type": "text", "id": "before_label", "label": "Etykieta przed", "default": "Przed" },
+    { "type": "image_picker", "id": "after", "label": "Obraz po" },
+    { "type": "number", "id": "after_index", "label": "Zdjęcie po nr", "default": 2 },
+    { "type": "text", "id": "after_label", "label": "Etykieta po", "default": "Po" },
+    { "type": "text", "id": "caption", "label": "Podpis", "default": "Bez wiercenia i bez sprzątania igieł." }
+  ]
+}
+{% endschema %}

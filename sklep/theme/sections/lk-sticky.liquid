@@ -1,0 +1,46 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign p = product
+  if section.settings.product != blank
+    assign p = section.settings.product
+  endif
+  assign sv = p.selected_or_first_available_variant
+-%}
+{%- if p != blank -%}
+<div class="lk-root lk-sticky" id="lk-{{ section.id }}" aria-hidden="true">
+  <div class="lk-sticky__info">
+    <span data-lk-sticky-title>{{ sv.title }}</span>
+    <strong data-lk-sticky-price>{{ sv.price | money }}</strong>
+  </div>
+  <button type="submit" form="lk-buy-form" class="lk-btn" tabindex="-1">{{ section.settings.button }}</button>
+</div>
+<script>
+  (function () {
+    var bar = document.getElementById('lk-{{ section.id }}');
+    if (!bar || bar.dataset.lkInit) return;
+    bar.dataset.lkInit = '1';
+    document.addEventListener('lk:variant', function (e) {
+      bar.querySelector('[data-lk-sticky-title]').textContent = e.detail.title;
+      bar.querySelector('[data-lk-sticky-price]').textContent = e.detail.price;
+    });
+    var target = document.querySelector('[data-lk-atc]');
+    if (!target || !('IntersectionObserver' in window)) return;
+    new IntersectionObserver(function (entries) {
+      var show = !entries[0].isIntersecting && entries[0].boundingClientRect.top < 0;
+      bar.classList.toggle('is-visible', show);
+      bar.setAttribute('aria-hidden', show ? 'false' : 'true');
+      bar.querySelector('button').tabIndex = show ? 0 : -1;
+    }).observe(target);
+  })();
+</script>
+{%- endif -%}
+{% schema %}
+{
+  "name": "LK Pasek mobilny",
+  "tag": "div",
+  "settings": [
+    { "type": "product", "id": "product", "label": "Produkt (strona główna)" },
+    { "type": "text", "id": "button", "label": "Tekst przycisku", "default": "Dodaj do koszyka" }
+  ]
+}
+{% endschema %}

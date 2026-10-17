@@ -1,0 +1,35 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+<footer class="lk-root lk-footer" id="lk-{{ section.id }}">
+  <div class="lk-wrap">
+    <div class="lk-footer__grid">
+      <div>
+        <div class="lk-footer__name">{{ shop.name }}</div>
+        <div>{{ section.settings.seller }}</div>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/pages/dostawa-i-zwroty">Dostawa i zwroty</a></li>
+          <li><a href="/pages/regulamin">Regulamin</a></li>
+          <li><a href="/pages/polityka-prywatnosci">Polityka prywatności</a></li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+          <li><a href="/pages/kontakt">Kontakt</a></li>
+          <li><a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="lk-footer__copy">© {{ 'now' | date: '%Y' }} {{ shop.name }}</div>
+  </div>
+</footer>
+{% schema %}
+{
+  "name": "LK Stopka",
+  "tag": "div",
+  "settings": [
+    { "type": "richtext", "id": "seller", "label": "Dane sprzedawcy", "default": "<p>Dorian Grzywacz<br>Wandzin 57B, 21-100 Lubartów</p>" },
+    { "type": "text", "id": "email", "label": "E-mail", "default": "kontakt@lesnykominek.pl" }
+  ]
+}
+{% endschema %}
