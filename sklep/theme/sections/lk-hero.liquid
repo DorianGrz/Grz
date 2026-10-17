@@ -93,9 +93,9 @@
         </button>
       {%- endform -%}
 
-      <div class="lk-eta" data-lk-eta data-min="{{ section.settings.eta_min }}" data-max="{{ section.settings.eta_max }}">
-        {{ section.settings.eta_fallback }}
-      </div>
+      {%- if section.settings.eta_text != blank -%}
+        <div class="lk-eta">{{ section.settings.eta_text }}</div>
+      {%- endif -%}
 
       <ul class="lk-trust">
         {%- for i in (1..3) -%}
@@ -158,20 +158,6 @@
       }, { root: track, threshold: 0.6 });
       Array.prototype.forEach.call(track.children, function (s) { io.observe(s); });
     }
-
-    var eta = root.querySelector('[data-lk-eta]');
-    if (eta) {
-      var addBusinessDays = function (d, n) {
-        var r = new Date(d);
-        while (n > 0) { r.setDate(r.getDate() + 1); var w = r.getDay(); if (w !== 0 && w !== 6) n--; }
-        return r;
-      };
-      var fmt = function (d) { return d.toLocaleDateString('pl-PL', { day: 'numeric', month: 'long' }); };
-      var now = new Date();
-      var a = addBusinessDays(now, Number(eta.dataset.min));
-      var b = addBusinessDays(now, Number(eta.dataset.max));
-      eta.textContent = 'Zamów dziś, a paczka dotrze zwykle między ' + fmt(a) + ' a ' + fmt(b) + '.';
-    }
   })();
 </script>
 
@@ -190,9 +176,7 @@
     { "type": "number", "id": "meters_2", "label": "Metry w wariancie 2", "default": 6 },
     { "type": "text", "id": "badge", "label": "Plakietka", "default": "Najniższa cena za metr" },
     { "type": "number", "id": "badge_index", "label": "Plakietka przy wariancie", "default": 2 },
-    { "type": "number", "id": "eta_min", "label": "Dostawa min. dni roboczych", "default": 4 },
-    { "type": "number", "id": "eta_max", "label": "Dostawa maks. dni roboczych", "default": 8 },
-    { "type": "text", "id": "eta_fallback", "label": "Tekst dostawy bez JS", "default": "Dostawa zwykle w 4 do 8 dni roboczych." },
+    { "type": "text", "id": "eta_text", "label": "Czas dostawy", "default": "Wysyłka 1 do 3 dni, dostawa 3 do 5 dni." },
     { "type": "text", "id": "trust_1", "label": "Zaleta 1", "default": "Darmowa dostawa do całej Polski" },
     { "type": "text", "id": "trust_2", "label": "Zaleta 2", "default": "30 dni na zwrot bez podawania przyczyny" },
     { "type": "text", "id": "trust_3", "label": "Zaleta 3", "default": "Bezpieczna płatność w kasie Shopify" }
