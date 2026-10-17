@@ -107,22 +107,28 @@
         </div>
       {%- endif -%}
 
-      <ul class="lk-trust">
-        {%- for i in (1..3) -%}
-          {%- liquid
-            case i
-              when 1
-                assign t = section.settings.trust_1
-              when 2
-                assign t = section.settings.trust_2
-              when 3
-                assign t = section.settings.trust_3
-            endcase
-          -%}
-          {%- if t != blank -%}
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg><span>{{ t }}</span></li>
-          {%- endif -%}
-        {%- endfor -%}
+      <ul class="lk-perks">
+        {%- if section.settings.perk_1_title != blank -%}
+          <li class="lk-perk">
+            <span class="lk-perk__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h11v9H3zM14 9h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg></span>
+            <strong>{{ section.settings.perk_1_title }}</strong>
+            <span>{{ section.settings.perk_1_text }}</span>
+          </li>
+        {%- endif -%}
+        {%- if section.settings.perk_2_title != blank -%}
+          <li class="lk-perk">
+            <span class="lk-perk__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg></span>
+            <strong>{{ section.settings.perk_2_title }}</strong>
+            <span>{{ section.settings.perk_2_text }}</span>
+          </li>
+        {%- endif -%}
+        {%- if section.settings.perk_3_title != blank -%}
+          <li class="lk-perk">
+            <span class="lk-perk__ico"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></span>
+            <strong>{{ section.settings.perk_3_title }}</strong>
+            <span>{{ section.settings.perk_3_text }}</span>
+          </li>
+        {%- endif -%}
       </ul>
 
       <div class="lk-buy__after lk-lead">{{ section.settings.subheading }}</div>
@@ -188,9 +194,12 @@
     { "type": "number", "id": "badge_index", "label": "Plakietka przy wariancie", "default": 2 },
     { "type": "text", "id": "eta_ship", "label": "Czas wysyłki", "default": "1 do 3 dni" },
     { "type": "text", "id": "eta_delivery", "label": "Czas dostawy", "default": "3 do 5 dni" },
-    { "type": "text", "id": "trust_1", "label": "Zaleta 1", "default": "Darmowa dostawa do całej Polski" },
-    { "type": "text", "id": "trust_2", "label": "Zaleta 2", "default": "30 dni na zwrot bez podawania przyczyny" },
-    { "type": "text", "id": "trust_3", "label": "Zaleta 3", "default": "Bezpieczna płatność w kasie Shopify" }
+    { "type": "text", "id": "perk_1_title", "label": "Zaleta 1: tytuł", "default": "Darmowa dostawa" },
+    { "type": "text", "id": "perk_1_text", "label": "Zaleta 1: opis", "default": "do całej Polski" },
+    { "type": "text", "id": "perk_2_title", "label": "Zaleta 2: tytuł", "default": "30 dni na zwrot" },
+    { "type": "text", "id": "perk_2_text", "label": "Zaleta 2: opis", "default": "bez podawania przyczyny" },
+    { "type": "text", "id": "perk_3_title", "label": "Zaleta 3: tytuł", "default": "Bezpieczna płatność" },
+    { "type": "text", "id": "perk_3_text", "label": "Zaleta 3: opis", "default": "szyfrowane połączenie" }
   ]
 }
 {% endschema %}
