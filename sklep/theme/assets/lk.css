@@ -69,7 +69,10 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 
 /* HERO */
 .lk-hero { padding: 0 0 32px; }
-.lk-topbar { background: var(--lk-green); color: var(--lk-cream); font-size: 13px; text-align: center; padding: 7px 16px; }
+.lk-topbar { display: flex !important; align-items: center; justify-content: center; flex-wrap: wrap; gap: 6px 14px; padding: 9px 16px; background: var(--lk-green); color: var(--lk-cream); font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; line-height: 1.2; }
+.lk-topbar__item { display: inline-flex; align-items: center; gap: 7px; }
+.lk-topbar__item svg { flex: 0 0 15px; color: var(--lk-gold); }
+.lk-topbar__dot { width: 4px; height: 4px; border-radius: 50%; background: var(--lk-gold); opacity: .8; display: block !important; }
 .lk-brand { display: flex; align-items: center; justify-content: center; padding: 6px 16px; }
 .lk-brand img { height: 34px; width: auto; }
 .lk-brand__name { font: 600 20px/1 var(--lk-serif); color: var(--lk-green); text-decoration: none; }

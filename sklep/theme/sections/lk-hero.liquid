@@ -9,8 +9,18 @@
   assign two_first = first_price | times: 2
 -%}
 <section class="lk-root lk-hero" id="lk-{{ section.id }}" data-lk-hero>
-  {%- if section.settings.topbar != blank -%}
-    <div class="lk-topbar">{{ section.settings.topbar }}</div>
+  {%- if section.settings.topbar_1 != blank or section.settings.topbar_2 != blank -%}
+    <div class="lk-topbar">
+      {%- if section.settings.topbar_1 != blank -%}
+        <span class="lk-topbar__item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h11v9H3zM14 9h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>{{ section.settings.topbar_1 }}</span>
+      {%- endif -%}
+      {%- if section.settings.topbar_1 != blank and section.settings.topbar_2 != blank -%}
+        <span class="lk-topbar__dot" aria-hidden="true"></span>
+      {%- endif -%}
+      {%- if section.settings.topbar_2 != blank -%}
+        <span class="lk-topbar__item"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg>{{ section.settings.topbar_2 }}</span>
+      {%- endif -%}
+    </div>
   {%- endif -%}
   <div class="lk-brand">
     <a href="{{ routes.root_url }}" class="lk-brand__name" aria-label="{{ shop.name | escape }}">
@@ -192,7 +202,8 @@
   "settings": [
     { "type": "product", "id": "product", "label": "Produkt (strona główna)" },
     { "type": "image_picker", "id": "logo", "label": "Logo" },
-    { "type": "text", "id": "topbar", "label": "Pasek na górze", "default": "Darmowa dostawa i 30 dni na zwrot" },
+    { "type": "text", "id": "topbar_1", "label": "Pasek na górze: tekst 1", "default": "Darmowa dostawa" },
+    { "type": "text", "id": "topbar_2", "label": "Pasek na górze: tekst 2", "default": "30 dni na zwrot" },
     { "type": "text", "id": "heading", "label": "Nagłówek", "default": "Gęsta girlanda cedrowa, która wygląda jak prawdziwa" },
     { "type": "richtext", "id": "subheading", "label": "Opis pod nagłówkiem", "default": "<p>Powieś ją na kominku, poręczy albo nad drzwiami. Nie gubi igieł, nie usycha i wyciągniesz ją znowu za rok.</p>" },
     { "type": "text", "id": "button", "label": "Tekst przycisku", "default": "Dodaj do koszyka" },
