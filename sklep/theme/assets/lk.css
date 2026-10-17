@@ -105,7 +105,8 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-trust { display: grid; gap: 6px; margin: 14px 0 0; padding: 0; list-style: none; font-size: 14px; }
 .lk-trust li { display: flex; gap: 8px; align-items: flex-start; }
 .lk-trust svg { flex: 0 0 18px; margin-top: 2px; color: var(--lk-green); }
-.lk-eta { margin-top: 12px; padding: 10px 12px; background: var(--lk-cream-2); border-radius: 10px; font-size: 14px; }
+.lk-root .lk-eta { display: flex; align-items: center; justify-content: center; gap: 6px; margin: 10px 0 0; font-size: 13px; line-height: 1.3; color: var(--lk-muted); }
+.lk-eta svg { flex: 0 0 16px; color: var(--lk-green); }
 
 /* PROBLEM */
 .lk-problem__quote { font: italic 600 22px/1.35 var(--lk-serif); color: var(--lk-green); margin-bottom: 16px; }

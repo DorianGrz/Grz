@@ -94,7 +94,10 @@
       {%- endform -%}
 
       {%- if section.settings.eta_text != blank -%}
-        <div class="lk-eta">{{ section.settings.eta_text }}</div>
+        <p class="lk-eta">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h11v9H3zM14 9h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>
+          <span>{{ section.settings.eta_text }}</span>
+        </p>
       {%- endif -%}
 
       <ul class="lk-trust">
