@@ -321,11 +321,17 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-upg__ico { grid-row: span 1; width: 40px; height: 40px; border-radius: 50%; background: var(--lk-white); color: #8a6424; display: flex !important; align-items: center; justify-content: center; }
 .lk-upg__txt { display: flex; flex-direction: column; gap: 2px; font-size: 14px; line-height: 1.4; color: var(--lk-muted); }
 .lk-upg__txt strong { font-size: 15px; color: var(--lk-ink); }
+.lk-upg__txt b { font-weight: 400; }
+.lk-nowrap { white-space: nowrap; }
+@media (max-width: 749px) {
+  .lk-cart__back-txt { display: none; }
+  .lk-root .lk-cart__back { width: 38px; height: 38px; justify-content: center; border-radius: 50%; background: var(--lk-cream); }
+}
 .lk-upg__btn { grid-column: 1 / -1; margin-top: 8px; min-height: 46px; border: 1.5px solid var(--lk-green); border-radius: 999px; background: var(--lk-white); color: var(--lk-green); font: 700 15px var(--lk-sans); cursor: pointer; }
 .lk-upg__btn:disabled { opacity: .6; cursor: wait; }
 .lk-cart__sum { padding: 18px; background: var(--lk-white); border-radius: var(--lk-radius); box-shadow: 0 1px 0 var(--lk-line), 0 8px 24px rgba(31,59,45,.06); }
 .lk-root .lk-cart__lines { margin: 0 0 16px; display: grid; gap: 10px; }
-.lk-cart__lines div { display: flex; justify-content: space-between; gap: 12px; font-size: 15px; }
+.lk-cart__lines div { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; font-size: 15px; }
 .lk-root .lk-cart__lines dt { color: var(--lk-muted); }
 .lk-root .lk-cart__lines dd { margin: 0; font-weight: 600; }
 .lk-root .lk-cart__free { color: var(--lk-green); }
@@ -401,6 +407,8 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   .lk-cart__sum { position: sticky; top: 16px; padding: 24px; }
   .lk-cart__item { grid-template-columns: 120px minmax(0, 1fr); padding: 16px; }
   .lk-cart__title { font-size: 32px; }
+  .lk-upg { grid-template-columns: 40px minmax(0, 1fr) auto; }
+  .lk-upg__btn { grid-column: auto; margin-top: 0; padding: 0 20px; }
   .lk-root .lk-cmp { font-size: 16px; }
   .lk-root .lk-cmp td { font-size: 14px; }
 }

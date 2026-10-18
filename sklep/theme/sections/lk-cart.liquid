@@ -17,9 +17,9 @@
 -%}
 <section class="lk-root lk-cart" id="lk-{{ section.id }}">
   <div class="lk-cart__bar">
-    <a href="{{ back_url }}" class="lk-cart__back">
+    <a href="{{ back_url }}" class="lk-cart__back" aria-label="Wróć do sklepu">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
-      <span>Wróć do sklepu</span>
+      <span class="lk-cart__back-txt">Wróć do sklepu</span>
     </a>
     <a href="{{ routes.root_url }}" class="lk-brand__name" aria-label="{{ shop.name | escape }}">
       {%- if section.settings.logo != blank -%}
@@ -79,7 +79,7 @@
               <span class="lk-upg__ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></span>
               <div class="lk-upg__txt">
                 <strong>{{ section.settings.upsell_heading }}</strong>
-                <span>Dopłać {{ diff | money }} i weź zestaw {{ big.title | split: ':' | first }}: {{ big.title | split: ': ' | last }} zamiast {{ small.title | split: ': ' | last }}.</span>
+                <span>Dopłać {{ diff | money }} i weź zestaw {{ big.title | split: ':' | first }} <b class="lk-nowrap">({{ big.title | split: ': ' | last }})</b> zamiast {{ small.title | split: ':' | first }} <b class="lk-nowrap">({{ small.title | split: ': ' | last }})</b>.</span>
               </div>
               <button type="button" class="lk-upg__btn" data-lk-upgrade data-from="{{ small.id }}" data-to="{{ big.id }}" data-qty="{{ small_qty }}">{{ section.settings.upsell_button }}</button>
             </div>
