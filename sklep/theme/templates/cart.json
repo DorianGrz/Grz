@@ -1,70 +1,25 @@
 {
   "sections": {
-    "cart-section": {
-      "type": "main-cart",
-      "blocks": {
-        "cart-page-title": {
-          "type": "_cart-title",
-          "static": true,
-          "settings": {
-            "title": "Koszyk",
-            "show_count": true,
-            "type_preset": "h4",
-            "alignment": "left",
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "cart-page-items": {
-          "type": "_cart-products",
-          "static": true,
-          "settings": {
-            "gap": 24,
-            "image_ratio": "portrait",
-            "dividers": true,
-            "vendor": false,
-            "padding-block-start": 0,
-            "padding-block-end": 0,
-            "padding-inline-start": 0,
-            "padding-inline-end": 0
-          },
-          "blocks": {}
-        },
-        "cart-page-summary": {
-          "type": "_cart-summary",
-          "static": true,
-          "settings": {
-            "extend_summary": true,
-            "background_color": "{{ settings.color_palette.color2 }}",
-            "border": "none",
-            "border_width": 1,
-            "border_opacity": 100,
-            "border_radius": 0
-          },
-          "blocks": {}
-        }
-      },
+    "lk_cart": {
+      "type": "lk-cart",
       "settings": {
-        "section_width": "page-width",
-        "background_color": "{{ settings.color_palette.background }}",
-        "padding-block-start": 24,
-        "padding-block-end": 0
+        "logo": "shopify://shop_images/lk-logo.png",
+        "product": "girlanda-cedrowa",
+        "button": "Przejdź do kasy",
+        "eta": "Wysyłka 1 do 3 dni, dostawa 3 do 5 dni.",
+        "upsell_heading": "Masz więcej miejsc do ozdobienia?",
+        "upsell_button": "Zamień na zestaw Cały dom"
       }
     },
-    "lk_upgrade": {
-      "type": "lk-cart-upgrade",
+    "footer": {
+      "type": "lk-footer",
       "settings": {
-        "product": "girlanda-cedrowa",
-        "heading": "Masz więcej miejsc do ozdobienia?",
-        "button": "Zamień na zestaw Cały dom"
+        "email": "kontakt@lesnykominek.pl"
       }
     }
   },
   "order": [
-    "cart-section",
-    "lk_upgrade"
+    "lk_cart",
+    "footer"
   ]
 }

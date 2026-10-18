@@ -26,7 +26,10 @@ if REMOTE: media = [{'id': i+1, 'alt': '', 'preview_image': img(C + f + '?width=
 CSSHREF = 'lk.css' if REMOTE else OUT + 'lk.css'
 variants = [{'id': 1, 'title': 'Kominek: 2 × 1,5 m', 'price': 16900, 'available': True, 'featured_media': {'id': 1}},
             {'id': 2, 'title': 'Cały dom: 4 × 1,5 m', 'price': 29900, 'available': True, 'featured_media': {'id': 2}}]
-product = {'title': 'Girlanda Cedrowa', 'handle': 'girlanda-cedrowa', 'variants': variants, 'media': media, 'selected_or_first_available_variant': variants[0]}
+product = {'url': '/products/girlanda-cedrowa', 'title': 'Girlanda Cedrowa', 'handle': 'girlanda-cedrowa', 'variants': variants, 'media': media, 'selected_or_first_available_variant': variants[0]}
+EMPTY = os.environ.get('EMPTY') == '1'
+item = {'variant_id': 1, 'quantity': 1, 'url': '/products/girlanda-cedrowa?variant=1', 'image': media[0]['preview_image'], 'product': {'title': 'Girlanda Cedrowa', 'has_only_default_variant': False}, 'variant': {'title': variants[0]['title']}, 'final_line_price': 16900}
+cart = {'item_count': 0, 'items': []} if EMPTY else {'item_count': 1, 'items': [item], 'items_subtotal_price': 16900, 'total_price': 16900, 'cart_level_discount_applications': []}
 env = Environment(loader=CachingFileSystemLoader(T + 'snippets', ext='.liquid'))
 env.filters.update({'asset_url': lambda n: CSSHREF, 'stylesheet_tag': lambda u: Markup(f'<link rel="stylesheet" href="{u if REMOTE else "file://" + u}">'),
   'money': money, 'money_without_trailing_zeros': money_nz, 'image_url': image_url, 'image_tag': image_tag})
@@ -57,8 +60,8 @@ def render(tpl_path):
             b = sd['blocks'][bid]
             blocks.append({'id': bid, 'type': b['type'], 'shopify_attributes': '', 'settings': settings(btypes[b['type']].get('settings', []), b.get('settings', {}))})
         sec = {'id': key, 'settings': settings(sch.get('settings', []), sd.get('settings', {})), 'blocks': blocks}
-        html.append(env.from_string(src).render(section=sec, product=product, shop={'name': 'Leśny Kominek'}, routes={'root_url': '/', 'cart_update_url': '/cart/update'}))
+        html.append(env.from_string(src).render(section=sec, product=product, shop={'name': 'Leśny Kominek'}, routes={'root_url': '/', 'cart_update_url': '/cart/update', 'cart_url': '/cart', 'cart_change_url': '/cart/change'}, cart=cart))
     return '<!doctype html><html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0">' + '\n'.join(html) + '</body></html>'
 os.system(f'cp {T}assets/lk.css {OUT}lk.css')
-open(OUT + ('remote.html' if REMOTE else 'index.html'), 'w').write(render(sys.argv[1]))
+open(OUT + os.environ.get('OUTNAME', 'remote.html' if REMOTE else 'index.html'), 'w').write(render(sys.argv[1]))
 print('ok')

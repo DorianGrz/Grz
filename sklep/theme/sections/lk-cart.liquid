@@ -1,0 +1,152 @@
+{{ 'lk.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  assign p = section.settings.product
+  assign small = p.variants.first
+  assign big = p.variants.last
+  assign small_qty = 0
+  for item in cart.items
+    if item.variant_id == small.id
+      assign small_qty = item.quantity
+    endif
+  endfor
+  assign diff = big.price | minus: small.price
+  assign back_url = routes.root_url
+  if p != blank
+    assign back_url = p.url
+  endif
+-%}
+<section class="lk-root lk-cart" id="lk-{{ section.id }}">
+  <div class="lk-cart__bar">
+    <a href="{{ back_url }}" class="lk-cart__back">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+      <span>Wróć do sklepu</span>
+    </a>
+    <a href="{{ routes.root_url }}" class="lk-brand__name" aria-label="{{ shop.name | escape }}">
+      {%- if section.settings.logo != blank -%}
+        {{ section.settings.logo | image_url: width: 400 | image_tag: height: 30, alt: shop.name, loading: 'eager' }}
+      {%- else -%}
+        {{ shop.name }}
+      {%- endif -%}
+    </a>
+    <span class="lk-cart__bar-gap" aria-hidden="true"></span>
+  </div>
+
+  <div class="lk-wrap">
+    {%- if cart.item_count == 0 -%}
+      <div class="lk-cart__empty">
+        <span class="lk-cart__empty-ico" aria-hidden="true"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 7h12l-1 13H7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg></span>
+        <h1 class="lk-h2">Twój koszyk jest pusty</h1>
+        <p>Zajrzyj do Girlandy Cedrowej i wybierz zestaw dla siebie.</p>
+        <a href="{{ back_url }}" class="lk-btn">Zobacz girlandę</a>
+      </div>
+    {%- else -%}
+      <h1 class="lk-h2 lk-cart__title">Twój koszyk <span>({{ cart.item_count }})</span></h1>
+      <div class="lk-cart__grid">
+        <div class="lk-cart__main">
+          <ul class="lk-cart__items">
+            {%- for item in cart.items -%}
+              <li class="lk-cart__item">
+                <a href="{{ item.url }}" class="lk-cart__img">
+                  {%- if item.image -%}
+                    {{ item.image | image_url: width: 240 | image_tag: loading: 'eager', alt: item.product.title }}
+                  {%- endif -%}
+                </a>
+                <div class="lk-cart__info">
+                  <a href="{{ item.url }}" class="lk-cart__name">{{ item.product.title }}</a>
+                  {%- unless item.product.has_only_default_variant -%}
+                    <span class="lk-cart__variant">{{ item.variant.title }}</span>
+                  {%- endunless -%}
+                  <div class="lk-cart__row">
+                    <div class="lk-qty" role="group" aria-label="Ilość">
+                      {%- if item.quantity > 1 -%}
+                        <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity={{ item.quantity | minus: 1 }}" class="lk-qty__btn" aria-label="Zmniejsz ilość">−</a>
+                      {%- else -%}
+                        <span class="lk-qty__btn is-off" aria-hidden="true">−</span>
+                      {%- endif -%}
+                      <span class="lk-qty__val">{{ item.quantity }}</span>
+                      <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity={{ item.quantity | plus: 1 }}" class="lk-qty__btn" aria-label="Zwiększ ilość">+</a>
+                    </div>
+                    <span class="lk-cart__price">{{ item.final_line_price | money }}</span>
+                  </div>
+                  <a href="{{ routes.cart_change_url }}?line={{ forloop.index }}&amp;quantity=0" class="lk-cart__remove">Usuń</a>
+                </div>
+              </li>
+            {%- endfor -%}
+          </ul>
+
+          {%- if p != blank and small_qty > 0 and big.available -%}
+            <div class="lk-upg" data-lk-upg>
+              <span class="lk-upg__ico" aria-hidden="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg></span>
+              <div class="lk-upg__txt">
+                <strong>{{ section.settings.upsell_heading }}</strong>
+                <span>Dopłać {{ diff | money }} i weź zestaw {{ big.title | split: ':' | first }}: {{ big.title | split: ': ' | last }} zamiast {{ small.title | split: ': ' | last }}.</span>
+              </div>
+              <button type="button" class="lk-upg__btn" data-lk-upgrade data-from="{{ small.id }}" data-to="{{ big.id }}" data-qty="{{ small_qty }}">{{ section.settings.upsell_button }}</button>
+            </div>
+          {%- endif -%}
+        </div>
+
+        <aside class="lk-cart__sum">
+          <dl class="lk-cart__lines">
+            <div><dt>Wartość produktów</dt><dd>{{ cart.items_subtotal_price | money }}</dd></div>
+            {%- if cart.cart_level_discount_applications.size > 0 -%}
+              {%- for d in cart.cart_level_discount_applications -%}
+                <div><dt>Rabat {{ d.title }}</dt><dd>−{{ d.total_allocated_amount | money }}</dd></div>
+              {%- endfor -%}
+            {%- endif -%}
+            <div><dt>Dostawa</dt><dd class="lk-cart__free">Darmowa</dd></div>
+            <div class="lk-cart__total"><dt>Razem</dt><dd>{{ cart.total_price | money }}</dd></div>
+          </dl>
+          <form action="{{ routes.cart_url }}" method="post" class="lk-cart__form">
+            <button type="submit" name="checkout" class="lk-btn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>
+              {{ section.settings.button }}
+            </button>
+          </form>
+          {%- if section.settings.eta != blank -%}
+            <p class="lk-cart__eta">{{ section.settings.eta }}</p>
+          {%- endif -%}
+          <ul class="lk-cart__perks">
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 6h11v9H3zM14 9h4l3 3v3h-7"/><circle cx="7" cy="17" r="1.8"/><circle cx="17" cy="17" r="1.8"/></svg>Darmowa dostawa</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg>30 dni na zwrot</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Bezpieczna płatność</li>
+          </ul>
+        </aside>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+<script>
+  (function () {
+    var root = document.getElementById('lk-{{ section.id }}');
+    if (!root || root.dataset.lkInit) return;
+    root.dataset.lkInit = '1';
+    document.addEventListener('click', function (e) {
+      var btn = e.target.closest('#lk-{{ section.id }} [data-lk-upgrade]');
+      if (!btn) return;
+      btn.disabled = true;
+      var updates = {};
+      updates[btn.dataset.from] = 0;
+      updates[btn.dataset.to] = Number(btn.dataset.qty);
+      fetch('{{ routes.cart_update_url }}.js', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify({ updates: updates })
+      }).then(function () { window.location.reload(); }, function () { btn.disabled = false; });
+    });
+  })();
+</script>
+{% schema %}
+{
+  "name": "LK Koszyk",
+  "tag": "div",
+  "settings": [
+    { "type": "image_picker", "id": "logo", "label": "Logo" },
+    { "type": "product", "id": "product", "label": "Produkt" },
+    { "type": "text", "id": "button", "label": "Tekst przycisku", "default": "Przejdź do kasy" },
+    { "type": "text", "id": "eta", "label": "Czas dostawy", "default": "Wysyłka 1 do 3 dni, dostawa 3 do 5 dni." },
+    { "type": "text", "id": "upsell_heading", "label": "Upsell: nagłówek", "default": "Masz więcej miejsc do ozdobienia?" },
+    { "type": "text", "id": "upsell_button", "label": "Upsell: przycisk", "default": "Zamień na zestaw Cały dom" }
+  ]
+}
+{% endschema %}
