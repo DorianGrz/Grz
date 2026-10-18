@@ -309,6 +309,15 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   .lk-root .lk-step .lk-h3 { margin: 0; font-size: 17px; }
   .lk-root .lk-step p { grid-column: 1 / -1; margin: 0; font-size: 14px; line-height: 1.45; color: var(--lk-muted); }
 }
+/* Gdzie ją powiesisz: na telefonie siatka 2 x 2, nazwa miejsca na zdjęciu */
+@media (max-width: 749px) {
+  .lk-cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; overflow: visible; scroll-snap-type: none; }
+  .lk-card { display: grid !important; grid-template-areas: "img" "txt"; grid-template-rows: auto 1fr; box-shadow: 0 1px 0 var(--lk-line); }
+  .lk-card__img { grid-area: img; aspect-ratio: 4 / 5; }
+  .lk-card__body { display: contents; }
+  .lk-root .lk-card .lk-h3 { grid-area: img; align-self: end; z-index: 1; margin: 0; padding: 36px 12px 10px; font-size: 19px; color: var(--lk-white); background: linear-gradient(to top, rgba(20,32,25,.72), rgba(20,32,25,0)); }
+  .lk-root .lk-card__body p { grid-area: txt; margin: 0; padding: 10px 12px 12px; font-size: 13px; line-height: 1.4; }
+}
 @media (max-width: 389px) {
   .lk-topbar { flex-wrap: nowrap; gap: 10px; padding: 8px 10px; font-size: 11px; letter-spacing: .04em; white-space: nowrap; }
   .lk-topbar__item { gap: 5px; }
