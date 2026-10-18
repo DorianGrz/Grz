@@ -345,7 +345,7 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   .lk-reviews { grid-template-columns: repeat(3, 1fr); }
   .lk-ship { padding: 32px 28px 24px; }
   .lk-root .lk-timeline { grid-template-columns: repeat(3, 1fr); }
-  .lk-root .lk-timeline li { grid-template-columns: 1fr; justify-items: center; text-align: center; row-gap: 12px; padding: 0 12px; }
+  .lk-root .lk-timeline li { grid-template-columns: 1fr; align-content: start; justify-items: center; text-align: center; row-gap: 12px; padding: 0 12px; }
   .lk-root .lk-timeline li:not(:last-child)::before { left: calc(50% + 32px); right: calc(-50% + 32px); top: 22px; bottom: auto; border-left: 0; border-top: 2px dotted var(--lk-gold); }
   .lk-ship__note { justify-content: center; margin-top: 28px; }
   .lk-footer { padding-bottom: 40px; }
