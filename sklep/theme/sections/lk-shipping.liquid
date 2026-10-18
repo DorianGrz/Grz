@@ -2,17 +2,29 @@
 <section class="lk-root lk-sec" id="lk-{{ section.id }}">
   <div class="lk-wrap">
     <h2 class="lk-h2">{{ section.settings.heading }}</h2>
-    <ol class="lk-timeline">
-      {%- for block in section.blocks -%}
-        <li {{ block.shopify_attributes }}>
-          <span class="lk-timeline__ico">{{ forloop.index }}</span>
-          <div><strong>{{ block.settings.title }}</strong><span>{{ block.settings.text }}</span></div>
-        </li>
-      {%- endfor -%}
-    </ol>
-    {%- if section.settings.note != blank -%}
-      <div class="lk-center lk-lead" style="margin-top:18px">{{ section.settings.note }}</div>
-    {%- endif -%}
+    <div class="lk-ship">
+      <ol class="lk-timeline">
+        {%- for block in section.blocks -%}
+          <li {{ block.shopify_attributes }}>
+            <span class="lk-timeline__ico" aria-hidden="true">
+              {%- case forloop.index -%}
+                {%- when 1 -%}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg>
+                {%- when 2 -%}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/></svg>
+                {%- when 3 -%}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-5h4v5"/></svg>
+                {%- else -%}<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg>
+              {%- endcase -%}
+            </span>
+            <div class="lk-timeline__txt"><strong>{{ block.settings.title }}</strong><span>{{ block.settings.text | replace: 'e-mail', 'e‑mail' }}</span></div>
+          </li>
+        {%- endfor -%}
+      </ol>
+      {%- if section.settings.note != blank -%}
+        <div class="lk-ship__note">
+          <span class="lk-ship__note-ico" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg></span>
+          <div>{{ section.settings.note }}</div>
+        </div>
+      {%- endif -%}
+    </div>
   </div>
 </section>
 {% schema %}
