@@ -207,11 +207,11 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-root .lk-cmp thead th { font-size: 13px; line-height: 1.25; font-weight: 700; color: var(--lk-muted); padding: 16px 8px 14px; }
 .lk-root .lk-cmp thead th.lk-cmp__us { color: var(--lk-white); background: var(--lk-green); border-radius: 12px 12px 0 0; border-bottom-color: var(--lk-green); }
 .lk-root .lk-cmp tbody th { text-align: left; font-weight: 600; color: var(--lk-ink); padding-left: 18px; }
-.lk-root .lk-cmp td.lk-cmp__us { background: #eef4ef; }
-.lk-root .lk-cmp tbody tr:last-child td.lk-cmp__us { border-radius: 0 0 12px 12px; }
+.lk-root .lk-cmp td:not(.lk-cmp__us) .lk-yes { background: transparent; color: var(--lk-green-2); box-shadow: inset 0 0 0 1.5px #b9c9bd; }
 .lk-root .lk-cmp td { font-size: 13px; color: var(--lk-muted); }
 .lk-yes, .lk-no { display: inline-flex !important; align-items: center; justify-content: center; width: 28px; height: 28px; border-radius: 50%; font-size: 15px; font-weight: 700; line-height: 1; }
 .lk-yes { background: var(--lk-green); color: var(--lk-white); }
+.lk-cmp__us .lk-yes { width: 32px; height: 32px; font-size: 17px; box-shadow: 0 0 0 4px rgba(184,137,59,.18); }
 .lk-no { background: #f4e6e2; color: #a3412f; font-size: 13px; }
 @media (max-width: 749px) {
   .lk-root .lk-cmp, .lk-root .lk-cmp thead, .lk-root .lk-cmp tbody { display: block; }
@@ -220,7 +220,6 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   .lk-root .lk-cmp thead th { display: flex; align-items: center; justify-content: center; padding: 14px 6px 12px; border-bottom: 1px solid var(--lk-line); }
   .lk-root .lk-cmp tbody th { grid-column: 1 / -1; padding: 14px 16px 2px; border-bottom: 0; text-align: center; font-size: 15px; }
   .lk-root .lk-cmp td { display: flex; align-items: center; justify-content: center; min-height: 50px; padding: 8px 6px 14px; }
-  .lk-root .lk-cmp tbody tr:last-child td.lk-cmp__us { border-radius: 0 0 var(--lk-radius) 0; }
 }
 
 /* OPINIE */
