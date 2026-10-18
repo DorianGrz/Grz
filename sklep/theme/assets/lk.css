@@ -170,6 +170,7 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-box__img { border-radius: var(--lk-radius); overflow: hidden; background: var(--lk-cream-2); display: block !important; }
 .lk-root .lk-box__sub { margin: -16px auto 24px; max-width: 46ch; font-size: 16px; }
 .lk-box__body { display: grid; gap: 14px; }
+.lk-only-d { display: none !important; }
 .lk-sets { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .lk-set { padding: 16px 12px; text-align: center; background: var(--lk-cream); border: 1px solid var(--lk-line); border-radius: var(--lk-radius); }
 .lk-set__bars { display: flex !important; justify-content: center; gap: 4px; margin-bottom: 12px; }
@@ -264,6 +265,8 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   .lk-ba figure { aspect-ratio: 4 / 3; }
   .lk-cards { margin: 0; padding: 0; overflow: visible; display: grid; grid-template-columns: repeat(4, 1fr); }
   .lk-box { grid-template-columns: 1fr 1fr; gap: 40px; }
+  .lk-only-m { display: none !important; }
+  .lk-only-d { display: block !important; }
   .lk-reviews { grid-template-columns: repeat(3, 1fr); }
   .lk-timeline { grid-template-columns: repeat(3, 1fr); }
   .lk-footer { padding-bottom: 40px; }
