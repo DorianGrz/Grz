@@ -248,8 +248,8 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-root .lk-faq details[open] { background: var(--lk-white); border-color: rgba(184,137,59,.55); box-shadow: 0 8px 24px rgba(31,59,45,.08); }
 .lk-root .lk-faq summary { cursor: pointer; list-style: none; position: relative; display: flex; align-items: center; min-height: 58px; padding: 14px 60px 14px 18px; font-size: 16px; line-height: 1.35; font-weight: 600; color: var(--lk-ink); border-radius: var(--lk-radius); -webkit-tap-highlight-color: transparent; }
 .lk-root .lk-faq summary::-webkit-details-marker { display: none; }
-.lk-root .lk-faq summary::after { content: '+'; position: absolute; right: 16px; top: 50%; width: 30px; height: 30px; margin-top: -15px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font: 400 22px/1 var(--lk-sans); color: var(--lk-green); background: var(--lk-white); border: 1px solid var(--lk-line); transition: transform .25s, background-color .2s, color .2s; }
-.lk-root .lk-faq details[open] summary::after { transform: rotate(45deg); background: var(--lk-green); border-color: var(--lk-green); color: var(--lk-white); }
+.lk-root .lk-faq summary::after { content: ''; --c: var(--lk-green); position: absolute; right: 16px; top: 50%; width: 30px; height: 30px; margin-top: -15px; border-radius: 50%; border: 1px solid var(--lk-line); background: linear-gradient(var(--c), var(--c)) center / 12px 2px no-repeat, linear-gradient(var(--c), var(--c)) center / 2px 12px no-repeat, var(--lk-white); transition: transform .25s; }
+.lk-root .lk-faq details[open] summary::after { --c: var(--lk-white); transform: rotate(45deg); border-color: var(--lk-green); background-color: var(--lk-green); }
 .lk-root .lk-faq summary:focus-visible { outline: 2px solid var(--lk-gold); outline-offset: 2px; }
 .lk-root .lk-faq__a { padding: 0 18px 18px; color: var(--lk-muted); font-size: 15px; line-height: 1.6; }
 .lk-root .lk-faq details[open] .lk-faq__a { animation: lk-faq-in .25s ease-out; }
