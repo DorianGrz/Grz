@@ -15,21 +15,37 @@
 <section class="lk-root lk-sec lk-sec--alt" id="lk-{{ section.id }}">
   <div class="lk-wrap">
     <h2 class="lk-h2">{{ section.settings.heading }}</h2>
-    <div class="lk-ba">
-      <figure>
-        {% render 'lk-img', image: section.settings.before, p: p, idx: section.settings.before_index, sizes: '50vw' %}
-        <figcaption>{{ section.settings.before_label }}</figcaption>
-      </figure>
-      <figure>
-        {% render 'lk-img', image: section.settings.after, p: p, idx: section.settings.after_index, sizes: '50vw' %}
-        <figcaption>{{ section.settings.after_label }}</figcaption>
-      </figure>
+    <div class="lk-ba" data-lk-ba style="--pos: 50%">
+      <div class="lk-ba__layer lk-ba__after">
+        {% render 'lk-img', image: section.settings.after, p: p, idx: section.settings.after_index, sizes: '(min-width: 750px) 760px, 100vw' %}
+      </div>
+      <div class="lk-ba__layer lk-ba__before" aria-hidden="true">
+        {% render 'lk-img', image: section.settings.before, p: p, idx: section.settings.before_index, sizes: '(min-width: 750px) 760px, 100vw' %}
+      </div>
+      <span class="lk-ba__tag lk-ba__tag--before">{{ section.settings.before_label }}</span>
+      <span class="lk-ba__tag lk-ba__tag--after">{{ section.settings.after_label }}</span>
+      <span class="lk-ba__handle" aria-hidden="true">
+        <span class="lk-ba__knob"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span>
+      </span>
+      <input class="lk-ba__range" type="range" min="0" max="100" value="50" step="1" aria-label="Przesuń, żeby porównać zdjęcie przed i po" data-lk-ba-range>
     </div>
+    <p class="lk-ba__hint lk-center">Przesuń suwak w lewo i w prawo</p>
     {%- if section.settings.caption != blank -%}
       <p class="lk-center lk-lead" style="margin-top:16px">{{ section.settings.caption }}</p>
     {%- endif -%}
   </div>
 </section>
+<script>
+  (function () {
+    var box = document.querySelector('#lk-{{ section.id }} [data-lk-ba]');
+    if (!box || box.dataset.lkInit) return;
+    box.dataset.lkInit = '1';
+    document.addEventListener('input', function (e) {
+      var r = e.target.closest('#lk-{{ section.id }} [data-lk-ba-range]');
+      if (r) box.style.setProperty('--pos', r.value + '%');
+    });
+  })();
+</script>
 {%- endif -%}
 {% schema %}
 {
