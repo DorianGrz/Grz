@@ -23,6 +23,26 @@
     <div class="lk-footer__copy">© {{ 'now' | date: '%Y' }} {{ shop.name }}</div>
   </div>
 </footer>
+<script>
+  (function () {
+    if (window.lkReveal) return;
+    window.lkReveal = true;
+    if (!('IntersectionObserver' in window) || (window.Shopify && Shopify.designMode)) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        e.target.classList.add('is-in');
+        io.unobserve(e.target);
+      });
+    }, { rootMargin: '0px 0px -12% 0px' });
+    document.querySelectorAll('.lk-root.lk-sec').forEach(function (sec) {
+      if (sec.getBoundingClientRect().top < window.innerHeight) return;
+      sec.classList.add('lk-rv');
+      io.observe(sec);
+    });
+  })();
+</script>
 {% schema %}
 {
   "name": "LK Stopka",

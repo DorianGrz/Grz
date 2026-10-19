@@ -440,3 +440,10 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-safe__meta { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--lk-line); font-size: 13px; color: var(--lk-muted); line-height: 1.5; }
 .lk-root .lk-safe__meta a { color: var(--lk-green); font-weight: 600; text-underline-offset: 3px; }
 @media (min-width: 750px) { .lk-safe { padding: 26px 28px; } }
+
+/* Pojawianie się sekcji przy przewijaniu (klasy dodaje skrypt w lk-footer) */
+.lk-rv > .lk-wrap { opacity: 0; transform: translateY(28px); transition: opacity .6s ease, transform .6s cubic-bezier(.2,.7,.2,1); }
+.lk-rv.is-in > .lk-wrap { opacity: 1; transform: none; }
+@media (prefers-reduced-motion: reduce) {
+  .lk-rv > .lk-wrap { opacity: 1; transform: none; transition: none; }
+}
