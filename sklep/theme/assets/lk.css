@@ -78,14 +78,14 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
 .lk-brand img { height: 34px; width: auto; }
 .lk-brand__name { font: 600 20px/1 var(--lk-serif); color: var(--lk-green); text-decoration: none; }
 .lk-hero__grid { display: grid; gap: 12px; }
-.lk-gallery { position: relative; margin: 0 -16px; }
+.lk-gallery { position: relative; margin: 0; }
 .lk-gallery__track {
-  display: flex; gap: 10px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
+  display: flex; gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; scroll-behavior: smooth;
   overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch;
-  padding: 0 16px; scroll-padding: 0 16px; scrollbar-width: none;
+  padding: 0; scroll-padding: 0; scrollbar-width: none; border-radius: var(--lk-radius);
 }
 .lk-gallery__track::-webkit-scrollbar { display: none; }
-.lk-gallery__slide { flex: 0 0 86%; scroll-snap-align: center; scroll-snap-stop: always; border-radius: var(--lk-radius); overflow: hidden; background: var(--lk-cream-2); aspect-ratio: 4 / 3; }
+.lk-gallery__slide { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; border-radius: var(--lk-radius); overflow: hidden; background: var(--lk-cream-2); aspect-ratio: 3 / 2; }
 .lk-gallery__slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; -webkit-user-drag: none; user-select: none; }
 .lk-gal-nav {
   position: absolute; top: calc(50% - 16px); transform: translateY(-50%); z-index: 2;
@@ -94,8 +94,8 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); border: 1px solid rgba(255,255,255,.55);
   display: flex !important; align-items: center; justify-content: center; transition: opacity .15s ease;
 }
-.lk-gal-nav--prev { left: 24px; }
-.lk-gal-nav--next { right: 24px; }
+.lk-gal-nav--prev { left: 10px; }
+.lk-gal-nav--next { right: 10px; }
 .lk-gal-nav:hover { background: rgba(255,255,255,.6); }
 .lk-gal-nav:disabled { opacity: 0; pointer-events: none; }
 .lk-dots { display: flex; justify-content: center; gap: 2px; margin-top: 6px; }
