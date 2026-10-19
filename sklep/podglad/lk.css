@@ -85,7 +85,7 @@ body:has(.lk-root) .content-for-layout { padding: 0 !important; }
   padding: 0; scroll-padding: 0; scrollbar-width: none; border-radius: var(--lk-radius);
 }
 .lk-gallery__track::-webkit-scrollbar { display: none; }
-.lk-gallery__slide { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; border-radius: var(--lk-radius); overflow: hidden; background: var(--lk-cream-2); aspect-ratio: 3 / 2; }
+.lk-gallery__slide { flex: 0 0 100%; scroll-snap-align: center; scroll-snap-stop: always; border-radius: var(--lk-radius); overflow: hidden; background: var(--lk-cream-2); aspect-ratio: 1 / 1; }
 .lk-gallery__slide img { width: 100%; height: 100%; object-fit: cover; object-position: center; -webkit-user-drag: none; user-select: none; }
 .lk-gal-nav {
   position: absolute; top: calc(50% - 16px); transform: translateY(-50%); z-index: 2;
