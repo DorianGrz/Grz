@@ -9,9 +9,9 @@ Gotowe filmy, wersja 7 (bez zacięć, lektor Emily, hook z bólem widza, pełna 
 | mechanizm | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ee8a6eee-ec40-478e-b7ef-b7ba883eff1f.mp4 |
 | persona_glowna_2 | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/851485d1-3517-4d25-ba31-72af3988954e.mp4 |
 | obiekcja_dostawa | 26 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/605ef6e7-6974-47de-a63a-c4de5e2f2389.mp4 |
-| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/27665c35-bdda-46d0-bbd8-d28139d631cf.mp4 |
+| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/db74b3f0-53f6-47d0-be59-cb7a4fc4d428.mp4 |
 
-Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/0171643b-94a4-472e-b2d5-5fc8facc1718.zip
+Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8b66561e-8480-4a80-9f49-efdf7269bb9f.zip
 
 Lektor: głos Emily (ElevenLabs v4, stabilność 0,3). Napis „Link w bio” pojawia się dokładnie wtedy, gdy lektor to mówi. Starsze wersje są nadal w bibliotece Higgsfield.
 
