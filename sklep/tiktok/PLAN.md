@@ -17,6 +17,10 @@ Lektor: głos Emily (ElevenLabs v4, stabilność 0,3). Napis „Link w bio” po
 
 Muzykę dodajesz w aplikacji TikTok (popularny dźwięk świąteczny), bo dźwięki z biblioteki TikToka dają większy zasięg niż wgrane w pliku. Dźwięk oryginalny 100%, dodany dźwięk 10 do 15%, żeby lektor był dobrze słyszalny.
 
+Profil: nazwa „Leśny Kominek”, nazwa użytkownika @lesnykominek (zapasowo @lesnykominek.pl), konto firmowe na dane mamy.
+Bio: Girlanda cedrowa gęsta jak prawdziwa 🌲 / Darmowa dostawa · 30 dni na zwrot / 👇 Sklep
+Zdjęcie profilowe: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a166a5ba-bd49-484c-8bad-0a54c7a452de.jpg
+
 Link w bio: `https://lesnykominek.pl/products/girlanda-cedrowa?utm_source=tiktok&utm_medium=organic&utm_campaign=girlanda_test1&utm_content=bio`
 
 ## 1. SWIPE (co działa u konkurencji)
