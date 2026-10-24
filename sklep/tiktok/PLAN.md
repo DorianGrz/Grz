@@ -1,21 +1,21 @@
 # Leśny Kominek: TikTok organicznie, test 1
 
-Gotowe filmy, wersja 4 (dynamiczny montaż, mocny hook, lektor Emily albo bez lektora), pobierz na telefon:
+Gotowe filmy, wersja 5 (lektor Emily, hook z bólem widza, pełna historia, bez przybliżeń), pobierz na telefon:
 
-| Film | Z lektorem | Bez lektora |
+| Film | Długość | Link |
 |---|---|---|
-| przed_po | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/95fcda78-a1eb-4659-add5-0728151d53b2.mp4 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2a9e718f-f342-4d38-bd2b-c53c2ded6294.mp4 |
-| persona_glowna_1 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/5928311d-56df-4127-a60a-cffb3815dbcf.mp4 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/571376b4-07ad-4617-9039-7553f56d2e78.mp4 |
-| mechanizm | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/0a817387-70d9-4588-b3fa-c84d25ee0e57.mp4 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/d24f9863-e058-43aa-91cb-3c602541d1f2.mp4 |
-| persona_glowna_2 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/08646c21-3e5f-477f-8325-9a55e40c2cb0.mp4 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6eefa971-c3f5-4880-9706-ec44d6a1ecf6.mp4 |
-| obiekcja_dostawa | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/512d2891-0cef-4878-bc26-fe3d89944141.mp4 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2e1115ad-1562-4864-bb8c-b621fcdaa8f7.mp4 |
-| persona_2 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/28dea161-b1c0-46e1-830d-5c2d8596b295.mp4 | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/42e6bac3-a4b8-429e-94e8-e2c556efbb1e.mp4 |
+| przed_po | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/27526533-5a4f-45e2-b27e-023ae69e4b8f.mp4 |
+| persona_glowna_1 | 29 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/58da53fe-acfb-4e35-83ef-1593f21f12be.mp4 |
+| mechanizm | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ee8a6eee-ec40-478e-b7ef-b7ba883eff1f.mp4 |
+| persona_glowna_2 | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/20770095-3852-45b2-ae3e-827825130fa9.mp4 |
+| obiekcja_dostawa | 26 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a37b3351-dac9-4db8-89fe-b4c027399dce.mp4 |
+| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/1b708904-74d3-49e2-ab18-5f7e91a0a685.mp4 |
 
-Wszystkie 12 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/820d9683-a319-40cb-82b9-e775cc769768.zip
+Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e0735008-d6ac-471c-8968-67ce660c5cc9.zip
 
-Lektor: głos Emily (ElevenLabs v4, stabilność 0,3), lekko przyspieszony. Starsze wersje są nadal w bibliotece Higgsfield.
+Lektor: głos Emily (ElevenLabs v4, stabilność 0,3). Napis „Link w bio” pojawia się dokładnie wtedy, gdy lektor to mówi. Starsze wersje są nadal w bibliotece Higgsfield.
 
-Muzykę dodajesz w aplikacji TikTok (popularny dźwięk świąteczny), bo dźwięki z biblioteki TikToka dają większy zasięg niż wgrane w pliku. Wersja z lektorem: dźwięk oryginalny 100%, dodany dźwięk 10 do 15%. Wersja bez lektora: dodany dźwięk 100%.
+Muzykę dodajesz w aplikacji TikTok (popularny dźwięk świąteczny), bo dźwięki z biblioteki TikToka dają większy zasięg niż wgrane w pliku. Dźwięk oryginalny 100%, dodany dźwięk 10 do 15%, żeby lektor był dobrze słyszalny.
 
 Link w bio: `https://lesnykominek.pl/products/girlanda-cedrowa?utm_source=tiktok&utm_medium=organic&utm_campaign=girlanda_test1&utm_content=bio`
 
@@ -30,51 +30,42 @@ TikTok Creative Center bez logowania pokazuje tylko 4 przypadkowe reklamy i nie 
 
 Co bierzemy po swojemu: problem w pierwszej sekundzie (Currymessi), miejsca w domu, gdzie ją powiesić (Sweetity), krótkie nastrojowe ujęcie na koniec. Czego nie bierzemy: przekreślonych cen i „50% zniżki”, bo nie mamy takiej promocji.
 
-## 2. Filmy (wersja 4: dynamiczny montaż, mocny hook)
+## 2. Filmy (wersja 5: hook z bólem widza, pełna historia, 24 do 28 s)
 
-Każdy film ma dwie wersje: z lektorem (głos Emily) i bez lektora (tylko napisy, muzykę dodajesz w TikToku). Hook to pierwsze zdanie i duży napis w złotej ramce od pierwszej klatki. Ujęcia zmieniają się co 1,5 do 2 sekund, każde ma ruch kamery, a przy cięciach jest krótki błysk. „Link w bio” pojawia się dokładnie wtedy, gdy lektor to mówi.
+Tylko wersje z lektorem (głos Emily). Schemat każdego filmu: ból widza w pierwszym zdaniu, potem „to o mnie”, produkt w akcji, korzyści, oferta i „Link w bio” w chwili, gdy lektor to mówi. Bez przybliżeń, czyste ujęcia zmieniane co 2 do 3 sekund.
 
 Persona główna: kobieta 30 do 55 lat, dba o dom, chce przytulnych świąt, nie ma czasu na długie dekorowanie.
 Persona zapasowa: osoba bez kominka (mieszkanie, dom ze schodami), która też chce świątecznego klimatu.
 
-### persona_glowna_1
-Hook: „Twój kominek w grudniu wygląda tak?”
-Lektor: Twój kominek w grudniu wygląda tak? Mój też tak wyglądał. Pięć minut później… tak! Darmowa dostawa i trzydzieści dni na zwrot. Link w bio.
+### persona_glowna_1 (ból: brak czasu, pusty kominek)
+Lektor: Znasz to? Do świąt coraz bliżej, a twój kominek dalej wygląda tak. Pusto i zimno. Ja co roku obiecywałam sobie, że w końcu go udekoruję, i co roku brakowało mi czasu. Aż trafiłam na tę girlandę. Wyjmujesz ją z pudełka, rozczesujesz gałązki i kładziesz na kominku. Pięć minut i gotowe. Jest gęsta, wygląda jak prawdziwy cedr i nie trzeba niczego wiercić. Dostawa jest darmowa, a na zwrot masz trzydzieści dni. Link w bio.
 Opis: Pusty kominek przed świętami? Girlanda Cedrowa jest gęsta jak prawdziwa i rozkładasz ją w 5 minut. Od 169 zł, darmowa dostawa. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #kominek #świętawdomu #girlanda #boznarodzenie
 
-### persona_glowna_2
-Hook: „Nie kupuj żywych gałązek na kominek!”
-Lektor: Nie kupuj żywych gałązek na kominek! Po tygodniu wyglądają tak. Ta girlanda nie usycha i nie gubi igieł. Wygląda tak samo aż do Trzech Króli. Link w bio.
+### persona_glowna_2 (ból: żywe gałązki usychają, igły wszędzie)
+Lektor: Co roku kupujesz żywe gałązki na kominek? To zobacz, jak wyglądają po tygodniu. Suche, brązowe, a igły są wszędzie. Na podłodze, na dywanie, w kominku. Dlatego w tym roku postawiłam na sztuczną girlandę cedrową. Wygląda jak żywa, jest gęsta i nie usycha. Nie gubi igieł, więc nic nie sprzątasz. A po świętach zwijasz ją i chowasz na kolejny rok. Dostawa jest za darmo. Link w bio.
 Opis: Koniec z zamiataniem igieł. Girlanda Cedrowa wygląda jak żywa i nie usycha, a po świętach chowasz ją na kolejny rok. Od 169 zł z darmową dostawą. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #kominek #girlanda #sztucznagirlanda #świętawdomu
 
-### przed_po
-Hook: „5 minut. 1 girlanda.”
-Lektor: Pięć minut. Jedna girlanda. Patrz na to… A tak wygląda teraz! Chcesz taki efekt u siebie? Link w bio.
+### przed_po (ból: brak pomysłu na dekorację)
+Lektor: Masz kominek, ale nie masz pomysłu, jak go udekorować na święta? Tak wyglądał mój. Biały, ładny, ale pusty i bez klimatu. Zostań do końca, bo zmiana zajmuje dosłownie pięć minut. Jedna girlanda cedrowa, położona na gzymsie… i patrz. Tak wygląda teraz. Gęsto, zielono i od razu świątecznie. Chcesz taki efekt u siebie? Link w bio.
 Opis: Ten sam kominek, pięć minut różnicy. Girlanda Cedrowa od 169 zł, darmowa dostawa w całej Polsce. Link w bio 🌲
 Hashtagi: #przedipo #kominek #dekoracjeswiateczne #girlanda #metamorfoza
 
-### obiekcja_dostawa
-Hook: „Zdąży przed świętami?”
-Lektor: Zamawiasz teraz i boisz się, że nie zdąży przed świętami? Zdąży! Dostawa od czterech do ośmiu dni roboczych, za darmo. Zamów do dziesiątego grudnia. Link w bio.
+### obiekcja_dostawa (ból: strach, że paczka nie zdąży)
+Lektor: Chcesz zamówić dekoracje na święta, ale boisz się, że paczka nie przyjdzie na czas? Rozumiem, też tak miałam. Dlatego powiem wprost. Dostawa trwa od czterech do ośmiu dni roboczych i jest za darmo. Po wysyłce dostajesz numer do śledzenia paczki. Zamów do dziesiątego grudnia, a girlanda będzie u ciebie przed Wigilią, z zapasem. A jeśli ci się nie spodoba, masz trzydzieści dni na zwrot. Link w bio.
 Opis: Darmowa dostawa w 4 do 8 dni roboczych, a do tego 30 dni na zwrot. Zamów do 10 grudnia i spokojnie zdążysz przed Wigilią. Od 169 zł. Link w bio 📦
 Hashtagi: #dekoracjeswiateczne #prezentnaświęta #kominek #girlanda #świętawdomu
 
-### mechanizm
-Hook: „Kominek na święta w 3 krokach”
-Lektor: Kominek na święta w trzech krokach. Raz: rozczesz gałązki. Dwa: połóż i wygnij końce. Trzy: dodaj lampki albo bombki. Bez wiercenia i klejenia. Link w bio.
+### mechanizm (ból: dekorowanie trwa pół dnia)
+Lektor: Dekorowanie kominka zawsze zajmuje ci pół dnia? Plątanina, klej, haczyki i wiercenie w ścianie? Pokażę ci, jak zrobić to w trzech krokach. Krok pierwszy: wyjmij girlandę z pudełka i rozczesz gałązki palcami. Krok drugi: połóż ją na gzymsie i wygnij końce, żeby ładnie opadały. Krok trzeci: jeśli chcesz, dodaj lampki albo bombki. Gotowe. Bez wiercenia i bez kleju. Link w bio.
 Opis: Trzy kroki i kominek gotowy na święta. Bez klejenia i wiercenia, girlandę wystarczy położyć. Od 169 zł z darmową dostawą. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #kominek #diy #girlanda #świętawdomu
 
-### persona_2
-Hook: „Nie masz kominka?”
-Lektor: Nie masz kominka? Nie szkodzi! Poręcz schodów. Nad drzwiami. Albo na stół. Zestaw Cały dom to cztery girlandy za 299 złotych. Link w bio.
+### persona_2 (ból: nie mam kominka, więc to nie dla mnie)
+Lektor: Nie masz kominka i myślisz, że taka dekoracja nie jest dla ciebie? Właśnie że jest. Tę girlandę owiniesz wokół poręczy schodów. Powiesisz nad drzwiami albo nad oknem. Położysz na stole wigilijnym. Każda ma półtora metra, a w zestawie Cały dom dostajesz cztery, czyli sześć metrów świątecznej zieleni. Kosztuje 299 złotych, z darmową dostawą. Link w bio.
 Opis: Nie musisz mieć kominka. Girlanda Cedrowa pięknie wygląda na poręczy, nad drzwiami i na stole. Zestaw Cały dom: 4 girlandy po 1,5 m za 299 zł, darmowa dostawa. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #schody #mieszkanie #girlanda #świętawdomu
-
-### Test: z lektorem czy bez?
-Wrzuć najpierw wersje z lektorem (persona_glowna_1, przed_po, persona_glowna_2). Po 3 dniach wrzuć te same 3 filmy bez lektora, z popularnym dźwiękiem. Porównaj w TikTok Studio „% obejrzeń do końca” i wejścia w profil. Lepsza wersja zostaje dla pozostałych filmów.
 
 ## 3. Publikacja
 

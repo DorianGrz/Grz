@@ -22,5 +22,13 @@
   "obiekcja_dostawa": "6db51b72-3701-40e1-ba2b-9bf55875d214",
   "mechanizm": "703024d5-7d0e-4c5b-b5a1-13400d884b92",
   "persona_2": "65e98cdf-cf59-4df4-9438-a61abef289d3"
+ },
+ "v5_emily": {
+  "persona_glowna_1": "3217574f-1b03-45fa-9ebf-debba23af7e8",
+  "persona_glowna_2": "3d5b9425-cb75-417a-a303-6657958f41c0",
+  "przed_po": "028541f1-6f89-4f7e-9948-2602916df685",
+  "obiekcja_dostawa": "d2444821-3118-48ee-90fa-6793ed196e5d",
+  "mechanizm": "7e1ae2ae-2253-4423-acbd-6eadc5ce4a93",
+  "persona_2": "c44a48a2-2e7a-4cdc-97e2-f24ad72a67b2"
  }
 }
