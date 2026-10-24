@@ -1,15 +1,17 @@
 # Leśny Kominek: TikTok organicznie, test 1
 
-Gotowe filmy (9:16, z napisami, bez dźwięku), pobierz na telefon:
-- przed_po: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f4daa8fc-9d44-4a90-bc5e-9fd2dccb5930.mp4
-- persona_glowna_1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/571298f2-f785-4b6a-9b99-06203a7f35a4.mp4
-- mechanizm: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/bdc15005-24f1-4139-9f79-d56ce2c91bf3.mp4
-- persona_glowna_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/080b60fa-18ac-472b-863a-d358668443a9.mp4
-- obiekcja_dostawa: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/80942fb8-04d7-4542-b534-7cfbf1387882.mp4
-- persona_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/74ced8e3-7067-48af-8614-3476ef72e5bc.mp4
-- wszystkie w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/77c6ae29-f789-4f51-92a5-d0d042b457b5.zip
+Gotowe filmy (9:16, napisy, polski lektor, plansza „Link w bio” na końcu), pobierz na telefon:
+- przed_po: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/aa50cb59-008a-4461-8342-88b2b78059ce.mp4
+- persona_glowna_1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a77d6bd2-a237-4c87-ae3d-6339b0051cfc.mp4
+- mechanizm: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/78804eed-f45a-40f5-89b0-fd6ad2a83dca.mp4
+- persona_glowna_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a64a7b5a-ff2a-4ecf-a717-db8120a80921.mp4
+- obiekcja_dostawa: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3eb3dc15-b347-48f7-85ae-12043a6508d9.mp4
+- persona_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/08c4ed1c-38a1-45ac-b1c4-498ae2936ee7.mp4
+- wszystkie w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2969dc98-ae0f-4f43-a8a1-6ead7d00efba.zip
 
-Wszystkie filmy 9:16, bez lektora. Muzykę dodajesz w aplikacji TikTok (popularny dźwięk świąteczny), bo dźwięki z biblioteki TikToka dają większy zasięg niż wgrane w pliku.
+Lektor: głos Elena (ElevenLabs v4). Wcześniejsze wersje bez lektora są nadal w bibliotece Higgsfield.
+
+Muzykę dodajesz w aplikacji TikTok (popularny dźwięk świąteczny), bo dźwięki z biblioteki TikToka dają większy zasięg niż wgrane w pliku. Ustaw: dźwięk oryginalny (lektor) 100%, dodany dźwięk 10 do 15%, żeby muzyka nie zagłuszała głosu.
 
 Link w bio: `https://lesnykominek.pl/products/girlanda-cedrowa?utm_source=tiktok&utm_medium=organic&utm_campaign=girlanda_test1&utm_content=bio`
 
@@ -87,7 +89,7 @@ Piksel TikTok przy darmowych filmach nie jest potrzebny. Sprzedaż z TikToka i t
 
 
 1. Jeden film dziennie, między 18 a 21. Kolejność: przed_po, persona_glowna_1, mechanizm, persona_glowna_2, obiekcja_dostawa, persona_2.
-2. Przy wgrywaniu: „Dodaj dźwięk”, wybierz popularny świąteczny dźwięk, głośność oryginału na 0.
+2. Przy wgrywaniu: „Dodaj dźwięk”, wybierz popularny świąteczny dźwięk, potem „Głośność”: oryginał 100%, dodany dźwięk 10 do 15%.
 3. Wklej opis i hashtagi z tego pliku. Okładka: kadr z gotową girlandą.
 4. Odpowiadaj na każdy komentarz w ciągu godziny. Na pytanie o cenę albo dostawę odpowiedz filmem („Odpowiedz filmem”), to darmowy dodatkowy film.
 
