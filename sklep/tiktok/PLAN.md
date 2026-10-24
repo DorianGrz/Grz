@@ -1,17 +1,17 @@
 # Leśny Kominek: TikTok organicznie, test 1
 
-Gotowe filmy, wersja 6 (lektor Emily, hook z bólem widza, pełna historia, bez przybliżeń, bez podawania cen), pobierz na telefon:
+Gotowe filmy, wersja 7 (bez zacięć, lektor Emily, hook z bólem widza, pełna historia, bez przybliżeń, bez podawania cen), pobierz na telefon:
 
 | Film | Długość | Link |
 |---|---|---|
-| przed_po | 24 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/64569c86-65d2-4e2a-9e00-33ab0593d1a3.mp4 |
+| przed_po | 24 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/42e123e2-d88a-4d95-815a-4f27428b90e0.mp4 |
 | persona_glowna_1 | 29 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/58da53fe-acfb-4e35-83ef-1593f21f12be.mp4 |
 | mechanizm | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ee8a6eee-ec40-478e-b7ef-b7ba883eff1f.mp4 |
-| persona_glowna_2 | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/20770095-3852-45b2-ae3e-827825130fa9.mp4 |
-| obiekcja_dostawa | 26 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a37b3351-dac9-4db8-89fe-b4c027399dce.mp4 |
-| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c0d8612d-575a-4278-aba5-2c584fb9d924.mp4 |
+| persona_glowna_2 | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/851485d1-3517-4d25-ba31-72af3988954e.mp4 |
+| obiekcja_dostawa | 26 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/605ef6e7-6974-47de-a63a-c4de5e2f2389.mp4 |
+| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/27665c35-bdda-46d0-bbd8-d28139d631cf.mp4 |
 
-Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e95d90c5-fc19-493c-b5e9-3e44c84ae949.zip
+Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/0171643b-94a4-472e-b2d5-5fc8facc1718.zip
 
 Lektor: głos Emily (ElevenLabs v4, stabilność 0,3). Napis „Link w bio” pojawia się dokładnie wtedy, gdy lektor to mówi. Starsze wersje są nadal w bibliotece Higgsfield.
 
