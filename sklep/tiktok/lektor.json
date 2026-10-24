@@ -1,1 +1,17 @@
-{"voice":"Elena ca83ca7f-c186-493d-bd69-0d765fa861b2 (elevenlabs_v4)","persona_glowna_1":"1b595b9e-0031-4609-a235-12ff3a5b3b36","persona_glowna_2":"31195780-57c7-4354-a103-6e9e1b321434","przed_po":"b167d0f1-9673-4155-b87f-4e58e4137dbf","obiekcja_dostawa":"5a5243fe-fd97-4366-8f28-b726c091ea04","mechanizm":"27b8917e-4556-4c3f-a2e4-ec7115f12165","persona_2":"c1d768e6-270e-4018-935e-68d11bf869a1"}
+{
+ "voice": "Elena ca83ca7f-c186-493d-bd69-0d765fa861b2 (elevenlabs_v4)",
+ "persona_glowna_1": "1b595b9e-0031-4609-a235-12ff3a5b3b36",
+ "persona_glowna_2": "31195780-57c7-4354-a103-6e9e1b321434",
+ "przed_po": "b167d0f1-9673-4155-b87f-4e58e4137dbf",
+ "obiekcja_dostawa": "5a5243fe-fd97-4366-8f28-b726c091ea04",
+ "mechanizm": "27b8917e-4556-4c3f-a2e4-ec7115f12165",
+ "persona_2": "c1d768e6-270e-4018-935e-68d11bf869a1",
+ "v2": {
+  "persona_glowna_1": "321f6cbd-1463-4e85-b9c9-b0fb328a5929",
+  "persona_glowna_2": "add10c7e-072f-42c4-aab6-ed9a2ba96f90",
+  "przed_po": "6e9cb482-da75-4532-8360-9fcecec4af77",
+  "obiekcja_dostawa": "e8523aac-7f86-42cb-8428-ff8a6a238791",
+  "mechanizm": "feadda57-86ad-4adb-a1d5-8166236b14a0",
+  "persona_2": "7d018690-bc2b-44da-b532-81938992e77e"
+ }
+}

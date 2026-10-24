@@ -1,13 +1,13 @@
 # Leśny Kominek: TikTok organicznie, test 1
 
-Gotowe filmy (9:16, napisy, polski lektor, plansza „Link w bio” na końcu), pobierz na telefon:
-- przed_po: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/aa50cb59-008a-4461-8342-88b2b78059ce.mp4
-- persona_glowna_1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a77d6bd2-a237-4c87-ae3d-6339b0051cfc.mp4
-- mechanizm: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/78804eed-f45a-40f5-89b0-fd6ad2a83dca.mp4
-- persona_glowna_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a64a7b5a-ff2a-4ecf-a717-db8120a80921.mp4
-- obiekcja_dostawa: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3eb3dc15-b347-48f7-85ae-12043a6508d9.mp4
-- persona_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/08c4ed1c-38a1-45ac-b1c4-498ae2936ee7.mp4
-- wszystkie w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2969dc98-ae0f-4f43-a8a1-6ead7d00efba.zip
+Gotowe filmy, wersja 3 (9:16, napisy i sceny zsynchronizowane z lektorem, „Link w bio” pojawia się w chwili, gdy lektor to mówi), pobierz na telefon:
+- przed_po: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a2f0fb04-ecce-4166-91d5-c81f4f64a9f5.mp4
+- persona_glowna_1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/525dce27-26e1-4c6b-a3cd-cd1ee75ad49b.mp4
+- mechanizm: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/0d1d0334-26d8-447e-b560-ff29f088010e.mp4
+- persona_glowna_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e71d6782-ffa4-4d1b-b994-29db2d99a8e7.mp4
+- obiekcja_dostawa: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3dabeddc-0684-4ed0-a893-410e7f27bf6a.mp4
+- persona_2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/954038ec-a71b-49f2-aed4-cb02448eca47.mp4
+- wszystkie w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b91752ed-6c77-4a5f-9f21-3685c417181f.zip
 
 Lektor: głos Elena (ElevenLabs v4). Wcześniejsze wersje bez lektora są nadal w bibliotece Higgsfield.
 
