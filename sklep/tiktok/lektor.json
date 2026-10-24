@@ -30,5 +30,10 @@
   "obiekcja_dostawa": "d2444821-3118-48ee-90fa-6793ed196e5d",
   "mechanizm": "7e1ae2ae-2253-4423-acbd-6eadc5ce4a93",
   "persona_2": "c44a48a2-2e7a-4cdc-97e2-f24ad72a67b2"
+ },
+ "v6_emily": {
+  "note": "v5 bez cen i bez \"zostań do końca\"; reszta filmów jak v5",
+  "przed_po": "1efdbb15-9056-477a-98d3-31c249c909aa",
+  "persona_2": "30ce9de0-767c-4c12-ba06-22809cddace4"
  }
 }

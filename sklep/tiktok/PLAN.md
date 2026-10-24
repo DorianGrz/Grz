@@ -1,17 +1,17 @@
 # Leśny Kominek: TikTok organicznie, test 1
 
-Gotowe filmy, wersja 5 (lektor Emily, hook z bólem widza, pełna historia, bez przybliżeń), pobierz na telefon:
+Gotowe filmy, wersja 6 (lektor Emily, hook z bólem widza, pełna historia, bez przybliżeń, bez podawania cen), pobierz na telefon:
 
 | Film | Długość | Link |
 |---|---|---|
-| przed_po | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/27526533-5a4f-45e2-b27e-023ae69e4b8f.mp4 |
+| przed_po | 24 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/64569c86-65d2-4e2a-9e00-33ab0593d1a3.mp4 |
 | persona_glowna_1 | 29 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/58da53fe-acfb-4e35-83ef-1593f21f12be.mp4 |
 | mechanizm | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ee8a6eee-ec40-478e-b7ef-b7ba883eff1f.mp4 |
 | persona_glowna_2 | 28 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/20770095-3852-45b2-ae3e-827825130fa9.mp4 |
 | obiekcja_dostawa | 26 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a37b3351-dac9-4db8-89fe-b4c027399dce.mp4 |
-| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/1b708904-74d3-49e2-ab18-5f7e91a0a685.mp4 |
+| persona_2 | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c0d8612d-575a-4278-aba5-2c584fb9d924.mp4 |
 
-Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e0735008-d6ac-471c-8968-67ce660c5cc9.zip
+Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e95d90c5-fc19-493c-b5e9-3e44c84ae949.zip
 
 Lektor: głos Emily (ElevenLabs v4, stabilność 0,3). Napis „Link w bio” pojawia się dokładnie wtedy, gdy lektor to mówi. Starsze wersje są nadal w bibliotece Higgsfield.
 
@@ -30,41 +30,41 @@ TikTok Creative Center bez logowania pokazuje tylko 4 przypadkowe reklamy i nie 
 
 Co bierzemy po swojemu: problem w pierwszej sekundzie (Currymessi), miejsca w domu, gdzie ją powiesić (Sweetity), krótkie nastrojowe ujęcie na koniec. Czego nie bierzemy: przekreślonych cen i „50% zniżki”, bo nie mamy takiej promocji.
 
-## 2. Filmy (wersja 5: hook z bólem widza, pełna historia, 24 do 28 s)
+## 2. Filmy (wersja 6: hook z bólem widza, pełna historia, bez cen, 23 do 29 s)
 
-Tylko wersje z lektorem (głos Emily). Schemat każdego filmu: ból widza w pierwszym zdaniu, potem „to o mnie”, produkt w akcji, korzyści, oferta i „Link w bio” w chwili, gdy lektor to mówi. Bez przybliżeń, czyste ujęcia zmieniane co 2 do 3 sekund.
+Tylko wersje z lektorem (głos Emily). Schemat każdego filmu: ból widza w pierwszym zdaniu, potem „to o mnie”, produkt w akcji, korzyści, darmowa dostawa i zwrot (bez podawania ceny) oraz „Link w bio” w chwili, gdy lektor to mówi. Bez przybliżeń, czyste ujęcia zmieniane co 2 do 3 sekund.
 
 Persona główna: kobieta 30 do 55 lat, dba o dom, chce przytulnych świąt, nie ma czasu na długie dekorowanie.
 Persona zapasowa: osoba bez kominka (mieszkanie, dom ze schodami), która też chce świątecznego klimatu.
 
 ### persona_glowna_1 (ból: brak czasu, pusty kominek)
 Lektor: Znasz to? Do świąt coraz bliżej, a twój kominek dalej wygląda tak. Pusto i zimno. Ja co roku obiecywałam sobie, że w końcu go udekoruję, i co roku brakowało mi czasu. Aż trafiłam na tę girlandę. Wyjmujesz ją z pudełka, rozczesujesz gałązki i kładziesz na kominku. Pięć minut i gotowe. Jest gęsta, wygląda jak prawdziwy cedr i nie trzeba niczego wiercić. Dostawa jest darmowa, a na zwrot masz trzydzieści dni. Link w bio.
-Opis: Pusty kominek przed świętami? Girlanda Cedrowa jest gęsta jak prawdziwa i rozkładasz ją w 5 minut. Od 169 zł, darmowa dostawa. Link w bio 🌲
+Opis: Pusty kominek przed świętami? Girlanda Cedrowa jest gęsta jak prawdziwa i rozkładasz ją w 5 minut. Darmowa dostawa. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #kominek #świętawdomu #girlanda #boznarodzenie
 
 ### persona_glowna_2 (ból: żywe gałązki usychają, igły wszędzie)
 Lektor: Co roku kupujesz żywe gałązki na kominek? To zobacz, jak wyglądają po tygodniu. Suche, brązowe, a igły są wszędzie. Na podłodze, na dywanie, w kominku. Dlatego w tym roku postawiłam na sztuczną girlandę cedrową. Wygląda jak żywa, jest gęsta i nie usycha. Nie gubi igieł, więc nic nie sprzątasz. A po świętach zwijasz ją i chowasz na kolejny rok. Dostawa jest za darmo. Link w bio.
-Opis: Koniec z zamiataniem igieł. Girlanda Cedrowa wygląda jak żywa i nie usycha, a po świętach chowasz ją na kolejny rok. Od 169 zł z darmową dostawą. Link w bio 🌲
+Opis: Koniec z zamiataniem igieł. Girlanda Cedrowa wygląda jak żywa i nie usycha, a po świętach chowasz ją na kolejny rok. Darmowa dostawa. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #kominek #girlanda #sztucznagirlanda #świętawdomu
 
 ### przed_po (ból: brak pomysłu na dekorację)
-Lektor: Masz kominek, ale nie masz pomysłu, jak go udekorować na święta? Tak wyglądał mój. Biały, ładny, ale pusty i bez klimatu. Zostań do końca, bo zmiana zajmuje dosłownie pięć minut. Jedna girlanda cedrowa, położona na gzymsie… i patrz. Tak wygląda teraz. Gęsto, zielono i od razu świątecznie. Chcesz taki efekt u siebie? Link w bio.
-Opis: Ten sam kominek, pięć minut różnicy. Girlanda Cedrowa od 169 zł, darmowa dostawa w całej Polsce. Link w bio 🌲
+Lektor: Masz kominek, ale nie masz pomysłu, jak go udekorować na święta? Tak wyglądał mój. Biały, ładny, ale pusty i bez klimatu. Wystarczyła jedna prosta zmiana. Jedna girlanda cedrowa, położona na gzymsie… i patrz. Tak wygląda teraz. Gęsto, zielono i od razu świątecznie. Chcesz taki efekt u siebie? Link w bio.
+Opis: Ten sam kominek, pięć minut różnicy. Girlanda Cedrowa z darmową dostawą w całej Polsce. Link w bio 🌲
 Hashtagi: #przedipo #kominek #dekoracjeswiateczne #girlanda #metamorfoza
 
 ### obiekcja_dostawa (ból: strach, że paczka nie zdąży)
 Lektor: Chcesz zamówić dekoracje na święta, ale boisz się, że paczka nie przyjdzie na czas? Rozumiem, też tak miałam. Dlatego powiem wprost. Dostawa trwa od czterech do ośmiu dni roboczych i jest za darmo. Po wysyłce dostajesz numer do śledzenia paczki. Zamów do dziesiątego grudnia, a girlanda będzie u ciebie przed Wigilią, z zapasem. A jeśli ci się nie spodoba, masz trzydzieści dni na zwrot. Link w bio.
-Opis: Darmowa dostawa w 4 do 8 dni roboczych, a do tego 30 dni na zwrot. Zamów do 10 grudnia i spokojnie zdążysz przed Wigilią. Od 169 zł. Link w bio 📦
+Opis: Darmowa dostawa w 4 do 8 dni roboczych, a do tego 30 dni na zwrot. Zamów do 10 grudnia i spokojnie zdążysz przed Wigilią. Link w bio 📦
 Hashtagi: #dekoracjeswiateczne #prezentnaświęta #kominek #girlanda #świętawdomu
 
 ### mechanizm (ból: dekorowanie trwa pół dnia)
 Lektor: Dekorowanie kominka zawsze zajmuje ci pół dnia? Plątanina, klej, haczyki i wiercenie w ścianie? Pokażę ci, jak zrobić to w trzech krokach. Krok pierwszy: wyjmij girlandę z pudełka i rozczesz gałązki palcami. Krok drugi: połóż ją na gzymsie i wygnij końce, żeby ładnie opadały. Krok trzeci: jeśli chcesz, dodaj lampki albo bombki. Gotowe. Bez wiercenia i bez kleju. Link w bio.
-Opis: Trzy kroki i kominek gotowy na święta. Bez klejenia i wiercenia, girlandę wystarczy położyć. Od 169 zł z darmową dostawą. Link w bio 🌲
+Opis: Trzy kroki i kominek gotowy na święta. Bez klejenia i wiercenia, girlandę wystarczy położyć. Darmowa dostawa. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #kominek #diy #girlanda #świętawdomu
 
 ### persona_2 (ból: nie mam kominka, więc to nie dla mnie)
-Lektor: Nie masz kominka i myślisz, że taka dekoracja nie jest dla ciebie? Właśnie że jest. Tę girlandę owiniesz wokół poręczy schodów. Powiesisz nad drzwiami albo nad oknem. Położysz na stole wigilijnym. Każda ma półtora metra, a w zestawie Cały dom dostajesz cztery, czyli sześć metrów świątecznej zieleni. Kosztuje 299 złotych, z darmową dostawą. Link w bio.
-Opis: Nie musisz mieć kominka. Girlanda Cedrowa pięknie wygląda na poręczy, nad drzwiami i na stole. Zestaw Cały dom: 4 girlandy po 1,5 m za 299 zł, darmowa dostawa. Link w bio 🌲
+Lektor: Nie masz kominka i myślisz, że taka dekoracja nie jest dla ciebie? Właśnie że jest. Tę girlandę owiniesz wokół poręczy schodów. Powiesisz nad drzwiami albo nad oknem. Położysz na stole wigilijnym. Każda ma półtora metra, a w zestawie Cały dom dostajesz cztery, czyli sześć metrów świątecznej zieleni. Dostawa jest za darmo, a na zwrot masz trzydzieści dni. Link w bio.
+Opis: Nie musisz mieć kominka. Girlanda Cedrowa pięknie wygląda na poręczy, nad drzwiami i na stole. Zestaw Cały dom: 4 girlandy po 1,5 m, darmowa dostawa. Link w bio 🌲
 Hashtagi: #dekoracjeswiateczne #schody #mieszkanie #girlanda #świętawdomu
 
 ## 3. Publikacja
