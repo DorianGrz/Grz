@@ -19,7 +19,7 @@ Muzykę dodajesz w aplikacji TikTok (popularny dźwięk świąteczny), bo dźwi�
 
 Profil: nazwa „Leśny Kominek”, nazwa użytkownika @lesnykominek (zapasowo @lesnykominek.pl), konto prywatne (TikTok nie daje już zwykłego konta firmowego, a weryfikacja firmy wymaga działalności). Klikalny link w profilu pojawi się przy około 1000 obserwujących.
 Bio: Girlanda cedrowa jak prawdziwa 🌲 / Darmowa dostawa · 30 dni na zwrot / lesnykominek.pl/tiktok
-Zdjęcie profilowe: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6010b09a-9fcb-4e4d-bc8c-553c1207e7b2.jpg
+Zdjęcie profilowe: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/fa3639ca-3319-430e-b6d8-bda141e7ff1e.jpg
 
 Adres w bio (a przy 1000 obserwujących w polu „Strona internetowa”): `lesnykominek.pl/tiktok` (przekierowanie w Shopify na `/products/girlanda-cedrowa?utm_source=tiktok&utm_medium=organic&utm_campaign=girlanda_test1&utm_content=bio`)
 
