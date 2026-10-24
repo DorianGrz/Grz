@@ -13,5 +13,14 @@
   "obiekcja_dostawa": "e8523aac-7f86-42cb-8428-ff8a6a238791",
   "mechanizm": "feadda57-86ad-4adb-a1d5-8166236b14a0",
   "persona_2": "7d018690-bc2b-44da-b532-81938992e77e"
+ },
+ "v4_emily": {
+  "voice": "Emily 6b3e3642-f7b7-4cb8-9688-51e233c4b92f stability 0.3 similarity 0.8",
+  "persona_glowna_1": "51ad847e-7bcc-4b28-9915-387fd54865e4",
+  "persona_glowna_2": "1621e275-d963-4d85-af03-9fdea705a756",
+  "przed_po": "ea95a4a2-f4e6-4944-a717-7cbf3289741e",
+  "obiekcja_dostawa": "6db51b72-3701-40e1-ba2b-9bf55875d214",
+  "mechanizm": "703024d5-7d0e-4c5b-b5a1-13400d884b92",
+  "persona_2": "65e98cdf-cf59-4df4-9438-a61abef289d3"
  }
 }
