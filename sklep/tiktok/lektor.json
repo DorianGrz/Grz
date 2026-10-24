@@ -35,5 +35,14 @@
   "note": "v5 bez cen i bez \"zostań do końca\"; reszta filmów jak v5",
   "przed_po": "1efdbb15-9056-477a-98d3-31c249c909aa",
   "persona_2": "30ce9de0-767c-4c12-ba06-22809cddace4"
+ },
+ "v9_emily": {
+  "note": "koniec: Girlandę znajdziesz na leśny kominek kropka pe el.",
+  "persona_glowna_1": "32f55218-3bb8-4dcd-9866-922e9c5bf178",
+  "persona_glowna_2": "560315dc-29c8-48bd-b6f3-84dd4c122995",
+  "przed_po": "9f375395-d912-491b-8af5-82591bda1594",
+  "obiekcja_dostawa": "383732ef-61eb-444f-84df-fb059dde907f",
+  "mechanizm": "93fdaee3-7ecb-4192-b4df-81d807c6ef76",
+  "persona_2": "4681fff8-6f28-44c6-b3a4-105f771a55af"
  }
 }
