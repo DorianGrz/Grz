@@ -5,13 +5,13 @@ Gotowe filmy, wersja 9 (lektor Emily, hook z bólem widza, pełna historia, bez 
 | Film | Długość | Link |
 |---|---|---|
 | przed_po | 25 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/4312b886-fba0-4438-904d-eefc76cad51a.mp4 |
-| persona_glowna_1 | 32 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/bdf2843a-b1d2-406c-a912-897548c13e1f.mp4 |
+| persona_glowna_1 | 32 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/28347553-0253-4d86-8954-8c75bf83f9dd.mp4 |
 | mechanizm | 30 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c7c36242-2bfe-40f5-9f38-addc68eac686.mp4 |
 | persona_glowna_2 | 30 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/014cc2c9-7dea-4596-b9b1-492a9623fbc0.mp4 |
 | obiekcja_dostawa | 29 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/1b5defc7-a78f-4ab0-8507-3011a69eb755.mp4 |
 | persona_2 | 27 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/52a7b591-169b-4679-a2e2-e19b11b442a2.mp4 |
 
-Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6a355083-1198-4297-ae9d-f231bd0e9a68.zip
+Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/44c975dc-ab74-4dae-951c-41ec29ddfa82.zip
 
 Lektor: głos Emily (ElevenLabs v4, stabilność 0,3). Na końcu lektorka mówi „Girlandę znajdziesz na leśny kominek kropka pe el”, a na ekranie pojawia się duży adres lesnykominek.pl i „Darmowa dostawa · 30 dni na zwrot”. Starsze wersje są nadal w bibliotece Higgsfield.
 
