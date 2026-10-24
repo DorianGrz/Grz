@@ -21,7 +21,7 @@ Profil: nazwa „Leśny Kominek”, nazwa użytkownika @lesnykominek (zapasowo @
 Bio: Girlanda cedrowa gęsta jak prawdziwa 🌲 / Darmowa dostawa · 30 dni na zwrot / 👇 Sklep
 Zdjęcie profilowe: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a166a5ba-bd49-484c-8bad-0a54c7a452de.jpg
 
-Link w bio: `https://lesnykominek.pl/products/girlanda-cedrowa?utm_source=tiktok&utm_medium=organic&utm_campaign=girlanda_test1&utm_content=bio`
+Link w bio: `lesnykominek.pl/tiktok` (przekierowanie w Shopify na `/products/girlanda-cedrowa?utm_source=tiktok&utm_medium=organic&utm_campaign=girlanda_test1&utm_content=bio`)
 
 ## 1. SWIPE (co działa u konkurencji)
 
