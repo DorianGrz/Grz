@@ -163,3 +163,18 @@ Hashtagi: #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu #sprząta
 1. Opublikuj oba warianty w dwa różne dni o tej samej porze, o której szedł persona_glowna_2.
 2. Porównaj z persona_glowna_2: średni czas oglądania i procent osób do końca. Krótszy film z tym samym bólem powinien mieć wyższy procent do końca.
 3. Wariant, który wygra, rób dalej z nowymi bólami w pierwszym zdaniu (np. plątanina lampek, kot zrzuca gałązki, brak czasu).
+
+## Godziny i kolejność (8 nowych filmów, 2 dziennie)
+
+ZIP z 8 nowymi filmami (numer w nazwie = kolejność): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f90fde99-5c06-47c3-bf31-14feeaa41392.zip
+
+Pory: w tygodniu 12:30 i 19:30, w weekend 10:30 i 20:00. Zawsze te same godziny, żeby wyniki dało się porównać. Mocniejszy film wieczorem, bo wtedy ogląda najwięcej osób.
+
+| Dzień | 12:30 (weekend 10:30) | 19:30 (weekend 20:00) |
+|---|---|---|
+| 1 | girlanda_marzen | igly_krotka |
+| 2 | 4_pomysly | igly_dywan |
+| 3 | pov_5_minut | kiedys_vs_teraz |
+| 4 | nie_masz_kominka | zywe_galazki |
+
+Po 100 obserwujących sprawdź w Analityce TikToka zakładkę „Obserwujący” (godziny aktywności) i przesuń pory na najmocniejsze godziny.
