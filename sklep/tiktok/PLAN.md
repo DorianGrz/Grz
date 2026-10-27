@@ -88,3 +88,35 @@ Piksel TikTok przy darmowych filmach nie jest potrzebny. Sprzedaż z TikToka i t
 3. Film, po którym przyszło zamówienie albo najwięcej wejść w profil, to zwycięzca. Nagraj 2 jego wersje, zmieniając tylko jedną rzecz: hak, pierwsze ujęcie albo opis.
 4. Brak sprzedaży z żadnego filmu: zmień personę albo ofertę (np. Cały dom zamiast Kominek), nie produkt. Produkt zmieniamy dopiero po 2 nieudanych kątach.
 5. Nie usuwaj słabych filmów. Na TikToku filmy potrafią się rozkręcić po kilku dniach, a usunięcie psuje statystyki konta.
+
+## Krótkie filmy (wzór: @cudnydom i @glowlume5)
+
+Wnioski z dwóch reklam konkurencji: 6 do 14 sekund, sama muzyka i jeden napis, bez lektora, hook o domu, a nie o kominku, na końcu prośba o komentarz. Krótki film ludzie oglądają do końca i puszczają w pętli, a TikTok liczy właśnie czas oglądania.
+
+| Film | Długość | Link |
+|---|---|---|
+| girlanda_marzen | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/eacfd417-654f-4666-b869-06ddfe24826a.mp4 |
+| kiedys_vs_teraz | 15 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3e917f8b-c808-4cf7-846d-1441e6cd296f.mp4 |
+| caly_dom | 12 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e6b87e59-32c4-415f-9df5-248e199971cd.mp4 |
+
+Wszystkie 3 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/391d72d0-06d3-4d30-8696-bfa6d9213a92.zip
+
+Muzyka w plikach: pozytywka „O Tannenbaum” (melodia z domeny publicznej, zrobiona samodzielnie, skrypt `skrypty/muzyka.py`). Lepiej dodać w aplikacji popularny dźwięk świąteczny z biblioteki TikToka i ściszyć oryginał do 0%, bo popularne dźwięki dają większy zasięg. Jeśli nie znajdziesz pasującego, zostaw pozytywkę.
+
+### girlanda_marzen
+Opis: Marzy Ci się girlanda, która wygląda jak żywa? Gęsta, nie gubi igieł i posłuży na lata 🌲 Sklep: lesnykominek.pl
+Hashtagi: #girlanda #dekoracjeswiateczne #świętawdomu #girlandaświąteczna #dekoracjedomu
+
+### kiedys_vs_teraz
+Opis: Plątanina lampek i igły na dywanie albo jedna gęsta girlanda w 5 minut. Co wybierasz? 🌲 Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #dekoracjedomu #girlanda #świętawdomu #kiedyśvsteraz
+Odpowiedź na „CHCĘ”: Girlandę znajdziesz na lesnykominek.pl 🌲 Darmowa dostawa i 30 dni na zwrot.
+
+### caly_dom
+Opis: Schody, drzwi, kominek, stół. Jedna girlanda i cały dom gotowy na święta 🌲 Sklep: lesnykominek.pl
+Hashtagi: #dekoracjedomu #dekoracjeswiateczne #girlanda #schody #świętawdomu
+
+### Publikowanie
+1. Dalej 2 filmy dziennie, ale na zmianę: jeden krótki (z tej sekcji) i jeden dłuższy z lektorem. Po tygodniu porównaj w Analityce TikToka „Średni czas oglądania” i „Obejrzany cały film (%)”.
+2. 700 wyświetleń na nowym koncie to normalny start. Liczy się procent osób, które oglądają do końca. Przy krótkich filmach celuj w ponad 30%.
+3. Odpowiadaj na każdy komentarz w pierwszej godzinie. Pod „kiedys_vs_teraz” na „CHCĘ” odpisuj adresem sklepu.
