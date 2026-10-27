@@ -98,12 +98,11 @@ Wnioski z dwóch reklam konkurencji: 6 do 14 sekund, sama muzyka i jeden napis, 
 | girlanda_marzen | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/eacfd417-654f-4666-b869-06ddfe24826a.mp4 |
 | kiedys_vs_teraz | 15 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8d0f6304-41a1-49dd-acb9-b0bbf6b8aa67.mp4 |
 | 4_pomysly | 12 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b92b196a-d958-4fe5-b4bb-912a40f50c4f.mp4 |
-| prawdziwa_czy_sztuczna | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/56cc70d1-1c83-40ec-bd5c-9815a316ebcf.mp4 |
 | zywe_galazki | 9 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/9c47a08b-d46c-45fe-9af5-07c5da426764.mp4 |
 | pov_5_minut | 7 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/82e927be-26d6-49dd-a30c-a532107d9a86.mp4 |
 | nie_masz_kominka | 7 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f4632339-b7f2-45c8-8db4-06e3d9d56d29.mp4 |
 
-Wszystkie 7 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c8331025-6407-40f4-a78c-43a41cba8a96.zip
+Wszystkie 6 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c1d5bfcb-ae5d-4917-87d7-68e726435806.zip
 
 Muzyka w plikach: pozytywka „O Tannenbaum” (melodia z domeny publicznej, zrobiona samodzielnie, skrypt `skrypty/muzyka.py`). Lepiej dodać w aplikacji popularny dźwięk świąteczny z biblioteki TikToka i ściszyć oryginał do 0%, bo popularne dźwięki dają większy zasięg. Jeśli nie znajdziesz pasującego, zostaw pozytywkę.
 
@@ -120,11 +119,6 @@ Na końcu napis: Skomentuj „TAK”, jeśli taką chcesz. Odpowiedź na „TAK�
 Napisy: 4 pomysły na girlandę na święta / 1. Poręcz schodów / 2. Nad drzwiami / 3. Z bombkami i lampkami / 4. Na kominku / Który pomysł wybierasz?
 Opis: 4 pomysły, gdzie powiesić girlandę na święta. Który wybierasz: 1, 2, 3 czy 4? 🌲 Sklep: lesnykominek.pl
 Hashtagi: #dekoracjedomu #dekoracjeswiateczne #girlanda #schody #świętawdomu
-
-### prawdziwa_czy_sztuczna
-Napisy: Prawdziwa czy sztuczna? / Sztuczna. Nie usycha i nie gubi igieł
-Opis: Zgadłaś od razu? Napisz w komentarzu 👇 Sklep: lesnykominek.pl 🌲
-Hashtagi: #girlanda #dekoracjeswiateczne #zgadnij #świętawdomu #dekoracjedomu
 
 ### zywe_galazki
 Napisy: Żywe gałązki po tygodniu… / A ta wygląda tak samo aż do stycznia / Żywa czy sztuczna? Napisz w komentarzu

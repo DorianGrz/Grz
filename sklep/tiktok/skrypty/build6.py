@@ -31,9 +31,6 @@ V={
   [(0,11.8,['4 pomysły na girlandę','na święta'],None,200),(0,2.6,['1. Poręcz schodów'],None,860),(2.6,4.8,['2. Nad drzwiami'],None,860),(4.8,6.8,['3. Z bombkami','i lampkami'],None,860),(6.8,9.2,['4. Na kominku'],None,860),(9.2,11.8,['Który pomysł','wybierasz?'],'lesnykominek.pl',860)]),
 }
 V.update({
-'prawdziwa_czy_sztuczna':(
-  [('c9',2.8,0.4),('c10',2.6,0.4),('c7',2.8,0.6)],
-  [(0,5.4,['Prawdziwa','czy sztuczna?'],None,280),(5.4,8.2,['Sztuczna.','Nie usycha','i nie gubi igieł'],None,280),(5.4,8.2,[],'lesnykominek.pl',None)]),
 'zywe_galazki':(
   [('c12',2.2,0.5),('c2',1.6,0.8),('c10',2.6,0.4),('c11',2.6,0.5)],
   [(0,3.8,['Żywe gałązki','po tygodniu…'],None,280),(3.8,6.4,['A ta wygląda tak samo','aż do stycznia'],None,280),(6.4,9.0,['Żywa czy sztuczna?','Napisz w komentarzu'],'lesnykominek.pl',280)]),
