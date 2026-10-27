@@ -139,3 +139,27 @@ Hashtagi: #dekoracjedomu #dekoracjeswiateczne #mieszkanie #girlanda #schody
 1. Dalej 2 filmy dziennie, ale na zmianę: jeden krótki (z tej sekcji) i jeden dłuższy z lektorem. Po tygodniu porównaj w Analityce TikToka „Średni czas oglądania” i „Obejrzany cały film (%)”.
 2. 700 wyświetleń na nowym koncie to normalny start. Liczy się procent osób, które oglądają do końca. Przy krótkich filmach celuj w ponad 30%.
 3. Odpowiadaj na każdy komentarz w pierwszej godzinie. Pod „kiedys_vs_teraz” na „TAK” odpisuj adresem sklepu, a pod „4_pomysly” odpowiadaj na wybrane numery.
+
+## Wyniki i warianty zwycięzcy
+
+Najlepszy film po pierwszym tygodniu: persona_glowna_2, średni czas oglądania ok. 6 s i najwięcej osób do końca. Działa ból widza z jego domu: żywe gałązki usychają, a igły lądują na dywanie. Ludzie odpadają mniej więcej wtedy, gdy zaczyna się opis produktu, więc w wariantach rozwiązanie pada szybciej, a całość ma 14 do 17 s.
+
+| Film | Długość | Link |
+|---|---|---|
+| igly_krotka | 17 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f42c1cb9-ee32-4fdf-aee6-83d7a18104fd.mp4 |
+| igly_dywan | 14 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b653257d-f5b5-4628-9d5c-7048682cac18.mp4 |
+
+### igly_krotka
+Lektor: Co roku kupujesz żywe gałązki na kominek? To zobacz, jak wyglądają po tygodniu. Suche, brązowe, a igły są wszędzie. Ta girlanda wygląda jak żywa, ale nie usycha i nie gubi igieł. Znajdziesz ją na leśny kominek kropka pe el.
+Opis: Koniec z zamiataniem igieł 🌲 Wygląda jak żywa, nie usycha i posłuży na kolejne święta. Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #sztucznagirlanda #świętawdomu #dekoracjedomu
+
+### igly_dywan
+Lektor: Ile razy w zeszłym roku zamiatałaś igły z dywanu? Żywe gałązki usychają już po tygodniu. Ta girlanda nie. Wygląda jak żywa i posłuży ci na kolejne święta. Znajdziesz ją na leśny kominek kropka pe el.
+Opis: Igły w dywanie do lutego? W tym roku bez tego 🌲 Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu #sprzątanie
+
+### Jak testować
+1. Opublikuj oba warianty w dwa różne dni o tej samej porze, o której szedł persona_glowna_2.
+2. Porównaj z persona_glowna_2: średni czas oglądania i procent osób do końca. Krótszy film z tym samym bólem powinien mieć wyższy procent do końca.
+3. Wariant, który wygra, rób dalej z nowymi bólami w pierwszym zdaniu (np. plątanina lampek, kot zrzuca gałązki, brak czasu).

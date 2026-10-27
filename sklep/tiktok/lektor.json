@@ -44,5 +44,9 @@
   "obiekcja_dostawa": "383732ef-61eb-444f-84df-fb059dde907f",
   "mechanizm": "93fdaee3-7ecb-4192-b4df-81d807c6ef76",
   "persona_2": "4681fff8-6f28-44c6-b3a4-105f771a55af"
+ },
+ "warianty_igly": {
+  "igly_krotka": "28977abe-2819-4f27-b28a-d3fd5e3a18af",
+  "igly_dywan": "321374b9-f5a4-4970-90d7-e2b026269e6e"
  }
 }
