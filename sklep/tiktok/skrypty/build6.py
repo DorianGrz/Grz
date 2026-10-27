@@ -26,10 +26,24 @@ V={
 'kiedys_vs_teraz':(
   [('c14',2.4,0.5),('c12',1.8,0.6),('c2',1.4,0.8),('c5',1.4,0.2),('c7',1.5,0.6),('c10',1.8,0.5),('c11',1.8,0.6),('c3',2.6,0.6)],
   [(0,5.6,['Dekorowanie domu','kiedyś…'],None,280),(5.6,7.0,['Vs…'],None,280),(7.0,12.1,['Dekorowanie domu','teraz'],None,280),(12.1,14.7,['Skomentuj „TAK”,','jeśli taką chcesz'],'lesnykominek.pl',280)]),
-'caly_dom':(
+'4_pomysly':(
   [('c10',2.6,0.3),('c11',2.2,0.6),('c9',2.0,0.6),('c1',5.0,0.8)],
   [(0,11.8,['4 pomysły na girlandę','na święta'],None,200),(0,2.6,['1. Poręcz schodów'],None,860),(2.6,4.8,['2. Nad drzwiami'],None,860),(4.8,6.8,['3. Z bombkami','i lampkami'],None,860),(6.8,9.2,['4. Na kominku'],None,860),(9.2,11.8,['Który pomysł','wybierasz?'],'lesnykominek.pl',860)]),
 }
+V.update({
+'prawdziwa_czy_sztuczna':(
+  [('c9',2.8,0.4),('c10',2.6,0.4),('c7',2.8,0.6)],
+  [(0,5.4,['Prawdziwa','czy sztuczna?'],None,280),(5.4,8.2,['Sztuczna.','Nie usycha','i nie gubi igieł'],None,280),(5.4,8.2,[],'lesnykominek.pl',None)]),
+'zywe_galazki':(
+  [('c12',2.2,0.5),('c2',1.6,0.8),('c10',2.6,0.4),('c11',2.6,0.5)],
+  [(0,3.8,['Żywe gałązki','po tygodniu…'],None,280),(3.8,6.4,['A ta wygląda tak samo','aż do stycznia'],None,280),(6.4,9.0,['Żywa czy sztuczna?','Napisz w komentarzu'],'lesnykominek.pl',280)]),
+'pov_5_minut':(
+  [('c5',1.6,0.2),('c7',2.0,0.5),('c8',3.4,0.4)],
+  [(0,7.0,['POV: dekorujesz dom','na święta w 5 minut'],None,240),(4.6,7.0,['Zapisz, żeby','nie zapomnieć'],'lesnykominek.pl',860)]),
+'nie_masz_kominka':(
+  [('c15',2.0,0.3),('c10',2.6,0.4),('c11',2.6,0.5)],
+  [(0,2.0,['Nie masz kominka?'],None,280),(2.0,4.6,['Powieś girlandę','na schodach'],None,280),(4.6,7.2,['albo nad drzwiami'],None,280),(4.6,7.2,['Gdzie powiesisz swoją?'],'lesnykominek.pl',860)]),
+})
 def make(name):
     segs,caps=V[name]; total=sum(s[1] for s in segs)
     inp=[]; fil=[]
