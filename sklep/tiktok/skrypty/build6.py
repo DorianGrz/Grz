@@ -25,10 +25,10 @@ V={
   [(0,8.0,['Kiedy w końcu znalazłaś','girlandę, która wygląda','jak żywa…'],None,300),(5.2,8.0,[],'lesnykominek.pl',None)]),
 'kiedys_vs_teraz':(
   [('c14',2.4,0.5),('c12',1.8,0.6),('c2',1.4,0.8),('c5',1.4,0.2),('c7',1.5,0.6),('c10',1.8,0.5),('c11',1.8,0.6),('c3',2.6,0.6)],
-  [(0,5.6,['Dekorowanie domu','kiedyś…'],None,280),(5.6,7.0,['Vs…'],None,280),(7.0,12.1,['Dekorowanie domu','teraz'],None,280),(12.1,14.7,['Napisz „CHCĘ”','w komentarzu'],'lesnykominek.pl',280)]),
+  [(0,5.6,['Dekorowanie domu','kiedyś…'],None,280),(5.6,7.0,['Vs…'],None,280),(7.0,12.1,['Dekorowanie domu','teraz'],None,280),(12.1,14.7,['Skomentuj „TAK”,','jeśli taką chcesz'],'lesnykominek.pl',280)]),
 'caly_dom':(
   [('c10',2.6,0.3),('c11',2.2,0.6),('c9',2.0,0.6),('c1',5.0,0.8)],
-  [(0,2.6,['Jedna girlanda','i cały dom gotowy','na święta'],None,280),(2.6,4.8,['Drzwi'],None,280),(4.8,6.8,['Z bombkami'],None,280),(6.8,9.2,['Kominek'],None,280),(9.2,11.8,['Od którego miejsca','zaczynasz?'],'lesnykominek.pl',280)]),
+  [(0,11.8,['4 pomysły na girlandę','na święta'],None,200),(0,2.6,['1. Poręcz schodów'],None,860),(2.6,4.8,['2. Nad drzwiami'],None,860),(4.8,6.8,['3. Z bombkami','i lampkami'],None,860),(6.8,9.2,['4. Na kominku'],None,860),(9.2,11.8,['Który pomysł','wybierasz?'],'lesnykominek.pl',860)]),
 }
 def make(name):
     segs,caps=V[name]; total=sum(s[1] for s in segs)

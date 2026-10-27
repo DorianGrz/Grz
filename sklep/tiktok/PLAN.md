@@ -96,10 +96,10 @@ Wnioski z dwóch reklam konkurencji: 6 do 14 sekund, sama muzyka i jeden napis, 
 | Film | Długość | Link |
 |---|---|---|
 | girlanda_marzen | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/eacfd417-654f-4666-b869-06ddfe24826a.mp4 |
-| kiedys_vs_teraz | 15 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3e917f8b-c808-4cf7-846d-1441e6cd296f.mp4 |
-| caly_dom | 12 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e6b87e59-32c4-415f-9df5-248e199971cd.mp4 |
+| kiedys_vs_teraz | 15 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8d0f6304-41a1-49dd-acb9-b0bbf6b8aa67.mp4 |
+| 4_pomysly | 12 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b92b196a-d958-4fe5-b4bb-912a40f50c4f.mp4 |
 
-Wszystkie 3 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/391d72d0-06d3-4d30-8696-bfa6d9213a92.zip
+Wszystkie 3 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e1fb8b37-f281-4a5b-b135-9407e549b470.zip
 
 Muzyka w plikach: pozytywka „O Tannenbaum” (melodia z domeny publicznej, zrobiona samodzielnie, skrypt `skrypty/muzyka.py`). Lepiej dodać w aplikacji popularny dźwięk świąteczny z biblioteki TikToka i ściszyć oryginał do 0%, bo popularne dźwięki dają większy zasięg. Jeśli nie znajdziesz pasującego, zostaw pozytywkę.
 
@@ -110,13 +110,14 @@ Hashtagi: #girlanda #dekoracjeswiateczne #świętawdomu #girlandaświąteczna #d
 ### kiedys_vs_teraz
 Opis: Plątanina lampek i igły na dywanie albo jedna gęsta girlanda w 5 minut. Co wybierasz? 🌲 Sklep: lesnykominek.pl
 Hashtagi: #dekoracjeswiateczne #dekoracjedomu #girlanda #świętawdomu #kiedyśvsteraz
-Odpowiedź na „CHCĘ”: Girlandę znajdziesz na lesnykominek.pl 🌲 Darmowa dostawa i 30 dni na zwrot.
+Na końcu napis: Skomentuj „TAK”, jeśli taką chcesz. Odpowiedź na „TAK”: Girlandę znajdziesz na lesnykominek.pl 🌲 Darmowa dostawa i 30 dni na zwrot.
 
-### caly_dom
-Opis: Schody, drzwi, kominek, stół. Jedna girlanda i cały dom gotowy na święta 🌲 Sklep: lesnykominek.pl
+### 4_pomysly
+Napisy: 4 pomysły na girlandę na święta / 1. Poręcz schodów / 2. Nad drzwiami / 3. Z bombkami i lampkami / 4. Na kominku / Który pomysł wybierasz?
+Opis: 4 pomysły, gdzie powiesić girlandę na święta. Który wybierasz: 1, 2, 3 czy 4? 🌲 Sklep: lesnykominek.pl
 Hashtagi: #dekoracjedomu #dekoracjeswiateczne #girlanda #schody #świętawdomu
 
 ### Publikowanie
 1. Dalej 2 filmy dziennie, ale na zmianę: jeden krótki (z tej sekcji) i jeden dłuższy z lektorem. Po tygodniu porównaj w Analityce TikToka „Średni czas oglądania” i „Obejrzany cały film (%)”.
 2. 700 wyświetleń na nowym koncie to normalny start. Liczy się procent osób, które oglądają do końca. Przy krótkich filmach celuj w ponad 30%.
-3. Odpowiadaj na każdy komentarz w pierwszej godzinie. Pod „kiedys_vs_teraz” na „CHCĘ” odpisuj adresem sklepu.
+3. Odpowiadaj na każdy komentarz w pierwszej godzinie. Pod „kiedys_vs_teraz” na „TAK” odpisuj adresem sklepu, a pod „4_pomysly” odpowiadaj na wybrane numery.
