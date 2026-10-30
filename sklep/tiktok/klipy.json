@@ -51,5 +51,16 @@
   "13": "pusty kominek, obrót",
   "14": "splątane lampki i klej",
   "15": "mieszkanie bez kominka"
+ },
+ "nowe_2026_10_30": {
+  "n0_puste_schody": "18d3b748-3d56-429a-a5c9-7523926e9709",
+  "n1_ukladanie": "6a1615bd-1679-43ed-a525-697f81a761ad",
+  "n2_schody_wieczorem": "3ae69a2c-c30e-49f3-820a-224a5df58ffa",
+  "n3_tania_girlanda": "3d1c4b80-0df8-4319-8a1f-bd58e2e8c9b5",
+  "n4_sciskanie": "0ddeba33-cab0-4e90-9c4f-662ef8feb7f9",
+  "n5_kot_zrzuca": "1621fbc6-2325-4a5f-8a82-c75d82995ab6",
+  "n6_kot_winny": "db44d818-2dab-4806-8e8e-46779bcefafa",
+  "kadr_puste_schody": "abb98c22-6e25-4e47-a210-38bf2a17d8ce",
+  "kadr_schody_wieczorem": "895955a7-1aae-40a7-bb29-6e05cbc42664"
  }
 }

@@ -178,3 +178,39 @@ Pory: w tygodniu 12:30 i 19:30, w weekend 10:30 i 20:00. Zawsze te same godziny,
 | 4 | nie_masz_kominka | zywe_galazki |
 
 Po 100 obserwujących sprawdź w Analityce TikToka zakładkę „Obserwujący” (godziny aktywności) i przesuń pory na najmocniejsze godziny.
+
+## Nowe ujęcia: schody, porównanie, kot (wzór: 6 viralowych filmów z girlandą)
+
+Wnioski z filmów, które przysłał Dorian (58 tys. do 3,1 mln wyświetleń): 4 z 6 pokazują schody, wszędzie jest przemiana albo efekt końcowy, girlanda jest przystrojona (kokardy, lampki), a najwięcej wyświetleń ma hook-ostrzeżenie „Nie popełnij błędu…” z porównaniem.
+
+| Film | Długość | Link |
+|---|---|---|
+| schody_przemiana | 10 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6f5d9129-fc32-411a-8e6f-d0ca81eacb85.mp4 |
+| nie_popelnij_bledu | 15 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/086ecad9-566a-4bc4-a972-7cbdbdd992c7.mp4 |
+| kot_vs_galazki | 10 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/7cc2fe58-d2f7-4132-9c4a-7a74e031bfa8.mp4 |
+| schody_wieczorem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/1f171c21-6286-469b-9947-a0c91ff357ef.mp4 |
+
+Wszystkie 4 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ff2a093d-2262-4310-8d6c-80399c0d2227.zip
+
+W każdym opisie zostaw zdanie „Kokardy i lampki nie są w zestawie”, bo na filmach girlanda jest przystrojona.
+
+### schody_przemiana
+Napisy: Dodajmy girlandę na schody / Z kokardami czy bez?
+Opis: Puste schody czy świąteczne? 🌲 Kokardy i lampki nie są w zestawie. Sklep: lesnykominek.pl
+Hashtagi: #schody #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu
+
+### nie_popelnij_bledu
+Lektor: Nie popełnij tego błędu przy kupnie girlandy. Tania i jaskrawozielona wygląda sztucznie już z daleka. Ta jest gęsta i ma naturalny kolor cedru. Wygląda jak żywa. Znajdziesz ją na leśny kominek kropka pe el.
+Opis: Zanim kupisz girlandę, zobacz to 🌲 Kokardy i lampki nie są w zestawie. Sklep: lesnykominek.pl
+Hashtagi: #girlanda #dekoracjeswiateczne #porada #świętawdomu #dekoracjedomu
+
+### kot_vs_galazki
+Napisy: Grudzień z żywymi gałązkami… / Kot: to nie ja / Ta girlanda nie gubi igieł / Kto ma takiego kota?
+Opis: Kot 1 : gałązki 0 😅 W tym roku bez igieł na podłodze 🌲 Kokardy i lampki nie są w zestawie. Sklep: lesnykominek.pl
+Hashtagi: #kot #kotnatiktoku #dekoracjeswiateczne #girlanda #świętawdomu
+
+### schody_wieczorem
+Napisy: Tak mogą wyglądać Twoje schody w grudniu / Zapisz na grudzień
+Opis: Schody w grudniu 🌲 Kokardy i lampki nie są w zestawie. Sklep: lesnykominek.pl
+Hashtagi: #schody #dekoracjeswiateczne #girlanda #świętawdomu #cozy
+
