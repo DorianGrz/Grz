@@ -42,3 +42,8 @@ Gdy przyjdą pierwsze prawdziwe opinie, dodaj je w edytorze motywu w sekcji „L
 - Najtańsze metody (TDPacket Ordinary Promo 7–15 dni) nie mieszczą się w obietnicy, nie używać.
 - Drążek rozporowy odrzucony: z girlandą paczka staje się gabarytowa (YUN-Oversize 64,36 $).
 - Przy pierwszym prawdziwym zamówieniu przed zapłatą w Teemdrop sprawdzić wybraną metodę i koszt.
+
+## Kod START10 (aktywny 1–8.11.2026)
+
+- 10% na wszystko, raz na klienta, do 8.11.2026 23:59 (czas polski). Shopify: DiscountCodeNode 2311849804110.
+- Zysk z kodem: Kominek ok. 33 zł, Cały dom ok. 66 zł.
