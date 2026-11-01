@@ -32,3 +32,13 @@ Sklep online > Preferencje: usuń hasło sklepu.
 
 ## 7. Opinie
 Gdy przyjdą pierwsze prawdziwe opinie, dodaj je w edytorze motywu w sekcji „LK Opinie”. Sekcja pojawi się sama.
+
+## Koszty i wysyłka (sprawdzone w koszyku Teemdrop, 1.11.2026)
+
+- Girlanda w Teemdrop: SKU SU00039869-A6, jedna sztuka = komplet 2 × 1,5 m, 820 g, 7,33 $.
+- Kominek (1 szt. TD): 7,33 $ + wysyłka YUN-Fast-EconoLink 23,43 $ = 30,76 $ (ok. 114 zł). Cena 169 zł, zysk ok. 50 zł.
+- Cały dom (2 szt. TD): 14,66 $ + 37,71 $ = 52,37 $ (ok. 194 zł). Cena 299 zł, zysk ok. 96 zł.
+- Teemdrop → Settings → Logistics Preference: Time (Fast-Slow). Najszybsza metoda do Polski to YUN-Fast-EconoLink (3–5 dni transportu, 1–3 dni przygotowania), więc obietnica 4–8 dni roboczych jest realna.
+- Najtańsze metody (TDPacket Ordinary Promo 7–15 dni) nie mieszczą się w obietnicy, nie używać.
+- Drążek rozporowy odrzucony: z girlandą paczka staje się gabarytowa (YUN-Oversize 64,36 $).
+- Przy pierwszym prawdziwym zamówieniu przed zapłatą w Teemdrop sprawdzić wybraną metodę i koszt.
