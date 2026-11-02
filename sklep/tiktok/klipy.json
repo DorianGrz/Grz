@@ -62,5 +62,21 @@
   "n6_kot_winny": "db44d818-2dab-4806-8e8e-46779bcefafa",
   "kadr_puste_schody": "abb98c22-6e25-4e47-a210-38bf2a17d8ce",
   "kadr_schody_wieczorem": "895955a7-1aae-40a7-bb29-6e05cbc42664"
+ },
+ "aesthetic_2026_11_02": {
+  "k1_szafka_rtv": "c02d2753-f15c-46ff-94bb-ec68eaf3b49d",
+  "k2_nad_stolem": "225ddb36-e520-445b-891a-9cace84d4845",
+  "k3_nad_lozkiem": "2405826f-97bc-493f-8c60-6b8a508dcfd5",
+  "kadry_start_prefiksy": {
+   "k1": "b1c8d1ba",
+   "k2": "579e674f",
+   "k3": "d86dc4d2"
+  },
+  "gotowe_filmy": {
+   "szafka_rtv": "248d7693-7027-4087-b71c-d32c13767384",
+   "nad_stolem": "54515201-739a-40e3-8e95-0e57110e010f",
+   "nad_lozkiem": "377c6d3f-24a4-49e7-ad0a-04ae907a9cee",
+   "zip": "ad15efb8-9069-44bb-83aa-565ca7494fc3"
+  }
  }
 }

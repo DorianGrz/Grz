@@ -214,3 +214,35 @@ Napisy: Tak mogą wyglądać Twoje schody w grudniu / Zapisz na grudzień
 Opis: Schody w grudniu 🌲 Kokardy i lampki nie są w zestawie. Sklep: lesnykominek.pl
 Hashtagi: #schody #dekoracjeswiateczne #girlanda #świętawdomu #cozy
 
+
+## Filmy „aesthetic” wieczorem (wzór: emily_anne_finds, mrsgibsonhome, jeanny.neutralhomedecor, vanessamendeez, kevinmaleval)
+
+Wspólne cechy viralowych filmów: wieczór, ciepłe światło, przytulne wnętrze, mały elegancki napis na środku, muzyka, jedno ujęcie bez cięć, bez hooka z problemem. Nie kopiujemy haseł „wyprzedaje się” ani „viralowa”, bo to nieprawda. Zamiast tego prawdziwy termin: zamów do 10 grudnia.
+
+| Film | Długość | Link |
+|---|---|---|
+| szafka_rtv | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/248d7693-7027-4087-b71c-d32c13767384.mp4 |
+| nad_stolem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/54515201-739a-40e3-8e95-0e57110e010f.mp4 |
+| nad_lozkiem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/377c6d3f-24a4-49e7-ad0a-04ae907a9cee.mp4 |
+
+Wszystkie 3 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ad15efb8-9069-44bb-83aa-565ca7494fc3.zip
+
+Koniec każdego filmu (od 3,2 s): „lesnykominek.pl” i „Zamów do 10 grudnia, zdąży na święta”.
+Kod START10 działa do niedzieli 8 listopada, więc dopisuj go do opisu tylko do tego dnia.
+
+### szafka_rtv
+Napis: Twój znak, żeby w tym roku mieć taką girlandę
+Opis: Twój znak na te święta 🌲✨ Lampki i kokardy nie są w zestawie. Z kodem START10 masz 10% taniej do 8 listopada. Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #cozyhome #świętawdomu #dekoracjedomu
+
+### nad_stolem
+Napis: Jedyna dekoracja, jakiej potrzebujesz na święta
+Opis: Jedna girlanda i cały salon w klimacie świąt 🌲 Lampki i kokardy nie są w zestawie. Z kodem START10 masz 10% taniej do 8 listopada. Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #salon #świętawdomu #cozy
+
+### nad_lozkiem
+Napis: Taka puszysta… a wygląda jak żywa
+Opis: Wygląda jak żywa, a nie gubi igieł 🌲 Lampki i kokardy nie są w zestawie. Z kodem START10 masz 10% taniej do 8 listopada. Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #sypialnia #cozyhome #świętawdomu
+
+Wrzucaj je w wieczornym slocie (19:30, w weekend 20:00) i porównaj z zywe_galazki po 2 dniach.
