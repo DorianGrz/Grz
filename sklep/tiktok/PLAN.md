@@ -304,3 +304,9 @@ Hashtagi: #dekoracjeswiateczne #girlanda #sztucznagirlanda #świętawdomu #dekor
 
 Do 8 listopada możesz dopisać do każdego opisu: „Z kodem START10 masz 10% taniej do 8 listopada.”
 Na każdy komentarz „żywa” lub „sztuczna” odpisz w pierwszej godzinie: „Sztuczna 😊 Wygląda jak żywa, a nie gubi igieł. Znajdziesz ją na lesnykominek.pl”.
+
+## Aktualna paczka do publikacji (3.11, napisy wyśrodkowane)
+
+Wszystkie 9 filmów z wyśrodkowanymi napisami, ułożone według planu wrzucania, z plikiem opisów i godzin:
+https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/46daee27-7295-4748-a9ca-37156722e34d.zip
+Ta paczka zastępuje wcześniejsze linki do tych 9 filmów.

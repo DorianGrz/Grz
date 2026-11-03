@@ -7,7 +7,7 @@ def font(pat):
 SERIF_I=font('P052-Italic'); SERIF_B=font('P052-Bold')
 C='/home/user/n2/clips/'
 # strefa bezpieczna TikToka w 720x1280: góra od ~110 px, dół do ~950 px, prawa krawędź do ~630 px
-CX=340
+CX=360
 def card(lines, out, size=46, small=None, y=None, fnt=None):
     im=Image.new('RGBA',(720,1280),(0,0,0,0)); f=ImageFont.truetype(fnt or SERIF_I,size); d=ImageDraw.Draw(im)
     lh=int(size*1.25); H=lh*len(lines); y0=y if y is not None else 620-H//2

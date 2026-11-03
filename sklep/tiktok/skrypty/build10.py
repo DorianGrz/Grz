@@ -7,7 +7,7 @@ def font(pat):
 SERIF_I=font('P052-Italic'); SERIF_B=font('P052-Bold')
 C='/home/user/n2/clips/'
 # strefa bezpieczna TikToka w 720x1280: góra od ~110 px, dół do ~950 px, prawa krawędź do ~630 px
-CX=340
+CX=360
 def card(lines, out, size=50, small=None, y=None, fnt=None):
     im=Image.new('RGBA',(720,1280),(0,0,0,0)); f=ImageFont.truetype(fnt or SERIF_I,size); d=ImageDraw.Draw(im)
     lh=int(size*1.25); H=lh*len(lines); y0=y if y is not None else 620-H//2
@@ -28,7 +28,7 @@ def card(lines, out, size=50, small=None, y=None, fnt=None):
             f2=ImageFont.truetype(SERIF_B if k==0 else SERIF_I,sz); w=d.textlength(t,font=f2)
             d.text(((CX*2-w)/2,y0+H+30+k*int(sz*1.4)),t,font=f2,fill=(245,225,180,255) if k==0 else (255,255,255,240))
     im.save(out)
-CTA=[('lesnykominek.pl',48),('Zamów do 10 grudnia, zdąży na święta',34)]
+CTA=[('lesnykominek.pl',46),('Zamów do 10 grudnia, zdąży na święta',32)]
 Y=135
 V={
 'schody_przejazd':('p1',8.0,[(0,5.2,['Tak mogą wyglądać','Twoje schody w te święta'],None),(5.2,8.0,[],CTA)]),

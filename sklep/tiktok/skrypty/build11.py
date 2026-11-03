@@ -5,7 +5,7 @@ from PIL import Image, ImageDraw, ImageFont
 F=[l.split(':')[0] for l in subprocess.run(['fc-list'],capture_output=True,text=True).stdout.splitlines() if 'Montserrat-ExtraBold' in l][0]
 C='/home/user/n2/clips/'
 # strefa bezpieczna TikToka w 720x1280: góra od ~110 px, dół do ~950 px, prawa krawędź do ~630 px
-CX=340; MAXW=560
+CX=360; MAXW=540
 def card(lines, out, y=150, size=58, small=None, ys=None):
     im=Image.new('RGBA',(720,1280),(0,0,0,0)); d=ImageDraw.Draw(im)
     sz=size
