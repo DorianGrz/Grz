@@ -18,11 +18,11 @@
   "lk-g5-packshot.webp"
  ],
  "na_sklepie_kolejnosc": {
-  "1_kominek_cegla": "234815_0b397820-c16b-4a9c-b98d-afa1deb1c64b.png (MediaImage 75101708648782, wariant Kominek)",
+  "1_kominek_cegla": "hf_20261103_000346_e6f04575-4ada-447f-badd-40ff6bfbdad9.png (poprawka: belka nie wystaje z lewej; plik girlanda-cedrowa-kominek.png, MediaImage 75101708648782, wariant Kominek)",
   "2_dlonie_zblizenie": "233654_4243b6a7-d373-4781-8bab-ee60212cf5e5.png (75101708681550)",
   "3_komoda_lustro": "234815_f38ca85d-42a0-4f1e-b918-31cae170950e.png (75101708714318)",
-  "4_schody_dzien": "234816_7b1921ec-cbb6-4152-9234-ef9e9b9a3452.png (75101708747086)",
-  "5_drzwi": "233654_d4532ad8-1556-4fd4-a6a3-77b1f1c6506d.png (75101708779854, wariant Cały dom)",
+  "4_schody_dzien": "234816_7b1921ec-cbb6-4152-9234-ef9e9b9a3452.png (75101708747086, wariant Cały dom)",
+  "5_drzwi": "233654_d4532ad8-1556-4fd4-a6a3-77b1f1c6506d.png (75101708779854)",
   "6_cala_dlugosc": "233655_5c9f07bb-414e-485d-a83b-1aaff242d3da.png (75101708812622)"
  },
  "nieuzyte": {
@@ -30,7 +30,9 @@
   "komoda_v1": "233655_7409a5ff...",
   "schody_lampki_v1": "233654_88bd47da...",
   "kominek_v2": "234816_41a4630d...",
-  "schody_lampki_v2": "234814_2f9d0b25..."
+  "schody_lampki_v2": "234814_2f9d0b25...",
+  "kominek_cegla_v1_belka_wystaje": "234815_0b397820-c16b-4a9c-b98d-afa1deb1c64b.png",
+  "kominek_cegla_poprawka_v2": "20261103_000346_fb034126-04ab-41ff-a8c2-ffa56e6a6aac.png"
  },
  "sekcje_strony_podmienione": {
   "g-lk-schody.webp": "z 234816_7b1921ec (MediaImage 74603763401038)",
