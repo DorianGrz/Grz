@@ -33,10 +33,12 @@ Y=135
 V={
 'schody_przejazd':('p1',8.0,[(0,5.2,['Tak mogą wyglądać','Twoje schody w te święta'],None),(5.2,8.0,[],CTA)]),
 'kominek_przejazd':('p2',8.0,[(0,5.2,['Wystarczyła girlanda,','żeby poczuć święta'],None),(5.2,8.0,[],CTA)]),
+# wersja z ogniem od pierwszej sekundy: start klipu od 3,0 s
+'kominek_ogien':('p2',5.0,[(0,3.2,['Wystarczyła girlanda,','żeby poczuć święta'],None),(3.2,5.0,[],CTA)],3.0),
 }
 def make(name):
-    clip,total,caps=V[name]
-    inp=['-i',C+clip+'.mp4']; fil=[f"[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=30,setsar=1,trim=end={total},setpts=PTS-STARTPTS[v]"]; last='v'; idx=1
+    clip,total,caps,*rest=V[name]; ss=rest[0] if rest else 0
+    inp=['-ss',f'{ss}','-t',f'{total+0.1}','-i',C+clip+'.mp4']; fil=[f"[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=30,setsar=1,trim=end={total},setpts=PTS-STARTPTS[v]"]; last='v'; idx=1
     for k,(a,b,lines,small) in enumerate(caps):
         png=f'{name}_{k}.png'; card(lines,png,small=small,y=Y if lines else Y-20)
         inp+=['-loop','1','-t',f'{total}','-i',png]

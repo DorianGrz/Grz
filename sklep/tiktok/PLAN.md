@@ -310,3 +310,19 @@ Na każdy komentarz „żywa” lub „sztuczna” odpisz w pierwszej godzinie: 
 Wszystkie 9 filmów z wyśrodkowanymi napisami, ułożone według planu wrzucania, z plikiem opisów i godzin:
 https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/46daee27-7295-4748-a9ca-37156722e34d.zip
 Ta paczka zastępuje wcześniejsze linki do tych 9 filmów.
+
+## Wnioski z Facebooka (4 rolki, 2–3.11) i 2 nowe filmy
+
+| Film | Długość | Godz. | Wyświetlenia | Śr. czas | Ponad 3 s | Hasztagi |
+|---|---|---|---|---|---|---|
+| kot_vs_galazki | 10 s | 15:15 | 304 (1 dzień) | 4 s | 31% | 5 |
+| schody_wieczorem | 5 s | 20:15 | 1246 (1 dzień) | 2 s | 19% | 5 |
+| igly_schody | 8 s | 16:00 | 138 (7 godz.) | 4 s | 47% | 3 |
+| kominek_przejazd | 8 s | 19:45 | 251 (3 godz.) | 3 s | 19% | 3 |
+
+Wnioski: początek z igłami najlepiej trzyma widzów (47% ponad 3 s). Ładne, spokojne ujęcia tracą większość w 1. sekundzie. Najkrótszy film (5 s) dostał największy zasięg, rosnący przez noc. Wieczorne posty szybciej zbierają wyświetlenia. Hasztagi nie tłumaczą różnicy (kot też miał 5), ale na Facebooku dajemy już 5, żeby było równo.
+
+Nowe filmy (bez kredytów):
+- igly_schody_krotka 5,5 s: igły na dywanie 1,5 s, potem schody wieczorem ze śniegiem. https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/bc644c2b-72d5-48f8-ba27-09bb0047ec1f.mp4 (sobota 7.11, 20:00, TikTok i Facebook)
+- kominek_ogien 5 s: ogień płonie od pierwszej sekundy. https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/22800b77-901a-4621-a4b7-bbe8ed53fed1.mp4 (niedziela 8.11, TikTok 10:30, Facebook 11:00, ostatni dzień START10)
+ZIP z opisami: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3ee374bc-d3a6-4792-b349-7bbe0d12a5af.zip

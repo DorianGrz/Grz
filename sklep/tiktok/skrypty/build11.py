@@ -25,6 +25,10 @@ def card(lines, out, y=150, size=58, small=None, ys=None):
 END=['Żywa czy sztuczna?','Napisz w komentarzu']
 # segment: (klip, długość, start w klipie); napis: (od, do, linie, mały napis, y)
 V={
+# krótka wersja (jak schody_wieczorem 5 s) z początkiem z igłami
+'igly_schody_krotka':(
+  [('c12',1.5,0.5),('p1',4.0,4.0)],
+  [(0,1.5,['Żywe gałązki','po tygodniu…'],None,150),(1.5,3.7,['A ta przetrwa','całe święta'],None,150),(3.7,5.5,END,'lesnykominek.pl',150)]),
 'igly_ogien':(
   [('c12',2.2,0.5),('c2',1.4,0.8),('p2',4.4,1.6)],
   [(0,3.6,['Żywe gałązki','po tygodniu…'],None,150),(3.6,6.0,['A ta wygląda tak samo','aż do stycznia'],None,150),(6.0,8.0,END,'lesnykominek.pl',150)]),
