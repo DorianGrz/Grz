@@ -268,3 +268,39 @@ Hashtagi: #schody #dekoracjeswiateczne #girlanda #świętawdomu #cozyhome
 Napis: Wystarczyła girlanda, żeby poczuć święta
 Opis: Ogień, girlanda i od razu klimat świąt 🔥🌲 Z kodem START10 masz 10% taniej do 8 listopada. Sklep: lesnykominek.pl
 Hashtagi: #kominek #dekoracjeswiateczne #girlanda #świętawdomu #cozy
+
+## Nowe warianty zywe_galazki (bez kredytów)
+
+Na podstawie analityki: najlepiej działały igły na dywanie w pierwszej klatce i długość 8–9 s (zywe_galazki 16,2% do końca). Początek zostaje taki sam, a „po” to teraz nasze nowe ujęcia z efektem „wow” (ogień, schody wieczorem ze śniegiem). Nie ma ujęć ze zdjęć dostawcy. Napisy są w strefie bezpiecznej TikToka, a na końcu jest pytanie do komentarzy.
+
+| Film | Długość | Link |
+|---|---|---|
+| igly_ogien | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/82a877b7-0ea3-4300-82b9-6bdd04a6b188.mp4 |
+| igly_schody | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/0b82d7bc-4573-4df0-bf4b-e6b0ee1dd29d.mp4 |
+| igly_zamiatanie | 8 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6b7966d8-fade-42fb-b40e-8b1c4a45a512.mp4 |
+| zywe_galazki_2 | 9 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/35a1b74f-c9c6-4b29-b5d0-51dc0d864db5.mp4 |
+
+Wszystkie 4 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/61f27be1-9515-461c-9879-e3ca84708b4b.zip
+
+### igly_ogien
+Napisy: Żywe gałązki po tygodniu… / A ta wygląda tak samo aż do stycznia / Żywa czy sztuczna? Napisz w komentarzu
+Opis: Igły na dywanie co roku? Ta girlanda nie usycha i posłuży na kolejne święta 🌲🔥 Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #kominek #świętawdomu #dekoracjedomu
+
+### igly_schody
+Napisy: Żywe gałązki po tygodniu… / A ta przetrwa całe święta / Żywa czy sztuczna? Napisz w komentarzu
+Opis: Żywe gałązki usychają po tygodniu. Ta wygląda tak samo przez całe święta 🌲 Sklep: lesnykominek.pl
+Hashtagi: #schody #dekoracjeswiateczne #girlanda #świętawdomu #sztucznagirlanda
+
+### igly_zamiatanie
+Napisy: Ile igieł zamiotłaś w zeszłym roku? / W tym roku zero / Żywa czy sztuczna? Napisz w komentarzu
+Opis: W tym roku bez zamiatania igieł 🌲 Lampki nie są w zestawie. Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #sprzątanie #świętawdomu #dekoracjedomu
+
+### zywe_galazki_2
+Napisy: Żywe gałązki po tygodniu… / A ta wygląda tak samo aż do stycznia / Żywa czy sztuczna? Napisz w komentarzu
+Opis: Igły na dywanie co roku? Ta girlanda nie usycha i posłuży na kolejne święta 🌲 Sklep: lesnykominek.pl
+Hashtagi: #dekoracjeswiateczne #girlanda #sztucznagirlanda #świętawdomu #dekoracjedomu
+
+Do 8 listopada możesz dopisać do każdego opisu: „Z kodem START10 masz 10% taniej do 8 listopada.”
+Na każdy komentarz „żywa” lub „sztuczna” odpisz w pierwszej godzinie: „Sztuczna 😊 Wygląda jak żywa, a nie gubi igieł. Znajdziesz ją na lesnykominek.pl”.

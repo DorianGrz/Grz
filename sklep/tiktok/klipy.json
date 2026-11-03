@@ -87,5 +87,16 @@
    "kominek_przejazd": "3a8b69c3-29f7-4300-9d36-2920b2574264",
    "zip_5": "dfcd75d4-a38f-4302-b49c-e160e6131e23"
   }
+ },
+ "galazki_2026_11_03": {
+  "skrypt": "skrypty/build11.py",
+  "klipy": "c12, c2 (stare) + p1, p2, k1, k3",
+  "gotowe_filmy": {
+   "igly_ogien": "82a877b7-0ea3-4300-82b9-6bdd04a6b188",
+   "igly_schody": "0b82d7bc-4573-4df0-bf4b-e6b0ee1dd29d",
+   "igly_zamiatanie": "6b7966d8-fade-42fb-b40e-8b1c4a45a512",
+   "zywe_galazki_2": "35a1b74f-c9c6-4b29-b5d0-51dc0d864db5",
+   "zip_4": "61f27be1-9515-461c-9879-e3ca84708b4b"
+  }
  }
 }
