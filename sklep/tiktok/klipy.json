@@ -73,10 +73,19 @@
    "k3": "d86dc4d2"
   },
   "gotowe_filmy": {
-   "szafka_rtv": "248d7693-7027-4087-b71c-d32c13767384",
-   "nad_stolem": "54515201-739a-40e3-8e95-0e57110e010f",
-   "nad_lozkiem": "377c6d3f-24a4-49e7-ad0a-04ae907a9cee",
-   "zip": "ad15efb8-9069-44bb-83aa-565ca7494fc3"
+   "szafka_rtv": "60cb7536-60f7-45ac-9ba2-93ba388854e1",
+   "nad_stolem": "7c528846-00e6-4569-ae79-6499c7c7545e",
+   "nad_lozkiem": "400cccf6-0d43-4303-ad68-527cf6fc8e32",
+   "uwaga": "wersje z napisami w strefie bezpiecznej TikToka (2026-11-03)"
+  }
+ },
+ "przejazd_2026_11_03": {
+  "p1_schody": "ed08e3c9-0951-4527-a97f-f4e748b7fdab (start: zdjęcie produktu 7b1921ec, 8 s)",
+  "p2_kominek": "402cd567-5448-45db-839e-637463b53d8a (start: zdjęcie produktu e6f04575, 8 s)",
+  "gotowe_filmy": {
+   "schody_przejazd": "580e3354-5786-472b-a640-232de623b2a0",
+   "kominek_przejazd": "3a8b69c3-29f7-4300-9d36-2920b2574264",
+   "zip_5": "dfcd75d4-a38f-4302-b49c-e160e6131e23"
   }
  }
 }

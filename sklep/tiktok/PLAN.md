@@ -221,11 +221,12 @@ Wspólne cechy viralowych filmów: wieczór, ciepłe światło, przytulne wnętr
 
 | Film | Długość | Link |
 |---|---|---|
-| szafka_rtv | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/248d7693-7027-4087-b71c-d32c13767384.mp4 |
-| nad_stolem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/54515201-739a-40e3-8e95-0e57110e010f.mp4 |
-| nad_lozkiem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/377c6d3f-24a4-49e7-ad0a-04ae907a9cee.mp4 |
+| szafka_rtv | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/60cb7536-60f7-45ac-9ba2-93ba388854e1.mp4 |
+| nad_stolem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/7c528846-00e6-4569-ae79-6499c7c7545e.mp4 |
+| nad_lozkiem | 5 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/400cccf6-0d43-4303-ad68-527cf6fc8e32.mp4 |
 
-Wszystkie 3 w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ad15efb8-9069-44bb-83aa-565ca7494fc3.zip
+Wszystkie 3 (razem z 2 filmami z przejazdem) w ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/dfcd75d4-a38f-4302-b49c-e160e6131e23.zip
+Napisy przesunięte w strefę bezpieczną TikToka (3.11).
 
 Koniec każdego filmu (od 3,2 s): „lesnykominek.pl” i „Zamów do 10 grudnia, zdąży na święta”.
 Kod START10 działa do niedzieli 8 listopada, więc dopisuj go do opisu tylko do tego dnia.
@@ -246,3 +247,24 @@ Opis: Wygląda jak żywa, a nie gubi igieł 🌲 Lampki i kokardy nie są w zest
 Hashtagi: #dekoracjeswiateczne #girlanda #sypialnia #cozyhome #świętawdomu
 
 Wrzucaj je w wieczornym slocie (19:30, w weekend 20:00) i porównaj z zywe_galazki po 2 dniach.
+
+## Filmy z przejazdem kamery i efektem „wow” (8 s)
+
+Pierwsza klatka to nasze zdjęcie ze strony produktu, więc girlanda w reklamie wygląda tak samo jak w sklepie. Kamera płynnie jedzie w bok, bez cięć. Na girlandzie nie ma lampek ani kokard.
+
+Napisy są w strefie bezpiecznej TikToka: pod górnym paskiem, z dala od przycisków po prawej i nad opisem na dole. Od 5,2 s w miejscu pierwszego napisu pojawia się „lesnykominek.pl” i „Zamów do 10 grudnia, zdąży na święta”.
+
+| Film | Efekt | Link |
+|---|---|---|
+| schody_przejazd | dzień przechodzi w złoty wieczór, zapala się lampa, za oknem pada śnieg | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/580e3354-5786-472b-a640-232de623b2a0.mp4 |
+| kominek_przejazd | koc przesuwa się na pierwszym planie, w kominku rozpala się ogień | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3a8b69c3-29f7-4300-9d36-2920b2574264.mp4 |
+
+### schody_przejazd
+Napis: Tak mogą wyglądać Twoje schody w te święta
+Opis: Twoje schody w grudniu 🌲✨ Girlanda wygląda jak żywa i nie gubi igieł. Z kodem START10 masz 10% taniej do 8 listopada. Sklep: lesnykominek.pl
+Hashtagi: #schody #dekoracjeswiateczne #girlanda #świętawdomu #cozyhome
+
+### kominek_przejazd
+Napis: Wystarczyła girlanda, żeby poczuć święta
+Opis: Ogień, girlanda i od razu klimat świąt 🔥🌲 Z kodem START10 masz 10% taniej do 8 listopada. Sklep: lesnykominek.pl
+Hashtagi: #kominek #dekoracjeswiateczne #girlanda #świętawdomu #cozy

@@ -6,27 +6,29 @@ def font(pat):
     return sorted(f)[0]
 SERIF_I=font('P052-Italic'); SERIF_B=font('P052-Bold')
 C='/home/user/n2/clips/'
-def card(lines, out, size=50, small=None, y=None, fnt=None):
+# strefa bezpieczna TikToka w 720x1280: góra od ~110 px, dół do ~950 px, prawa krawędź do ~630 px
+CX=340
+def card(lines, out, size=46, small=None, y=None, fnt=None):
     im=Image.new('RGBA',(720,1280),(0,0,0,0)); f=ImageFont.truetype(fnt or SERIF_I,size); d=ImageDraw.Draw(im)
     lh=int(size*1.25); H=lh*len(lines); y0=y if y is not None else 620-H//2
     sh=Image.new('RGBA',(720,1280),(0,0,0,0)); ds=ImageDraw.Draw(sh)
     for k,t in enumerate(lines):
-        w=d.textlength(t,font=f); ds.text(((720-w)/2+2,y0+k*lh+3),t,font=f,fill=(0,0,0,200))
+        w=d.textlength(t,font=f); ds.text(((CX*2-w)/2+2,y0+k*lh+3),t,font=f,fill=(0,0,0,200))
     if small:
         for k,(t,sz) in enumerate(small):
-            f2=ImageFont.truetype(SERIF_B if k==0 else SERIF_I,sz); w=d.textlength(t,font=f2); ds.text(((720-w)/2+2,y0+H+30+k*int(sz*1.4)+3),t,font=f2,fill=(0,0,0,200))
+            f2=ImageFont.truetype(SERIF_B if k==0 else SERIF_I,sz); w=d.textlength(t,font=f2); ds.text(((CX*2-w)/2+2,y0+H+30+k*int(sz*1.4)+3),t,font=f2,fill=(0,0,0,200))
     sh=sh.filter(ImageFilter.GaussianBlur(6))
     glow=Image.new('RGBA',(720,1280),(0,0,0,0)); dg=ImageDraw.Draw(glow); bh=H+(len(small)*60+40 if small else 0)
     dg.ellipse((-60,y0-90,780,y0+bh+90),fill=(0,0,0,110)); glow=glow.filter(ImageFilter.GaussianBlur(45))
     im=Image.alpha_composite(im,glow); im=Image.alpha_composite(im,sh); im=Image.alpha_composite(im,sh); d=ImageDraw.Draw(im)
     for k,t in enumerate(lines):
-        w=d.textlength(t,font=f); d.text(((720-w)/2,y0+k*lh),t,font=f,fill=(255,255,255,255))
+        w=d.textlength(t,font=f); d.text(((CX*2-w)/2,y0+k*lh),t,font=f,fill=(255,255,255,255))
     if small:
         for k,(t,sz) in enumerate(small):
             f2=ImageFont.truetype(SERIF_B if k==0 else SERIF_I,sz); w=d.textlength(t,font=f2)
-            d.text(((720-w)/2,y0+H+30+k*int(sz*1.4)),t,font=f2,fill=(245,225,180,255) if k==0 else (255,255,255,240))
+            d.text(((CX*2-w)/2,y0+H+30+k*int(sz*1.4)),t,font=f2,fill=(245,225,180,255) if k==0 else (255,255,255,240))
     im.save(out)
-CTA=[('lesnykominek.pl',48),('Zamów do 10 grudnia, zdąży na święta',34)]
+CTA=[('lesnykominek.pl',46),('Zamów do 10 grudnia, zdąży na święta',32)]
 V={
 'szafka_rtv':('k1',[(0,3.2,['Twój znak, żeby w tym roku','mieć taką girlandę'],None),(3.2,5.0,['Twój znak, żeby w tym roku','mieć taką girlandę'],CTA)]),
 'nad_stolem':('k2',[(0,3.2,['Jedyna dekoracja,','jakiej potrzebujesz na święta'],None),(3.2,5.0,['Jedyna dekoracja,','jakiej potrzebujesz na święta'],CTA)]),
