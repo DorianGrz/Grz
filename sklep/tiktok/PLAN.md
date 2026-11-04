@@ -340,3 +340,19 @@ Na Facebooku najwięcej osób odpada w 1.–3. sekundzie, a w starych wersjach z
 
 ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/9716ae65-d230-4c88-a2c6-6d59d4307614.zip
 Opisy i hasztagi bez zmian (jak w wersjach, które zastępują).
+
+## Wersje na Facebooka: „Link w komentarzu ↓” (4.11)
+
+Na Facebooku link w opisie rolki nie jest klikalny, a w komentarzu jest. Wersje _fb mają na końcu napis „Link w komentarzu ↓” (skrypty: FB=1 python3 build9.py / build10.py / build11.py). Po publikacji trzeba od razu dodać i przypiąć komentarz strony z linkiem https://lesnykominek.pl/fb.
+
+ZIP 9 filmów _fb z opisami i komentarzem do przypięcia: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/5d589eff-ec06-473e-bd74-0cf50425cced.zip
+
+| Dzień | Facebook | Film |
+|---|---|---|
+| czw 5.11 | 15:00 / 19:30 | zywe_galazki_3_fb / szafka_rtv_fb |
+| pt 6.11 | 15:00 / 19:30 | igly_zamiatanie_2_fb / nad_stolem_fb |
+| sob 7.11 | 11:00 / 20:00 | nad_lozkiem_fb / igly_schody_krotka_fb |
+| ndz 8.11 | 11:00 / 20:00 | kominek_ogien_fb / schody_szybki_fb |
+| pon 9.11 | 15:00 | igly_ogien_2_fb |
+
+Na TikToku zostają zwykłe wersje (bez _fb), bo tam linki w komentarzach nie są klikalne.

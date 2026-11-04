@@ -23,6 +23,10 @@ def card(lines, out, y=150, size=58, small=None, ys=None):
         d.text((CX-w/2,ys),small,font=f2,fill=(240,214,160,255),stroke_width=4,stroke_fill=(0,0,0,235))
     im.save(out)
 END=['Żywa czy sztuczna?','Napisz w komentarzu']
+import os
+# wersja na Facebooka (FB=1): na końcu wskazujemy klikalny link w przypiętym komentarzu
+FB=bool(os.environ.get('FB'))
+if FB: END=['Żywa czy sztuczna?','Link w komentarzu ↓']
 # segment: (klip, długość, start w klipie); napis: (od, do, linie, mały napis, y)
 V={
 # krótka wersja (jak schody_wieczorem 5 s) z początkiem z igłami
@@ -64,7 +68,7 @@ def make(name):
         inp+=['-loop','1','-t',f'{total:.2f}','-i',png]
         fil.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{a:.2f},{b-0.01:.2f})'[o{k}]"); last=f'o{k}'; idx+=1
     inp+=['-i','muzyka.wav']; fil.append(f"[{idx}:a]atrim=0:{total:.2f},afade=t=in:d=0.05,afade=t=out:st={total-0.4:.2f}:d=0.4[a]")
-    cmd=['ffmpeg','-v','error','-y',*inp,'-filter_complex',';'.join(fil),'-map',f'[{last}]','-map','[a]','-t',f'{total:.2f}','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-c:a','aac','-b:a','160k','-movflags','+faststart',name+'.mp4']
+    cmd=['ffmpeg','-v','error','-y',*inp,'-filter_complex',';'.join(fil),'-map',f'[{last}]','-map','[a]','-t',f'{total:.2f}','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-c:a','aac','-b:a','160k','-movflags','+faststart',name+('_fb' if FB else '')+'.mp4']
     r=subprocess.run(cmd,capture_output=True,text=True); print(name,r.returncode,round(total,2),r.stderr[-300:],flush=True)
 if __name__=="__main__":
     for nm in (sys.argv[1:] or list(V)): make(nm)

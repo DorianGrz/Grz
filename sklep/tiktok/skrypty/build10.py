@@ -29,6 +29,10 @@ def card(lines, out, size=50, small=None, y=None, fnt=None):
             d.text(((CX*2-w)/2,y0+H+30+k*int(sz*1.4)),t,font=f2,fill=(245,225,180,255) if k==0 else (255,255,255,240))
     im.save(out)
 CTA=[('lesnykominek.pl',46),('Zamów do 10 grudnia, zdąży na święta',32)]
+import os
+# wersja na Facebooka (FB=1): zamiast adresu wskazujemy klikalny link w przypiętym komentarzu
+FB=bool(os.environ.get('FB'))
+if FB: CTA=[('Link w komentarzu ↓',46),('lesnykominek.pl · zamów do 10 grudnia',32)]
 Y=135
 V={
 'schody_przejazd':('p1',8.0,[(0,5.2,['Tak mogą wyglądać','Twoje schody w te święta'],None),(5.2,8.0,[],CTA)]),
@@ -53,7 +57,7 @@ def make(name):
         inp+=['-loop','1','-t',f'{total}','-i',png]
         fil.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{a},{b-0.01})'[o{k}]"); last=f'o{k}'; idx+=1
     inp+=['-i','muzyka.wav']; fil.append(f"[{idx}:a]atrim=0:{total},afade=t=in:d=0.05,afade=t=out:st={total-0.4}:d=0.4[a]")
-    cmd=['ffmpeg','-v','error','-y',*inp,'-filter_complex',';'.join(fil),'-map',f'[{last}]','-map','[a]','-t',f'{total}','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-c:a','aac','-b:a','160k','-movflags','+faststart',name+'.mp4']
+    cmd=['ffmpeg','-v','error','-y',*inp,'-filter_complex',';'.join(fil),'-map',f'[{last}]','-map','[a]','-t',f'{total}','-c:v','libx264','-preset','veryfast','-crf','20','-pix_fmt','yuv420p','-c:a','aac','-b:a','160k','-movflags','+faststart',name+('_fb' if FB else '')+'.mp4']
     r=subprocess.run(cmd,capture_output=True,text=True); print(name,r.returncode,r.stderr[-300:],flush=True)
 if __name__=='__main__':
     for nm in (sys.argv[1:] or list(V)): make(nm)
