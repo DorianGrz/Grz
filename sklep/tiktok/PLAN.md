@@ -372,3 +372,4 @@ Opis: Girlanda cedrowa, która wygląda jak żywa 🌲 Na kominek, schody, stó�
 Hashtagi: #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu #pomysłynaświęta
 Aktualizacja karuzeli: osobna wersja na TikToka 1080x1920 (python3 karuzela.py tt), napis nad zdjęciem w strefie bezpiecznej, bo w trybie zdjęć opis TikToka zasłaniał napisy na dole. ZIP z obiema wersjami (folder facebook i tiktok) i opisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e16bd9aa-6bda-4f7a-b72c-deac645348d9.zip
 Publikacja: czwartek 5.11, 20:30, TikTok i Facebook.
+Karuzela skrócona do 5 slajdów (bez komody i drzwi), na ostatnim slajdzie kod START10 do 8.11; wersja ostatniego slajdu bez kodu w folderze od_9_listopada. Aktualny ZIP (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6406881b-033e-4231-84c1-58accbea2b03.zip
