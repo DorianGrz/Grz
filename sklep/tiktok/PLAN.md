@@ -326,3 +326,17 @@ Nowe filmy (bez kredytów):
 - igly_schody_krotka 5,5 s: igły na dywanie 1,5 s, potem schody wieczorem ze śniegiem. https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/bc644c2b-72d5-48f8-ba27-09bb0047ec1f.mp4 (sobota 7.11, 20:00, TikTok i Facebook)
 - kominek_ogien 5 s: ogień płonie od pierwszej sekundy. https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/22800b77-901a-4621-a4b7-bbe8ed53fed1.mp4 (niedziela 8.11, TikTok 10:30, Facebook 11:00, ostatni dzień START10)
 ZIP z opisami: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3ee374bc-d3a6-4792-b349-7bbe0d12a5af.zip
+
+## Szybsze wersje (4.11): zmiana w pierwszych 2 sekundach
+
+Na Facebooku najwięcej osób odpada w 1.–3. sekundzie, a w starych wersjach zmiana przychodziła za późno (schody_przejazd: lampa w 3,5 s, śnieg w 6,5 s; warianty z igłami: „po” dopiero w 3,6–3,8 s). W szybszych wersjach zmiana jest do ok. 2 s.
+
+| Film | Zastępuje | Długość | Zmiana | Link |
+|---|---|---|---|---|
+| schody_szybki | schody_przejazd | 4,6 s | lampa ok. 1,3 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/d22de60c-726b-4e63-92e3-eab93c3f4d16.mp4 |
+| zywe_galazki_3 | zywe_galazki_2 | 7 s | „po” w 2,2 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/9e8643b8-abe5-47e2-a138-043e34ef3a31.mp4 |
+| igly_zamiatanie_2 | igly_zamiatanie | 6,6 s | „po” w 2,2 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8362bee0-6090-4959-8ff2-8bdcddd6a8ee.mp4 |
+| igly_ogien_2 | igly_ogien | 6,2 s | ogień w 2,2 s | https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c8eac63b-6231-42a4-9ecb-4f1fb48fe453.mp4 |
+
+ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/9716ae65-d230-4c88-a2c6-6d59d4307614.zip
+Opisy i hasztagi bez zmian (jak w wersjach, które zastępują).

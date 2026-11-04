@@ -33,10 +33,19 @@ Y=135
 V={
 'schody_przejazd':('p1',8.0,[(0,5.2,['Tak mogą wyglądać','Twoje schody w te święta'],None),(5.2,8.0,[],CTA)]),
 'kominek_przejazd':('p2',8.0,[(0,5.2,['Wystarczyła girlanda,','żeby poczuć święta'],None),(5.2,8.0,[],CTA)]),
+# szybsza wersja schodów: początek (0-5 s, jeszcze dzień) przyspieszony 3x, lampa zapala się ok. 1,2 s
+'schody_szybki':('p1s',4.6,[(0,2.8,['Tak mogą wyglądać','Twoje schody w te święta'],None),(2.8,4.6,[],CTA)]),
 # wersja z ogniem od pierwszej sekundy: start klipu od 3,0 s
 'kominek_ogien':('p2',5.0,[(0,3.2,['Wystarczyła girlanda,','żeby poczuć święta'],None),(3.2,5.0,[],CTA)],3.0),
 }
+def p1s():
+    # klip p1 z przyspieszonym początkiem (zapisywany jako clips/p1s.mp4)
+    import os
+    if os.path.exists(C+'p1s.mp4'): return
+    f="[0:v]trim=0:5.0,setpts=(PTS-STARTPTS)/3[a];[0:v]trim=5.0:8.0,setpts=PTS-STARTPTS[b];[a][b]concat=n=2:v=1:a=0,fps=30[v]"
+    subprocess.run(['ffmpeg','-v','error','-y','-i',C+'p1.mp4','-filter_complex',f,'-map','[v]','-an','-c:v','libx264','-crf','16','-pix_fmt','yuv420p',C+'p1s.mp4'],check=True)
 def make(name):
+    if V[name][0]=='p1s': p1s()
     clip,total,caps,*rest=V[name]; ss=rest[0] if rest else 0
     inp=['-ss',f'{ss}','-t',f'{total+0.1}','-i',C+clip+'.mp4']; fil=[f"[0:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=30,setsar=1,trim=end={total},setpts=PTS-STARTPTS[v]"]; last='v'; idx=1
     for k,(a,b,lines,small) in enumerate(caps):

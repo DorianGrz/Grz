@@ -29,6 +29,16 @@ V={
 'igly_schody_krotka':(
   [('c12',1.5,0.5),('p1',4.0,4.0)],
   [(0,1.5,['Żywe gałązki','po tygodniu…'],None,150),(1.5,3.7,['A ta przetrwa','całe święta'],None,150),(3.7,5.5,END,'lesnykominek.pl',150)]),
+# szybsze wersje: część „przed” skrócona do ok. 2,2 s, bo na Facebooku najwięcej osób odpadało między 2. a 3. sekundą
+'zywe_galazki_3':(
+  [('c12',1.3,0.5),('c2',0.9,0.8),('p1',2.4,4.6),('p2',2.4,4.0)],
+  [(0,2.2,['Żywe gałązki','po tygodniu…'],None,150),(2.2,4.6,['A ta wygląda tak samo','aż do stycznia'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
+'igly_zamiatanie_2':(
+  [('c2',1.2,0.6),('c12',1.0,1.2),('k3',2.4,0.8),('k1',2.0,1.0)],
+  [(0,2.2,['Ile igieł zamiotłaś','w zeszłym roku?'],None,150),(2.2,4.6,['W tym roku','zero'],None,150),(4.6,6.6,END,'lesnykominek.pl',150)]),
+'igly_ogien_2':(
+  [('c12',1.3,0.5),('c2',0.9,0.8),('p2',4.0,3.0)],
+  [(0,2.2,['Żywe gałązki','po tygodniu…'],None,150),(2.2,4.4,['A ta wygląda tak samo','aż do stycznia'],None,150),(4.4,6.2,END,'lesnykominek.pl',150)]),
 'igly_ogien':(
   [('c12',2.2,0.5),('c2',1.4,0.8),('p2',4.4,1.6)],
   [(0,3.6,['Żywe gałązki','po tygodniu…'],None,150),(3.6,6.0,['A ta wygląda tak samo','aż do stycznia'],None,150),(6.0,8.0,END,'lesnykominek.pl',150)]),
