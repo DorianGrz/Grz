@@ -370,3 +370,5 @@ ZIP ze zdjęciami i opisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkU
 - Facebook: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/84edf61a-f57a-4624-8ee9-0d342beabe02.mp4
 Opis: Girlanda cedrowa, która wygląda jak żywa 🌲 Na kominek, schody, stół albo drzwi. Darmowa dostawa i 30 dni na zwrot. Sklep: lesnykominek.pl (na FB: Link w komentarzu 👇)
 Hashtagi: #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu #pomysłynaświęta
+Aktualizacja karuzeli: osobna wersja na TikToka 1080x1920 (python3 karuzela.py tt), napis nad zdjęciem w strefie bezpiecznej, bo w trybie zdjęć opis TikToka zasłaniał napisy na dole. ZIP z obiema wersjami (folder facebook i tiktok) i opisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e16bd9aa-6bda-4f7a-b72c-deac645348d9.zip
+Publikacja: czwartek 5.11, 20:30, TikTok i Facebook.
