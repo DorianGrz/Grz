@@ -356,3 +356,9 @@ ZIP 9 filmów _fb z opisami i komentarzem do przypięcia: https://d2ol7oe51mr4n9
 | pon 9.11 | 15:00 | igly_ogien_2_fb |
 
 Na TikToku zostają zwykłe wersje (bez _fb), bo tam linki w komentarzach nie są klikalne.
+
+## Karuzela zdjęć (4.11)
+
+7 zdjęć 1080x1350 z napisami (skrypt skrypty/karuzela.py, zdjęcia produktu ze sklepu). Na Facebooku jako zwykły post ze zdjęciami, bo wtedy link w opisie jest klikalny. Na TikToku w trybie zdjęć z popularnym dźwiękiem.
+Slajdy: Wygląda jak żywa / Gęste gałązki / Na schody… / Na stół wigilijny / Wyjmujesz i rozkładasz / Zestaw Cały dom / dostawa, zwrot, termin, adres.
+ZIP ze zdjęciami i opisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b280420a-3f12-470a-9580-ef90e3dde668.zip
