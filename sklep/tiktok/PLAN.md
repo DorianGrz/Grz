@@ -362,3 +362,11 @@ Na TikToku zostają zwykłe wersje (bez _fb), bo tam linki w komentarzach nie s�
 7 zdjęć 1080x1350 z napisami (skrypt skrypty/karuzela.py, zdjęcia produktu ze sklepu). Na Facebooku jako zwykły post ze zdjęciami, bo wtedy link w opisie jest klikalny. Na TikToku w trybie zdjęć z popularnym dźwiękiem.
 Slajdy: Wygląda jak żywa / Gęste gałązki / Na schody… / Na stół wigilijny / Wyjmujesz i rozkładasz / Zestaw Cały dom / dostawa, zwrot, termin, adres.
 ZIP ze zdjęciami i opisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b280420a-3f12-470a-9580-ef90e3dde668.zip
+
+## Film ze zdjęć (bez ruchu AI, bez lektora) (4.11)
+
+7 s: 5 zdjęć produktu po 1,1 s z lekkim przybliżeniem (kominek, gałązki, schody, stół, drzwi) i plansza z dostawą i terminem. Skrypt skrypty/pokaz.py (FB=1 dla wersji z „Link w komentarzu ↓”).
+- TikTok: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e5aa8f1b-8200-4197-8f7d-39e85d61a7fa.mp4
+- Facebook: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/84edf61a-f57a-4624-8ee9-0d342beabe02.mp4
+Opis: Girlanda cedrowa, która wygląda jak żywa 🌲 Na kominek, schody, stół albo drzwi. Darmowa dostawa i 30 dni na zwrot. Sklep: lesnykominek.pl (na FB: Link w komentarzu 👇)
+Hashtagi: #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu #pomysłynaświęta
