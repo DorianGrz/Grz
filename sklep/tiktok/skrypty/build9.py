@@ -30,9 +30,9 @@ def card(lines, out, size=46, small=None, y=None, fnt=None):
     im.save(out)
 CTA=[('lesnykominek.pl',46),('Zamów do 10 grudnia, zdąży na święta',32)]
 import os
-# wersja na Facebooka (FB=1): zamiast adresu wskazujemy klikalny link w przypiętym komentarzu
+# wersja na Facebooka (FB=1): zamiast adresu wskazujemy klikalny link w opisie rolki
 FB=bool(os.environ.get('FB'))
-if FB: CTA=[('Link w komentarzu ↓',46),('lesnykominek.pl · zamów do 10 grudnia',32)]
+if FB: CTA=[('Link w opisie ↓',46),('lesnykominek.pl · zamów do 10 grudnia',32)]
 V={
 'szafka_rtv':('k1',[(0,3.2,['Twój znak, żeby w tym roku','mieć taką girlandę'],None),(3.2,5.0,['Twój znak, żeby w tym roku','mieć taką girlandę'],CTA)]),
 'nad_stolem':('k2',[(0,3.2,['Jedyna dekoracja,','jakiej potrzebujesz na święta'],None),(3.2,5.0,['Jedyna dekoracja,','jakiej potrzebujesz na święta'],CTA)]),

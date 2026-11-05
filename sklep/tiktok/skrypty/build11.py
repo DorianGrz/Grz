@@ -24,9 +24,9 @@ def card(lines, out, y=150, size=58, small=None, ys=None):
     im.save(out)
 END=['Żywa czy sztuczna?','Napisz w komentarzu']
 import os
-# wersja na Facebooka (FB=1): na końcu wskazujemy klikalny link w przypiętym komentarzu
+# wersja na Facebooka (FB=1): na końcu wskazujemy klikalny link w opisie rolki
 FB=bool(os.environ.get('FB'))
-if FB: END=['Żywa czy sztuczna?','Link w komentarzu ↓']
+if FB: END=['Żywa czy sztuczna?','Link w opisie ↓']
 # segment: (klip, długość, start w klipie); napis: (od, do, linie, mały napis, y)
 V={
 # krótka wersja (jak schody_wieczorem 5 s) z początkiem z igłami

@@ -388,3 +388,5 @@ Okładka v2 (5.11): na telefonie Facebook przybliża okładkę, ucina górę (na
 
 W aktualnościach Facebook przycina pionową rolkę do 4:5 (ok. 190 px z góry i z dołu przy 720x1280). W wersjach _fb napisy są teraz niżej: build10 Y=240 (było 135), build11 +95 px. build9 (szafka, stół, łóżko) miał napis na środku, więc bez zmian.
 Aktualny ZIP 9 filmów _fb (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3fae3841-9c16-4484-b204-f3ede76f2aef.zip
+Decyzja (5.11): na końcu filmów _fb napis „Link w opisie ↓” (link w opisie rolki działa – sprawdzone na koncie mamy i stronie). W opisie zawsze 👉 https://lesnykominek.pl/fb; przypięty komentarz z linkiem opcjonalnie.
+Aktualny ZIP 9 filmów _fb (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2ac13095-cf65-4220-b2d5-e150fe41ba76.zip
