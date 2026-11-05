@@ -421,3 +421,8 @@ Karuzela TikTok pełny ekran v2 (5.11): 1080x1920, rozmyte tło, całe zdjęcie 
 - Napis od y 410 (poniżej paska wyszukiwania na wysokim telefonie), pod napisem miękkie przyciemnienie.
 - Paczka: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/28cdc1b2-bc57-4a88-980f-54e6e5cbc3cd.zip
 - Od 9.11 slajd 5 w wersji `bez_kodu`.
+
+## Karuzela TikTok 3:4 (5.11, wersja ostateczna)
+- Zrzut z telefonu pokazał, że TikTok wyświetla karuzelę w ramce 3:4 (1080x1450 na ekranie 1080x2400, od y 88), a opis kładzie POD ramką, także na innych kontach. Wersja 9:16 była przycinana do tej ramki.
+- Nowe slajdy 1080x1440 (3:4): `python3 karuzela.py 34` (zdjęcia o1..o4 przycięte do 3:4, napis u góry na miękkim cieniu od krawędzi, bez szarej plamy; slajd 5 oferta wyśrodkowana w ramce).
+- Paczka: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/7acae64c-10fb-497b-be3a-d9e68836578a.zip

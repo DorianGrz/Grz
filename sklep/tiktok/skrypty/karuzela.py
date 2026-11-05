@@ -106,3 +106,33 @@ def slide_pe(i,name,t1,t2):
     im.save(f'karuzela_pe_{i}.jpg',quality=92)
 if __name__=='__main__' and sys.argv[1:]==['pe']:
     for i,s in enumerate(PE,1): slide_pe(i,*s)
+# --- TikTok 3:4 (python3 karuzela.py 34): TikTok pokazuje karuzelę w ramce 3:4 (1080x1440) tuż pod paskiem stanu,
+# a opis pod ramką, więc zdjęcie 1080x1440 wypełnia ramkę w całości (zrzut z telefonu: ramka y 88–1538 na ekranie 1080x2400)
+# zasłonięte w ramce: pasek wyszukiwania y ~25–135, kropki i nazwa konta od y ~1210, prawa kolumna x>910 od y ~790
+FW,FH=1080,1440
+def napis_miekki(im,y,t,f,fill):
+    d=ImageDraw.Draw(im); w=d.textlength(t,font=f); x=(FW-w)/2
+    m=Image.new('L',im.size,0); ImageDraw.Draw(m).text((x+2,y+4),t,font=f,fill=200); m=m.filter(ImageFilter.GaussianBlur(9))
+    im=Image.composite(Image.new('RGB',im.size,(0,0,0)),im,m); d=ImageDraw.Draw(im)
+    d.text((x+1,y+2),t,font=f,fill=(0,0,0)); d.text((x,y),t,font=f,fill=fill); return im
+def cien(im,y,h,a,od_gory):
+    g=Image.new('L',(1,h))
+    for k in range(h): g.putpixel((0,k),int(a*((1-k/h) if od_gory else k/h)**1.4))
+    g=g.resize((FW,h)); reg=im.crop((0,y,FW,y+h)); im.paste(Image.composite(Image.new('RGB',(FW,h),(0,0,0)),reg,g),(0,y)); return im
+def slide_34(i,name,t1,t2,dy=0):
+    im=Image.open(S+name+'.png').convert('RGB'); im=im.resize((FW,round(im.height*FW/im.width)),Image.LANCZOS)
+    y0=(im.height-FH)//2+dy; im=im.crop((0,y0,FW,y0+FH))
+    im=cien(im,0,560,185,True); im=cien(im,FH-260,260,120,False)  # góra pod napis, dół pod nazwę konta
+    im=napis_miekki(im,160,t1,ImageFont.truetype(SB,80),(255,255,255))
+    im=napis_miekki(im,272,t2,ImageFont.truetype(SI,50),(255,242,220))
+    im.save(f'karuzela_34_{i}.jpg',quality=93)
+def koniec_34(i,kod):
+    im=Image.open(S+'n6.png').convert('RGB').resize((FH,FH),Image.LANCZOS); x=(FH-FW)//2; im=im.crop((x,0,x+FW,FH))
+    im=ImageEnhance.Brightness(im.filter(ImageFilter.GaussianBlur(9))).enhance(0.32); d=ImageDraw.Draw(im)
+    f1=ImageFont.truetype(SB,68); f2=ImageFont.truetype(SI,48); f3=ImageFont.truetype(SB,60)
+    rows=oferta(f1,f2,f3,kod); h=sum(int(f.size*1.45) if t else 40 for t,f,c in rows)-int(rows[-1][1].size*0.45)
+    wiersze(d,670-h//2,rows,FW,40)  # środek bloku na środku widocznej części ramki (135–1210)
+    im.save(f'karuzela_34_{i}'+('' if kod else '_bez_kodu')+'.jpg',quality=93)
+if __name__=='__main__' and sys.argv[1:]==['34']:
+    for i,s in enumerate(PE,1): slide_34(i,*s)
+    for kod in (True,False): koniec_34(len(PE)+1,kod)
