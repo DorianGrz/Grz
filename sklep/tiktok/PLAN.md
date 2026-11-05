@@ -411,3 +411,13 @@ Karuzela v3 (5.11): na wysokim telefonie (20:9) TikTok przybliża zdjęcie 9:16 
 Karuzela na TikToka, wersja kwadratowa (5.11): zdjęcia 4:5 TikTok ustawia przy samej górze (pod paskiem wyszukiwania), kwadrat 1:1 pokazuje na środku z czarnym tłem (jak reklama Empiku). Kwadraty wycięte ze środka zdjęć z Facebooka, napisy mieszczą się w całości. ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6856d283-70bf-4290-aad1-805f56cff3c0.zip
 Karuzela TikTok kwadrat v2 (5.11): ostatni slajd zrobiony osobno jako kwadrat z tekstem wyśrodkowanym w pionie (python3 karuzela.py kw). ZIP (zastępuje poprzedni kwadratowy): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/616fe56a-6f52-4f7d-8927-08ee25177112.zip
 Karuzela TikTok pełny ekran v2 (5.11): 1080x1920, rozmyte tło, całe zdjęcie 4:5 (800x1000) na y 590–1590, napis od y 400, oferta wyśrodkowana na y≈1000. Na wysokim telefonie TikTok pokazuje ok. y 380–1620 bez zasłaniania (sprawdzone na makiecie wg zrzutów). ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/60befe5e-8346-436d-b270-7ef9a1549dc0.zip
+
+## Karuzela TikTok na cały ekran (5.11)
+- Problem: zdjęcia 4:5 i 1:1 TikTok przesuwał do góry i nie wypełniały ekranu.
+- Rozwiązanie: 4 zdjęcia produktu rozszerzone (outpaint) do 9:16, wypełniają cały ekran, nic nie jest ucinane.
+  - o1 69751d55-861e-4371-ba76-047b6e508f4b (z n31), o2 94629aca-dec7-4491-ba28-ff60e2d864b0 (z n2),
+    o3 1eb8daaa-1847-4fe6-b826-062b74c39a61 (z n13), o4 b1191ccb-a085-442f-825d-00582c5eb332 (z n21)
+- Skrypt: `python3 karuzela.py pe` (slajdy 1–4), slajd 5: `karuzela.py tt` (oferta na rozmytym tle, wyśrodkowana).
+- Napis od y 410 (poniżej paska wyszukiwania na wysokim telefonie), pod napisem miękkie przyciemnienie.
+- Paczka: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/28cdc1b2-bc57-4a88-980f-54e6e5cbc3cd.zip
+- Od 9.11 slajd 5 w wersji `bez_kodu`.

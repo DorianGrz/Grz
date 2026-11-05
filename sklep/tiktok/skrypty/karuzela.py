@@ -89,3 +89,20 @@ def koniec_kw(kod):
     im.save('karuzela_kw_5'+('' if kod else '_bez_kodu')+'.jpg',quality=93)
 if __name__=='__main__' and sys.argv[1:]==['kw']:
     for kod in (True,False): koniec_kw(kod)
+# --- TikTok na cały ekran (python3 karuzela.py pe): zdjęcie rozszerzone do 9:16 (outpaint) wypełnia ekran,
+# napis w strefie widocznej na wysokim telefonie (ok. y 380–1620), pod napisem miękkie przyciemnienie
+# źródła: /home/user/foto/o1..o4.png (outpaint 9:16 z n31, n2, n13, n21)
+PE=[('o1','Wygląda jak żywa','Girlanda cedrowa, która nie gubi igieł'),
+    ('o2','Gęste gałązki','w naturalnym kolorze cedru'),
+    ('o3','Na schody…','…kominek, drzwi albo okno'),
+    ('o4','Na stół wigilijny','jako gęsty zielony bieżnik')]
+def slide_pe(i,name,t1,t2):
+    im=Image.open(S+name+'.png').convert('RGB'); s=TW/im.width; im=im.resize((TW,round(im.height*s)),Image.LANCZOS)
+    y0=(im.height-TH)//2; im=im.crop((0,y0,TW,y0+TH))
+    g=Image.new('L',(TW,TH),0); dg=ImageDraw.Draw(g); dg.rectangle((0,360,TW,660),fill=170); g=g.filter(ImageFilter.GaussianBlur(70))
+    im=Image.composite(Image.new('RGB',(TW,TH),(0,0,0)),im,g); d=ImageDraw.Draw(im)
+    f1=ImageFont.truetype(SB,80); f2=ImageFont.truetype(SI,50)
+    text(d,410,t1,f1,(255,255,255),TW); text(d,520,t2,f2,(255,242,220),TW)
+    im.save(f'karuzela_pe_{i}.jpg',quality=92)
+if __name__=='__main__' and sys.argv[1:]==['pe']:
+    for i,s in enumerate(PE,1): slide_pe(i,*s)
