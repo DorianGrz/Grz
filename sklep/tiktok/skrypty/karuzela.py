@@ -119,12 +119,12 @@ def cien(im,y,h,a,od_gory):
     g=Image.new('L',(1,h))
     for k in range(h): g.putpixel((0,k),int(a*((1-k/h) if od_gory else k/h)**1.4))
     g=g.resize((FW,h)); reg=im.crop((0,y,FW,y+h)); im.paste(Image.composite(Image.new('RGB',(FW,h),(0,0,0)),reg,g),(0,y)); return im
-def slide_34(i,name,t1,t2,dy=0):
+def slide_34(i,name,t1,t2,dy=-90):  # dy<0: zdjęcie niżej w ramce, więcej miejsca pod paskiem wyszukiwania
     im=Image.open(S+name+'.png').convert('RGB'); im=im.resize((FW,round(im.height*FW/im.width)),Image.LANCZOS)
     y0=(im.height-FH)//2+dy; im=im.crop((0,y0,FW,y0+FH))
-    im=cien(im,0,560,185,True); im=cien(im,FH-260,260,120,False)  # góra pod napis, dół pod nazwę konta
-    im=napis_miekki(im,160,t1,ImageFont.truetype(SB,80),(255,255,255))
-    im=napis_miekki(im,272,t2,ImageFont.truetype(SI,50),(255,242,220))
+    im=cien(im,0,620,185,True); im=cien(im,FH-260,260,120,False)  # góra pod napis, dół pod nazwę konta
+    im=napis_miekki(im,250,t1,ImageFont.truetype(SB,80),(255,255,255))
+    im=napis_miekki(im,362,t2,ImageFont.truetype(SI,50),(255,242,220))
     im.save(f'karuzela_34_{i}.jpg',quality=93)
 def koniec_34(i,kod):
     im=Image.open(S+'n6.png').convert('RGB').resize((FH,FH),Image.LANCZOS); x=(FH-FW)//2; im=im.crop((x,0,x+FW,FH))
