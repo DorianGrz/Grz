@@ -60,16 +60,19 @@ def tlo_tt(name):
     x=(TH-TW)//2; im=im.crop((x,0,x+TW,TH)).filter(ImageFilter.GaussianBlur(30))
     return ImageEnhance.Brightness(im).enhance(0.45)
 def slide_tt(i,name,fx,where,t1,t2):
-    bg=tlo_tt(name); ph=base(name,fx).resize((880,1100),Image.LANCZOS); bg.paste(ph,(100,420))
+    # TikTok na wysokim telefonie przesuwa zdjęcie 9:16 w górę: widoczne bez zasłaniania jest ok. y 380–1620,
+    # więc napis zaczyna się od 400, a całe zdjęcie 4:5 (bez przycinania) kończy się na 1590
+    bg=tlo_tt(name); ph=base(name,fx).resize((800,1000),Image.LANCZOS); bg.paste(ph,(140,590))
     d=ImageDraw.Draw(bg); f1=ImageFont.truetype(SB,76); f2=ImageFont.truetype(SI,48)
     sz=76
     while d.textlength(t1,font=f1)>880: sz-=4; f1=ImageFont.truetype(SB,sz)
-    text(d,190,t1,f1,(255,255,255),TW); text(d,300,t2,f2,(255,242,220),TW)
+    text(d,400,t1,f1,(255,255,255),TW); text(d,500,t2,f2,(255,242,220),TW)
     bg.save(f'karuzela_tt_{i}.jpg',quality=92)
 def koniec_tt(i,kod):
     bg=tlo_tt('n6'); d=ImageDraw.Draw(bg)
     f1=ImageFont.truetype(SB,72); f2=ImageFont.truetype(SI,50); f3=ImageFont.truetype(SB,64)
-    wiersze(d,380 if kod else 430,oferta(f1,f2,f3,kod),TW,45)
+    rows=oferta(f1,f2,f3,kod); h=sum(int(f.size*1.45) if t else 45 for t,f,c in rows)-int(rows[-1][1].size*0.45)
+    wiersze(d,1000-h//2,rows,TW,45)  # środek bloku na środku widocznej strefy (380–1620)
     bg.save(f'karuzela_tt_{i}'+('' if kod else '_bez_kodu')+'.jpg',quality=92)
 if __name__=='__main__' and sys.argv[1:] in ([],['tt']):
     tt=sys.argv[1:]==['tt']
