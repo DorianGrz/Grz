@@ -62,7 +62,7 @@ def make(name):
     for i,(c,d,ss) in enumerate(segs):
         inp+=['-ss',f'{ss}','-t',f'{d+0.1:.2f}','-i',C+c+'.mp4']
         fil.append(f"[{i}:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=30,setsar=1,trim=end={d:.3f},setpts=PTS-STARTPTS[v{i}]")
-    n=len(segs); fil.append(''.join(f'[v{i}]' for i in range(n))+f'concat=n={n}:v=1:a=0[cat]'); last='cat'; idx=n
+    n=len(segs); fil.append(''.join(f'[v{i}]' for i in range(n))+f'concat=n={n}:v=1:a=0,fps=30,setpts=N/30/TB[cat]'); last='cat'; idx=n  # równe znaczniki czasu, żeby napisy nie migały na cięciach
     for k,(a,b,lines,small,y) in enumerate(caps):
         png=f'{name}_{k}.png'; card(lines,png,y=(y or 150)+(95 if FB else 0),small=small)  # FB: niżej, bo aktualności przycinają rolkę do 4:5
         inp+=['-loop','1','-t',f'{total:.2f}','-i',png]

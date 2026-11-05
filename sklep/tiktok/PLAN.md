@@ -404,3 +404,6 @@ Napisy przełączały się z luką 0,01 s (enable between(t,a,b-0.01)), więc cz
 Aktualne paczki (zastępują poprzednie):
 - TikTok: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/bac70abc-61cb-4ad2-96bb-33000f0a9138.zip
 - Facebook: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ec547275-7b71-4bee-b4ca-5298c5c56c33.zip
+Poprawka 2 (5.11): przy zmianie napisu dokładnie na cięciu między ujęciami stary napis wracał na 1 klatkę (nierówne znaczniki czasu po łączeniu ujęć). W build11 po concat dodane fps=30,setpts=N/30/TB. Sprawdzone klatka po klatce na wszystkich zmianach napisów. Aktualne paczki (zastępują poprzednie):
+- TikTok: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f7b6d3c6-b7eb-4f0b-a35f-8e840a1b53d6.zip
+- Facebook: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/71f88ff3-4933-411b-83c2-93dd3564d24b.zip
