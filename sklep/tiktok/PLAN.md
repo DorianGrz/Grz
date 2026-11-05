@@ -396,3 +396,4 @@ Poprawka (5.11): strzałka w górę „Link w opisie ↑” (w aktualnościach o
 
 Najnowsze wersje (wyśrodkowane napisy w strefie bezpiecznej, szybsze przejścia, na końcu lesnykominek.pl), ułożone według planu (12:30 / 19:30, weekend 10:30 / 20:00), z plikiem opisów:
 https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b6c911f7-f9a5-496a-8072-30f59094051e.zip
+Karuzela v2 (5.11): na Facebooku w kolażu tablicy zdjęcia są przycinane do kwadratu, więc napisy przesunięte do środka (góra y=170, dół H-345), a na 1. zdjęciu napis na dole, żeby nie zasłaniał girlandy. Wersja TikTok bez zmian (sprawdzona). Aktualny ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f2aa53ea-4d88-43a3-9abb-45a90222d64f.zip

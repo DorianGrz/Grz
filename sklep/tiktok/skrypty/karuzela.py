@@ -11,7 +11,7 @@ SB=font('P052-Bold'); SI=font('P052-Italic')
 S='/home/user/foto/'; W,H=1080,1350
 # (plik, przesunięcie kadru w poziomie 0..1, gdzie napis, tytuł, podtytuł)
 SL=[
- ('n31',0.5,'top','Wygląda jak żywa','Girlanda cedrowa, która nie gubi igieł'),
+ ('n31',0.5,'bottom','Wygląda jak żywa','Girlanda cedrowa, która nie gubi igieł'),
  ('n2',0.55,'bottom','Gęste gałązki','w naturalnym kolorze cedru'),
  ('n13',0.45,'top','Na schody…','…kominek, drzwi albo okno'),
  ('n21',0.5,'bottom','Na stół wigilijny','jako gęsty zielony bieżnik'),
@@ -44,7 +44,8 @@ def wiersze(d,y,rows,w0,gap):
 def slide(i,name,fx,where,t1,t2):
     im=shade(base(name,fx),where); d=ImageDraw.Draw(im)
     f1=ImageFont.truetype(SB,80); f2=ImageFont.truetype(SI,52)
-    y=90 if where=='top' else H-260
+    # w kolażu na tablicy Facebook przycina zdjęcia do kwadratu (ok. 135 px z góry i z dołu), więc napis bliżej środka
+    y=170 if where=='top' else H-345
     text(d,y,t1,f1,(255,255,255)); text(d,y+108,t2,f2,(255,242,220))
     im.save(f'karuzela_{i}.jpg',quality=92)
 def koniec(i,kod):
