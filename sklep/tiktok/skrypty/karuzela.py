@@ -133,8 +133,10 @@ def koniec_34(i,kod):
     im=ImageEnhance.Brightness(im.filter(ImageFilter.GaussianBlur(9))).enhance(0.32); d=ImageDraw.Draw(im)
     d.rectangle((0,0,FW,GORA-1),fill=(0,0,0))
     f1=ImageFont.truetype(SB,68); f2=ImageFont.truetype(SI,48); f3=ImageFont.truetype(SB,60)
-    rows=oferta(f1,f2,f3,kod); h=sum(int(f.size*1.45) if t else 40 for t,f,c in rows)-int(rows[-1][1].size*0.45)
-    wiersze(d,(GORA+1210)//2-h//2,rows,FW,40)  # środek bloku między czarnym pasem a nazwą konta
+    rows=oferta(f1,f2,f3,kod)
+    # środek widocznych liter (mierzony na pikselach) na środku zdjęcia pod czarnym pasem
+    tmp=Image.new('RGB',(FW,FH),(0,0,0)); wiersze(ImageDraw.Draw(tmp),300,rows,FW,40); b=tmp.getbbox()
+    wiersze(d,300+(GORA+FH)//2-(b[1]+b[3])//2,rows,FW,40)
     im.save(f'karuzela_34_{i}'+('' if kod else '_bez_kodu')+'.jpg',quality=93)
 if __name__=='__main__' and sys.argv[1:]==['34']:
     for i,s in enumerate(PE,1): slide_34(i,*s)

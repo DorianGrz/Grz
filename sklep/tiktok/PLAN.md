@@ -430,3 +430,5 @@ Karuzela TikTok pełny ekran v2 (5.11): 1080x1920, rozmyte tło, całe zdjęcie 
   Paczka v2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8c53eff8-9e3f-44ff-ad1b-63b037e617d5.zip
 - v3 (zrzut 22:36: zdjęcie wchodziło pod zegar i pasek wyszukiwania): czarny pas 190 px u góry ramki (GORA), zdjęcie zaczyna się pod paskiem wyszukiwania, napis od y 275, zdjęcie niżej (dy=-150); oferta wyśrodkowana między pasem a nazwą konta.
   Paczka v3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8a42de35-8607-49e5-9df5-ffb7b4a00fb6.zip
+- v4 (zaakceptowane slajdy 1–4, „idealnie”): ostatni slajd wyśrodkowany na pikselach liter w obszarze zdjęcia pod czarnym pasem (y 190–1440, środek 815), w poziomie też równo.
+  Paczka v4 (aktualna): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/fd2184d9-4e15-4955-b13a-45b33819c391.zip
