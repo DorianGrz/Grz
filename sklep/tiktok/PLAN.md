@@ -373,3 +373,10 @@ Hashtagi: #dekoracjeswiateczne #girlanda #świętawdomu #dekoracjedomu #pomysły
 Aktualizacja karuzeli: osobna wersja na TikToka 1080x1920 (python3 karuzela.py tt), napis nad zdjęciem w strefie bezpiecznej, bo w trybie zdjęć opis TikToka zasłaniał napisy na dole. ZIP z obiema wersjami (folder facebook i tiktok) i opisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/e16bd9aa-6bda-4f7a-b72c-deac645348d9.zip
 Publikacja: czwartek 5.11, 20:30, TikTok i Facebook.
 Karuzela skrócona do 5 slajdów (bez komody i drzwi), na ostatnim slajdzie kod START10 do 8.11; wersja ostatniego slajdu bez kodu w folderze od_9_listopada. Aktualny ZIP (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6406881b-033e-4231-84c1-58accbea2b03.zip
+
+## Okładka strony na Facebooku (5.11)
+
+1640x624, wieczorny kominek z girlandą, napis na środku u góry (skrypt skrypty/okladka.py).
+- Z napisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/828bfc36-21b4-41a3-8425-ac25e440c7b2.jpg
+- Bez napisu: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2728bbaa-83d7-441a-a419-14dbffc46576.jpg
+Problem z linkiem: z prywatnego konta w przeglądarce Facebooka „400 Bad Request” (u mamy działa, z konta strony działa) – najpewniej pliki cookie w przeglądarce Facebooka na tym koncie.
