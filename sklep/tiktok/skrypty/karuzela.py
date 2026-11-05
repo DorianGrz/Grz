@@ -71,7 +71,18 @@ def koniec_tt(i,kod):
     f1=ImageFont.truetype(SB,72); f2=ImageFont.truetype(SI,50); f3=ImageFont.truetype(SB,64)
     wiersze(d,380 if kod else 430,oferta(f1,f2,f3,kod),TW,45)
     bg.save(f'karuzela_tt_{i}'+('' if kod else '_bez_kodu')+'.jpg',quality=92)
-if __name__=='__main__':
+if __name__=='__main__' and sys.argv[1:] in ([],['tt']):
     tt=sys.argv[1:]==['tt']
     for i,s in enumerate(SL,1): (slide_tt if tt else slide)(i,*s)
     for kod in (True,False): (koniec_tt if tt else koniec)(len(SL)+1,kod)
+# --- kwadratowy ostatni slajd na TikToka (python3 karuzela.py kw): tekst wyśrodkowany w pionie
+def koniec_kw(kod):
+    S2=1080; im=base('n6',0.5).crop((0,(H-S2)//2,W,(H-S2)//2+S2))
+    im=ImageEnhance.Brightness(im.filter(ImageFilter.GaussianBlur(7))).enhance(0.32); d=ImageDraw.Draw(im)
+    f1=ImageFont.truetype(SB,66); f2=ImageFont.truetype(SI,46); f3=ImageFont.truetype(SB,58)
+    rows=oferta(f1,f2,f3,kod)
+    h=sum(int(f.size*1.45) if t else 40 for t,f,c in rows)-int(rows[-1][1].size*0.45)
+    wiersze(d,(S2-h)//2,rows,W,40)
+    im.save('karuzela_kw_5'+('' if kod else '_bez_kodu')+'.jpg',quality=93)
+if __name__=='__main__' and sys.argv[1:]==['kw']:
+    for kod in (True,False): koniec_kw(kod)
