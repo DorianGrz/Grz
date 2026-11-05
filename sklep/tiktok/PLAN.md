@@ -390,3 +390,4 @@ W aktualnościach Facebook przycina pionową rolkę do 4:5 (ok. 190 px z góry i
 Aktualny ZIP 9 filmów _fb (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3fae3841-9c16-4484-b204-f3ede76f2aef.zip
 Decyzja (5.11): na końcu filmów _fb napis „Link w opisie ↓” (link w opisie rolki działa – sprawdzone na koncie mamy i stronie). W opisie zawsze 👉 https://lesnykominek.pl/fb; przypięty komentarz z linkiem opcjonalnie.
 Aktualny ZIP 9 filmów _fb (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2ac13095-cf65-4220-b2d5-e150fe41ba76.zip
+Poprawka (5.11): strzałka w górę „Link w opisie ↑” (w aktualnościach opis jest nad filmem). Aktualny ZIP 9 filmów _fb (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f5cf3908-5cb3-433a-820d-dfcee32080f0.zip

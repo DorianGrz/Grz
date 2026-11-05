@@ -32,7 +32,7 @@ CTA=[('lesnykominek.pl',46),('Zamów do 10 grudnia, zdąży na święta',32)]
 import os
 # wersja na Facebooka (FB=1): zamiast adresu wskazujemy klikalny link w opisie rolki
 FB=bool(os.environ.get('FB'))
-if FB: CTA=[('Link w opisie ↓',46),('lesnykominek.pl · zamów do 10 grudnia',32)]
+if FB: CTA=[('Link w opisie ↑',46),('lesnykominek.pl · zamów do 10 grudnia',32)]
 Y=135
 # na Facebooku rolka w aktualnościach jest przycinana do 4:5 (ok. 190 px z góry i z dołu), więc napis niżej
 if FB: Y=240
