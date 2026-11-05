@@ -383,3 +383,8 @@ Problem z linkiem: z prywatnego konta w przeglądarce Facebooka „400 Bad Reque
 Okładka v2 (5.11): na telefonie Facebook przybliża okładkę, ucina górę (napis pod przyciskami), a środek zasłania zdjęcie profilowe. Nowe okładki 1640x856 bez napisu i bez kominka, sama girlanda przez całą szerokość w górnej części:
 - A (półka, światełka w tle): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f21e9fa2-be77-4e0b-a822-527141d40137.jpg
 - B (girlanda na jasnej ścianie, świece w tle, polecana): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c8209b9e-e652-4d96-89d6-29b0fda7a072.jpg
+
+## Facebook: napisy w środkowej części kadru (5.11)
+
+W aktualnościach Facebook przycina pionową rolkę do 4:5 (ok. 190 px z góry i z dołu przy 720x1280). W wersjach _fb napisy są teraz niżej: build10 Y=240 (było 135), build11 +95 px. build9 (szafka, stół, łóżko) miał napis na środku, więc bez zmian.
+Aktualny ZIP 9 filmów _fb (zastępuje poprzednie): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/3fae3841-9c16-4484-b204-f3ede76f2aef.zip

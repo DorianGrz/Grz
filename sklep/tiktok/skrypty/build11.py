@@ -64,7 +64,7 @@ def make(name):
         fil.append(f"[{i}:v]scale=720:1280:force_original_aspect_ratio=increase,crop=720:1280,fps=30,setsar=1,trim=end={d:.3f},setpts=PTS-STARTPTS[v{i}]")
     n=len(segs); fil.append(''.join(f'[v{i}]' for i in range(n))+f'concat=n={n}:v=1:a=0[cat]'); last='cat'; idx=n
     for k,(a,b,lines,small,y) in enumerate(caps):
-        png=f'{name}_{k}.png'; card(lines,png,y=y or 150,small=small)
+        png=f'{name}_{k}.png'; card(lines,png,y=(y or 150)+(95 if FB else 0),small=small)  # FB: niżej, bo aktualności przycinają rolkę do 4:5
         inp+=['-loop','1','-t',f'{total:.2f}','-i',png]
         fil.append(f"[{last}][{idx}:v]overlay=0:0:enable='between(t,{a:.2f},{b-0.01:.2f})'[o{k}]"); last=f'o{k}'; idx+=1
     inp+=['-i','muzyka.wav']; fil.append(f"[{idx}:a]atrim=0:{total:.2f},afade=t=in:d=0.05,afade=t=out:st={total-0.4:.2f}:d=0.4[a]")

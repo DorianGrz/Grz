@@ -34,6 +34,8 @@ import os
 FB=bool(os.environ.get('FB'))
 if FB: CTA=[('Link w komentarzu ↓',46),('lesnykominek.pl · zamów do 10 grudnia',32)]
 Y=135
+# na Facebooku rolka w aktualnościach jest przycinana do 4:5 (ok. 190 px z góry i z dołu), więc napis niżej
+if FB: Y=240
 V={
 'schody_przejazd':('p1',8.0,[(0,5.2,['Tak mogą wyglądać','Twoje schody w te święta'],None),(5.2,8.0,[],CTA)]),
 'kominek_przejazd':('p2',8.0,[(0,5.2,['Wystarczyła girlanda,','żeby poczuć święta'],None),(5.2,8.0,[],CTA)]),
