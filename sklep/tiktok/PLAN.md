@@ -380,3 +380,6 @@ Karuzela skrócona do 5 slajdów (bez komody i drzwi), na ostatnim slajdzie kod 
 - Z napisem: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/828bfc36-21b4-41a3-8425-ac25e440c7b2.jpg
 - Bez napisu: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/2728bbaa-83d7-441a-a419-14dbffc46576.jpg
 Problem z linkiem: z prywatnego konta w przeglądarce Facebooka „400 Bad Request” (u mamy działa, z konta strony działa) – najpewniej pliki cookie w przeglądarce Facebooka na tym koncie.
+Okładka v2 (5.11): na telefonie Facebook przybliża okładkę, ucina górę (napis pod przyciskami), a środek zasłania zdjęcie profilowe. Nowe okładki 1640x856 bez napisu i bez kominka, sama girlanda przez całą szerokość w górnej części:
+- A (półka, światełka w tle): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f21e9fa2-be77-4e0b-a822-527141d40137.jpg
+- B (girlanda na jasnej ścianie, świece w tle, polecana): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/c8209b9e-e652-4d96-89d6-29b0fda7a072.jpg
