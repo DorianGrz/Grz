@@ -476,3 +476,12 @@ Godzina nie tłumaczy wyników: wieczorem jest i najlepszy (1294), i najgorszy (
 
 Wnioski: TikTok daje każdemu filmowi ok. 750–900 wyświetleń testowych z „Dla Ciebie” (97–99% ruchu) i po 4–5 godz. przestaje; żaden film nie przeszedł testu. Ponad 1000 dostały tylko 2 filmy z igłami na początku. Spokojne ujęcia i kot: 2,7–2,9 s. 5.11 (3 posty jednego dnia) dwa dostały tylko 250–284. schody_szybki zatrzymany na obu platformach: sprawdzić w TikTok Studio, czy nie ma oznaczenia „nie kwalifikuje się do Dla Ciebie”.
 Wspólny wniosek FB + TT: wygrywa początek z igłami na dywanie. Promocja: Facebook, post igly_ogien (4.11 16:26), cel: ruch w witrynie. Na TikToku na razie bez płatnej promocji; maks. 2 posty dziennie.
+
+## Sobota 7.11: plan po analizie
+Nowe filmy (build11, bez kredytów), oba z igłami na początku, potem ujęcia niewrzucane w nowych filmach:
+- igly_stol 7 s: c2 + c12 (igły, 2,2 s) „Żywa girlanda po tygodniu…”, potem stół k2 „A ta na stole przez całe święta”, koniec „Żywa czy sztuczna?”. TT 10:30, FB 11:00.
+- igly_schody_kokarda 7 s: c12 + c2 „Co roku igły na całym dywanie?”, potem schody z kokardą c10 „W tym roku zero sprzątania”. TT i FB 20:00.
+Sprawdzone: dźwięk, brak zamrożeń, napisy bez przerw na zmianach (wersje TT i _fb).
+ZIP z opisami: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a4535642-69bf-4ba7-b9e0-e2eb7c8a62b5.zip
+Odpada z planu: nad_lozkiem (spokojne ujęcie, słabe na obu portalach), schody_szybki (już wrzucony 4.11), igly_schody_krotka (prawie to samo co igly_schody).
+Promocja: FB post igly_ogien (4.11 16:26), cel „Ruch w witrynie”, lesnykominek.pl/fb, Polska, 30–60 lat, 20 zł dziennie przez 3 dni.

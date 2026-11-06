@@ -29,6 +29,13 @@ FB=bool(os.environ.get('FB'))
 if FB: END=['Żywa czy sztuczna?','Link w opisie ↑']
 # segment: (klip, długość, start w klipie); napis: (od, do, linie, mały napis, y)
 V={
+# 7.11: początek z igłami (wygrywa na FB i TT), potem ujęcia jeszcze niewrzucane w nowych filmach: stół (k2) i schody z kokardą (c10)
+'igly_stol':(
+  [('c2',1.0,0.6),('c12',1.2,2.0),('k2',4.8,0.2)],
+  [(0,2.2,['Żywa girlanda','po tygodniu…'],None,150),(2.2,4.6,['A ta na stole','przez całe święta'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
+'igly_schody_kokarda':(
+  [('c12',1.2,2.0),('c2',1.0,1.6),('c10',4.8,0.2)],
+  [(0,2.2,['Co roku igły','na całym dywanie?'],None,150),(2.2,4.6,['W tym roku','zero sprzątania'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
 # krótka wersja (jak schody_wieczorem 5 s) z początkiem z igłami
 'igly_schody_krotka':(
   [('c12',1.5,0.5),('p1',4.0,4.0)],
