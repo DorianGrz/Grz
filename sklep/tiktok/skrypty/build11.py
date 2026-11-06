@@ -33,6 +33,10 @@ V={
 'igly_stol':(
   [('c2',1.0,0.6),('c12',1.2,2.0),('k2',4.8,0.2)],
   [(0,2.2,['Żywa girlanda','po tygodniu…'],None,150),(2.2,4.6,['A ta na stole','przez całe święta'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
+# zamiast igly_stol, bo nad_stolem (ten sam stół k2) wyszedł na FB 6.11 o 19:39: drzwi w sypialni (c11)
+'igly_drzwi':(
+  [('c2',1.0,0.6),('c12',1.2,2.0),('c11',4.8,0.2)],
+  [(0,2.2,['Żywa girlanda','po tygodniu…'],None,150),(2.2,4.6,['A ta nad drzwiami','przez całe święta'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
 'igly_schody_kokarda':(
   [('c12',1.2,2.0),('c2',1.0,1.6),('c10',4.8,0.2)],
   [(0,2.2,['Co roku igły','na całym dywanie?'],None,150),(2.2,4.6,['W tym roku','zero sprzątania'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
