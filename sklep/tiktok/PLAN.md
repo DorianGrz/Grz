@@ -432,3 +432,22 @@ Karuzela TikTok pełny ekran v2 (5.11): 1080x1920, rozmyte tło, całe zdjęcie 
   Paczka v3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8a42de35-8607-49e5-9df5-ffb7b4a00fb6.zip
 - v4 (zaakceptowane slajdy 1–4, „idealnie”): ostatni slajd wyśrodkowany na pikselach liter w obszarze zdjęcia pod czarnym pasem (y 190–1440, środek 815), w poziomie też równo.
   Paczka v4 (aktualna): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/fd2184d9-4e15-4955-b13a-45b33819c391.zip
+
+## Analiza Facebooka (6.11, 10 zrzutów ze statystyk postów)
+„Zostaje” = widzowie, którzy obejrzeli ponad 3 s (3-sekundowe wyświetlenia / widzowie).
+
+| Film | Wiek | Wyśw. / widzowie | Zostaje ponad 3 s | Śr. czas | Kliknięcia | Uwagi |
+|---|---|---|---|---|---|---|
+| igly_ogien (8 s, „Igły na dywanie co roku?… 🔥”) | 2 dni | 258 / 210 | 65% | 5 s | 1 | najlepsze trzymanie |
+| igly_schody (8 s, „Żywe gałązki po tygodniu…”) | 3 dni | 279 / 212 | 61% | 5 s | 0 | 10 s: 6,9% |
+| zywe_galazki_3 (7 s) | 1 dzień | 570 / 435 | 51% | 4 s | 2 | najwięcej wyśw. z nowych |
+| kot_vs_galazki (10 s) | 4 dni | 380 / 305 | 41% | 5 s | 0 | jedyne reakcje (3) i udostępnienie (mama), 10 s: 10,7% |
+| szafka_rtv (Season Of Merry) | 22 godz. | 297 / 241 | 32% | 3 s | 1 | odpływ w 1. s |
+| kominek_przejazd (8 s) | 2 dni | 272 / 225 | 24% | 3 s | 0 | odpływ w 1. s |
+| schody_wieczorem (5 s) | 3 dni | 1289 / 1102 | 22% | 2 s | 2 | największy zasięg, słabe trzymanie |
+| schody_szybki (4,6 s) | 1 dzień | 36 / 5 | – | 11 s | 4 | FB prawie nie pokazał (pewnie za podobny do schody_wieczorem), oglądała głównie rodzina |
+| igly_zamiatanie_2 | 37 min | 5 / 1 | – | – | 0 | za wcześnie |
+| karuzela zdjęć | 21 godz. | 16 / 2 | – | – | 2 | posty ze zdjęciami FB pokazuje głównie obserwującym; widzowie 35–54 lata |
+
+Wnioski: początek z igłami trzyma 51–65% widzów, spokojne ładne ujęcia 22–32%. Zero komentarzy pod wszystkimi filmami. Zasięg zależy głównie od tego, jak Facebook rozda post (skoki po ok. 10 godz.), a nie od kilku minut spóźnienia.
+Do promocji na FB: igly_ogien (najlepsze trzymanie), zapasowo zywe_galazki_3.
