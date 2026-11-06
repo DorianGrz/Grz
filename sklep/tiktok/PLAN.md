@@ -451,3 +451,6 @@ Karuzela TikTok pełny ekran v2 (5.11): 1080x1920, rozmyte tło, całe zdjęcie 
 
 Wnioski: początek z igłami trzyma 51–65% widzów, spokojne ładne ujęcia 22–32%. Zero komentarzy pod wszystkimi filmami. Zasięg zależy głównie od tego, jak Facebook rozda post (skoki po ok. 10 godz.), a nie od kilku minut spóźnienia.
 Do promocji na FB: igly_ogien (najlepsze trzymanie), zapasowo zywe_galazki_3.
+Uzupełnienie (godziny publikacji i 11. film): tania_girlanda („Tania girlanda wygląda sztucznie”, 2.11 12:30, pierwszy post nowej strony) 16 wyśw. / 7 widzów, dystrybucja -0,4x.
+Godziny: tania 2.11 12:30, kot 2.11 15:00 (+0,8x), schody_wieczorem 2.11 19:58 (+0,3x), igly_schody 3.11 15:52 (+0,2x), kominek_przejazd 3.11 19:33 (+0,2x), igly_ogien 4.11 16:26 (-0,2x), schody_szybki 4.11 20:39 (+0,3x), zywe_galazki_3 5.11 15:20 (+0,3x), szafka_rtv 5.11 19:57 (-0,2x), karuzela 5.11 20:42, igly_zamiatanie_2 6.11 17:30.
+Godzina nie tłumaczy wyników: wieczorem jest i najlepszy (1294), i najgorszy (41) post; po południu 261–575. Decyzja bez zmian: promować igly_ogien (post 4.11 16:26).
