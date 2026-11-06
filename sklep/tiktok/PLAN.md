@@ -490,3 +490,4 @@ Zmiana 2 (decyzja Doriana): w opisie promowanego posta zostaje kod START10 (zach
 Aktualna paczka na 7.11 (opisy z kodem START10 do 8.11 23:59, instrukcja promocji): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/049f5c39-87e8-41da-96ee-b7f744218237.zip
 Zmiana 3 (6.11 wieczorem): nad_stolem_fb wyszedł 6.11 o 19:39 („Jedna girlanda i cały salon…”, 189 wyśw., dystrybucja +0,5x), więc rano zamiast igly_stol (ten sam stół k2) idzie igly_drzwi (igły, potem drzwi w sypialni c11, „A ta nad drzwiami przez całe święta”). Sprawdzone: dźwięk, brak zamrożeń, napisy bez przerw.
 Aktualna paczka na 7.11 (v3): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b1e5280d-bb10-4f3f-b0e8-c234367c8700.zip
+Zmiana 4 (decyzja Doriana): ujęcie z drzwiami odrzucone, na sobotę zostaje igly_stol. Aktualna paczka na 7.11 to znowu v2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/049f5c39-87e8-41da-96ee-b7f744218237.zip
