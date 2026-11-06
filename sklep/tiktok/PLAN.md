@@ -485,3 +485,4 @@ Sprawdzone: dźwięk, brak zamrożeń, napisy bez przerw na zmianach (wersje TT 
 ZIP z opisami: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/a4535642-69bf-4ba7-b9e0-e2eb7c8a62b5.zip
 Odpada z planu: nad_lozkiem (spokojne ujęcie, słabe na obu portalach), schody_szybki (już wrzucony 4.11), igly_schody_krotka (prawie to samo co igly_schody).
 Promocja: FB post igly_ogien (4.11 16:26), cel „Ruch w witrynie”, lesnykominek.pl/fb, Polska, 30–60 lat, 20 zł dziennie przez 3 dni.
+Zmiana (decyzja Doriana): promujemy nowy film, nie igly_ogien. Promowany igly_stol_fb (FB 11:00), opis bez START10 (promocja trwa po 8.11). Sprawdzić ok. 14:00: jeśli ponad 3 s zostaje co najmniej 45%, start promocji; jeśli mniej, promować igly_schody_kokarda_fb po publikacji o 20:00.
