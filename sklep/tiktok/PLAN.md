@@ -454,3 +454,25 @@ Do promocji na FB: igly_ogien (najlepsze trzymanie), zapasowo zywe_galazki_3.
 Uzupełnienie (godziny publikacji i 11. film): tania_girlanda („Tania girlanda wygląda sztucznie”, 2.11 12:30, pierwszy post nowej strony) 16 wyśw. / 7 widzów, dystrybucja -0,4x.
 Godziny: tania 2.11 12:30, kot 2.11 15:00 (+0,8x), schody_wieczorem 2.11 19:58 (+0,3x), igly_schody 3.11 15:52 (+0,2x), kominek_przejazd 3.11 19:33 (+0,2x), igly_ogien 4.11 16:26 (-0,2x), schody_szybki 4.11 20:39 (+0,3x), zywe_galazki_3 5.11 15:20 (+0,3x), szafka_rtv 5.11 19:57 (-0,2x), karuzela 5.11 20:42, igly_zamiatanie_2 6.11 17:30.
 Godzina nie tłumaczy wyników: wieczorem jest i najlepszy (1294), i najgorszy (41) post; po południu 261–575. Decyzja bez zmian: promować igly_ogien (post 4.11 16:26).
+
+## Analiza TikToka (6.11, 15 zrzutów z TikTok Studio)
+| Film | Wrzucony | Wyświetlenia | Śr. czas | Obejrzany cały | Polub. / kom. / zapis. |
+|---|---|---|---|---|---|
+| igly (stary, „Igły na dywanie co roku?”, ujęcie dywanu) | 31.10 | 1333 | 5,4 s | 16% | 3 / 0 / 1 |
+| igly_schody | 3.11 | 1192 | 4,57 s | 14,9% | 1 / 0 / 0 |
+| girlanda_nie_tylko_kominek („Nie masz kominka?”) | 31.10 | 914 | 2,93 s | 9,4% | 1 / 0 / 0 |
+| tania_girlanda („Nie popełnij tego błędu”) | 1.11 | 872 | 6,85 s | 5,7% | 5 / 0 / 1 |
+| puste_schody („Dodajmy girlandę na schody”) | 1.11 | 870 | 3,63 s | 8,6% | 1 / 0 / 0 (+2 obserw.) |
+| igly_ogien | 4.11 | 842 | 4,74 s | 17,2% | 1 / 0 / 0 |
+| schody_wieczorem | 2.11 | 811 | 3,39 s | 15,7% | 5 / 0 / 1 |
+| kot_vs_galazki | 2.11 | 792 | 2,75 s | 3,3% | 1 / 0 / 0 |
+| kominek_przejazd | 3.11 | 776 | 2,76 s | 6,1% | 1 / 0 / 1 |
+| platanina_lampek („Dekorowanie domu kiedyś…”) | 30.10 | 773 | 3,32 s | 3,8% | 1 / 0 / 0 |
+| igly_zamiatanie_2 | 6.11 | 767 | 3,26 s | 11,5% | 2 / 0 / 0 |
+| zywe_galazki_3 | 5.11 | 753 | 4,16 s | 15% | 2 / 0 / 1 |
+| szafka_rtv | 5.11 | 284 | 4,71 s | 27,9% | 1 / 1 / 0 |
+| karuzela 3:4 | 5.11 | 250 | 2,92 s | 4,5% | 1 / 0 / 0 |
+| schody_szybki | 4.11 | 30 | 3,83 s | 25% | 1 / 0 / 0 (zatrzymany po 1 godz.) |
+
+Wnioski: TikTok daje każdemu filmowi ok. 750–900 wyświetleń testowych z „Dla Ciebie” (97–99% ruchu) i po 4–5 godz. przestaje; żaden film nie przeszedł testu. Ponad 1000 dostały tylko 2 filmy z igłami na początku. Spokojne ujęcia i kot: 2,7–2,9 s. 5.11 (3 posty jednego dnia) dwa dostały tylko 250–284. schody_szybki zatrzymany na obu platformach: sprawdzić w TikTok Studio, czy nie ma oznaczenia „nie kwalifikuje się do Dla Ciebie”.
+Wspólny wniosek FB + TT: wygrywa początek z igłami na dywanie. Promocja: Facebook, post igly_ogien (4.11 16:26), cel: ruch w witrynie. Na TikToku na razie bez płatnej promocji; maks. 2 posty dziennie.
