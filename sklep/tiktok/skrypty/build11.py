@@ -37,6 +37,13 @@ V={
 'igly_drzwi':(
   [('c2',1.0,0.6),('c12',1.2,2.0),('c11',4.8,0.2)],
   [(0,2.2,['Żywa girlanda','po tygodniu…'],None,150),(2.2,4.6,['A ta nad drzwiami','przez całe święta'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
+# 8.11 (ostatni dzień START10): igły, potem salon z ogniem (c3) i przemiana pustego kominka (c4); klipy pobierane z klipy.json
+'igly_salon':(
+  [('c12',1.2,0.5),('c2',1.0,0.6),('c3',4.8,0.3)],
+  [(0,2.2,['Żywe gałązki','po tygodniu…'],None,150),(2.2,4.6,['A ta wygląda tak samo','aż do stycznia'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
+'igly_przemiana':(
+  [('c2',1.0,1.6),('c12',1.2,2.0),('c4',4.8,0.4)],
+  [(0,2.2,['Co roku igły','na całym dywanie?'],None,150),(2.2,4.6,['Wystarczy','jedna girlanda'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),
 'igly_schody_kokarda':(
   [('c12',1.2,2.0),('c2',1.0,1.6),('c10',4.8,0.2)],
   [(0,2.2,['Co roku igły','na całym dywanie?'],None,150),(2.2,4.6,['W tym roku','zero sprzątania'],None,150),(4.6,7.0,END,'lesnykominek.pl',150)]),

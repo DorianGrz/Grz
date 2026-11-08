@@ -499,3 +499,10 @@ Wydano 23,87 zł. Wyświetlenia 1868, zasięg 1476, 3-s odtworzenia 845, klikni�
 Odbiorcy: 84% kobiety; 65+ ok. 38%, 55–64 ok. 24%, 45–54 ok. 14%.
 Shopify od 7.11: sesje z facebook 23 (7.11: 8, 8.11: 15), 1 dodanie do koszyka (7.11), 0 kas, 0 zamówień. Prawie wszystko na telefonie, wejście na /products/girlanda-cedrowa.
 Decyzja: tanie wejścia, więc budżet na niedzielę 60 zł dziennie; wstrzymać o 23:30. Za mało danych, żeby oceniać stronę produktu (23 wejścia).
+
+## Niedziela 8.11 (ostatni dzień START10)
+Nowe filmy (build11, bez kredytów; piaskownica była wyczyszczona, klipy c2, c12, c3, c4 pobrane ponownie z klipy.json, muzyka z muzyka.py):
+- igly_salon 7 s: c12 + c2 „Żywe gałązki po tygodniu…”, potem salon z ogniem c3 „A ta wygląda tak samo aż do stycznia”. Rano TT i FB.
+- igly_przemiana 7 s: c2 + c12 „Co roku igły na całym dywanie?”, potem pusty kominek, na którym pojawia się girlanda (c4) „Wystarczy jedna girlanda”. 20:00 TT i FB.
+Opisy: „Ostatni dzień / ostatnie godziny, START10 tylko do północy”. Sprawdzone: dźwięk, brak zamrożeń, napisy bez przerw.
+ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f1397e13-a3c9-4323-8ca1-1b8356581b56.zip
