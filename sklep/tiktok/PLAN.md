@@ -546,3 +546,8 @@ AKTUALNE paczki 2 filmy dziennie (po poprawce 8.11 wieczór; zastępują wcześn
 - Tydzień 3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/851931d3-a20c-4912-b834-73fd50ae2924.zip
 - Tydzień 4: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/65abca04-003c-4e61-8e36-368143769960.zip
 Poprawka 2 (8.11 wieczór, zgłoszenie Doriana): w s1 (schody od dnia do wieczora, kling) śnieg pada w środku domu i na girlandzie wyskakują lampki; w g1 (dłonie przy oknie, kling) od ok. 2 s śnieg w pokoju. Oba ujęcia wycofane (11 filmów porannych: 9, 10, 12, 13, 17, 18, 21, 22, 29.11 oraz 3 i 5.12). Zamiast nich p1 (schody wieczorem, śnieg tylko za oknem), n2 (schody z kokardami), n4 (dłoń w gałązkach), k3 (sypialnia). Sprawdzone: w p1, t1, c3, k2 śnieg tylko za oknem.
+AKTUALNE paczki 2 filmy dziennie (po poprawce 2, 8.11 ok. 17:00; zastępują WSZYSTKIE wcześniejsze linki):
+- Tydzień 1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ca186682-20b3-454e-be24-1bca7be9ce79.zip
+- Tydzień 2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/8caebb58-96da-4f43-9c90-7ed8979c4311.zip
+- Tydzień 3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/89fd632b-737a-479b-a4fd-8ffa1190bb3b.zip
+- Tydzień 4: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6610beee-12a4-4f3c-ad46-ca10e2984071.zip
