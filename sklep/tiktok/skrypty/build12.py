@@ -1,6 +1,7 @@
 # paczka na miesiąc (9.11–8.12): 30 filmów po 6–7 s, każdy w wersji TikTok i Facebook, plus opisy i harmonogram
 # wzór z analizy (FB i TT 2–8.11): początek z problemem (igły na dywanie, tania girlanda, kot, puste schody), zmiana do ok. 2 s,
 # potem ujęcie „po”: najlepiej schody wieczorem i kominek z ogniem; napisy w strefie bezpiecznej, bez przerw na zmianach
+# n5 (kot): od ok. 2,5 s kamera gwałtownie opada na podłogę, więc bierzemy tylko 0–2,2 s
 # klipy w /home/user/n2/clips (adresy w ../klipy.json), muzyka.wav z muzyka.py; python3 build12.py [nazwa ...]
 import subprocess, sys, os, datetime
 from PIL import Image, ImageDraw, ImageFont
@@ -41,7 +42,7 @@ V=[
  ('03_tania_vs_cedr_schody',[('n3',2.0,0.3),('n4',2.2,0.3),('p1',2.8,5.0)],
   [(0,2.0,['Tania girlanda','wygląda sztucznie…']),(2.0,4.2,['A ta jak','prawdziwy cedr'])],
   'Tania girlanda wygląda sztucznie z daleka. Ta jest gęsta, miękka i wygląda jak prawdziwy cedr 🌲',None,T_DOM),
- ('04_kot_igly_szafka',[('n5',2.2,0.3),('n6',1.0,0.5),('k1',3.8,0.2)],
+ ('04_kot_igly_szafka',[('n5',2.2,0.0),('n6',1.0,0.5),('k1',3.8,0.2)],
   [(0,2.2,['Kot: 1','gałązki: 0']),(2.2,4.6,['W tym roku','bez igieł na podłodze'])],
   'Kot 1 : gałązki 0 😹 Wasz też tak robi? W tym roku bez igieł na podłodze 🌲',LAMPKI,T_KOT),
  ('05_igly_schody_kokardy',[('c12',1.2,2.0),('c2',1.0,1.6),('n2',4.8,0.2)],
@@ -116,7 +117,7 @@ V=[
  ('28_igly_sypialnia_2',[('c2',1.0,1.6),('c12',1.2,2.0),('k3',4.8,0.2)],
   [(0,2.2,['Ile igieł zamiotłaś','w zeszłym roku?']),(2.2,4.6,['W tym roku','zero sprzątania'])],
   'Ile igieł zamiotłaś w zeszłym roku? W tym roku zero sprzątania, nawet w sypialni 🌲',LAMPKI,T_DOM),
- ('29_kot_schody',[('n5',2.2,0.3),('n6',1.0,0.5),('n2',3.8,0.5)],
+ ('29_kot_schody',[('n5',2.2,0.0),('n6',1.0,0.5),('n2',3.8,0.5)],
   [(0,2.2,['Kot: 1','gałązki: 0']),(2.2,4.6,['W tym roku','igieł nie będzie'])],
   'Kot 1 : gałązki 0 😹 W tym roku igieł na podłodze nie będzie 🌲',KOKARDY,T_KOT),
  ('30_ostatnie_dni_schody',[('c12',1.2,0.5),('c2',1.0,0.8),('p1',4.8,3.0)],

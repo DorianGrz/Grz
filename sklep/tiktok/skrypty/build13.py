@@ -1,6 +1,6 @@
 # paczka na miesiąc v2 (9.11–8.12): 2 filmy dziennie = 30 starych z build12 (wieczór) + 30 nowych (rano)
 # nowe ujęcia 8.11 (Higgsfield): v1 odkurzanie igieł (grok), v2 sypiące się suche gałązki (grok), s1 schody od dnia do wieczora (kling),
-# g1 dłonie przy gałązkach w oknie (kling), t1 stół wigilijny (grok), f1 kominek z ogniem (grok, tylko 0–2 s, potem pojawia się kokarda)
+# g1 dłonie przy gałązkach w oknie (kling), t1 stół wigilijny (grok); f1 (kominek, grok) NIE używać: od ok. 1 s na girlandzie wyrasta kokarda
 # zmiany wg Doriana: bez dopisków „nie są w zestawie”, na FB 3 hasztagi (#dekoracjeswiateczne #girlanda #święta jak w igly_schody, 15 tys. wyśw.)
 # python3 build13.py           -> renderuje nowe 30 (TT i FB), kopiuje stare 30 z /home/user/n2/miesiac, pisze harmonogramy
 import subprocess, os, shutil, datetime, types, sys
@@ -17,7 +17,7 @@ Z=(['Zamów do 10 grudnia,','zdąży na święta'],['Zamów do 10 grudnia','Link
 W=[
  ('igly_odkurzacz_schody',[('v1',2.2,1.0),('s1',4.8,0.2)],[(0,2.2,['Co roku','odkurzanie igieł?']),(2.2,4.6,['W tym roku','zero sprzątania'])],
   'Co roku odkurzanie igieł spod choinki? W tym roku zero sprzątania 🌲 Girlanda cedrowa, która wygląda jak żywa i nie gubi igieł.',T_SCHODY,None),
- ('lista_kominek_schody_stol',[('f1',2.0,0.0),('s1',2.6,2.4),('t1',3.4,1.4)],[(0,2.0,['Na kominek…']),(2.0,4.6,['…na schody…']),(4.6,6.0,['…albo na stół'])],
+ ('lista_kominek_schody_stol',[('c3',2.0,0.3),('s1',2.6,2.4),('t1',3.4,1.4)],[(0,2.0,['Na kominek…']),(2.0,4.6,['…na schody…']),(4.6,6.0,['…albo na stół'])],
   'Kominek, schody czy stół wigilijny? Jedna girlanda, trzy pomysły 🌲 Który wybierasz?',T_DOM,Q),
  ('igly_sypia_sie_kominek',[('v2',2.2,1.2),('p2',4.8,3.0)],[(0,2.2,['Wystarczy dotknąć…']),(2.2,4.6,['A ta nie gubi','igieł'])],
   'Wystarczy dotknąć i igły lecą na podłogę? Ta girlanda nie gubi igieł i wygląda jak żywa 🌲🔥',T_KOMINEK,None),
@@ -27,7 +27,7 @@ W=[
   'Igły w obrusie na Wigilię? W tym roku stół bez igieł 🌲 Girlanda, która wygląda jak żywa przez całe święta.',T_STOL,None),
  ('igly_odkurzacz_salon',[('v1',2.2,0.5),('c3',4.8,0.3)],[(0,2.2,['Znowu odkurzasz','igły?']),(2.2,4.6,['A ta wygląda tak samo','aż do stycznia'])],
   'Znowu odkurzasz igły? Ta girlanda wygląda tak samo aż do stycznia 🌲',T_KOMINEK,None),
- ('kot_schody_wieczorem',[('n5',2.2,0.3),('n6',1.0,0.5),('s1',3.8,1.2)],[(0,2.2,['Kot: 1','gałązki: 0']),(2.2,4.6,['W tym roku','kot nie ma szans'])],
+ ('kot_schody_wieczorem',[('n5',2.2,0.0),('n6',1.0,0.5),('s1',3.8,1.2)],[(0,2.2,['Kot: 1','gałązki: 0']),(2.2,4.6,['W tym roku','kot nie ma szans'])],
   'Kot 1 : gałązki 0 😹 W tym roku girlanda, która nie gubi igieł 🌲',T_KOT,None),
  ('igly_sypia_sie_schody_kokardy',[('v2',2.2,1.2),('n2',4.8,0.2)],[(0,2.2,['Tak wygląda żywa','girlanda po tygodniu']),(2.2,4.6,['A ta przetrwa','całe święta'])],
   'Tak wygląda żywa girlanda po tygodniu… A ta przetrwa całe święta 🌲',T_SCHODY,None),
@@ -47,7 +47,7 @@ W=[
   'Wystarczy dotknąć i igły lecą? Ta na stole wygląda tak samo przez całe święta 🌲',T_STOL,None),
  ('z_pudelka_miekka_schody',[('c7',2.0,0.2),('g1',2.4,1.5),('s1',2.6,2.4)],[(0,2.0,['Prosto z pudełka…']),(2.0,4.4,['…gęsta i miękka'])],
   'Prosto z pudełka: gęsta, miękka i od razu gotowa na schody 🌲',T_SCHODY,None),
- ('igly_zamiatanie_ogien',[('c2',1.0,1.6),('c12',1.2,2.0),('f1',2.0,0.0),('p2',2.8,5.0)],[(0,2.2,['Ile igieł zamiotłaś','w zeszłym roku?']),(2.2,4.6,['W tym roku','zero sprzątania'])],
+ ('igly_zamiatanie_ogien',[('c2',1.0,1.6),('c12',1.2,2.0),('c3',2.0,0.3),('p2',2.8,5.0)],[(0,2.2,['Ile igieł zamiotłaś','w zeszłym roku?']),(2.2,4.6,['W tym roku','zero sprzątania'])],
   'Ile igieł zamiotłaś w zeszłym roku? W tym roku zero sprzątania 🌲🔥',T_KOMINEK,None),
  ('igly_odkurzacz_wieszanie',[('v1',2.2,0.8),('c1',4.8,0.6)],[(0,2.2,['Igły w dywanie','aż do lutego?']),(2.2,4.6,['A ta nie gubi','igieł'])],
   'Igły w dywanie aż do lutego? Ta girlanda nie gubi igieł 🌲',T_KOMINEK,None),
@@ -57,7 +57,7 @@ W=[
   'Kominek, schody czy stół? Który pomysł wybierasz? 🌲',T_DOM,Q),
  ('igly_schody_trzech_kroli_2',[('c2',1.0,0.6),('c12',1.2,0.5),('s1',4.8,0.2)],[(0,2.2,['Tak kończy','żywa girlanda…']),(2.2,4.6,['A ta przetrwa','do Trzech Króli'])],
   'Tak kończy żywa girlanda… A ta przetrwa do Trzech Króli 🌲',T_SCHODY,None),
- ('kot_kto_zrzucil_kominek',[('n6',1.8,0.2),('n5',1.2,3.4),('p2',4.0,3.6)],[(0,3.0,['Kto zrzucił','gałązki?']),(3.0,5.0,['W tym roku','igieł nie będzie'])],
+ ('kot_kto_zrzucil_kominek',[('n6',1.8,0.2),('n5',1.2,0.8),('p2',4.0,3.6)],[(0,3.0,['Kto zrzucił','gałązki?']),(3.0,5.0,['W tym roku','igieł nie będzie'])],
   'Kto zrzucił gałązki? 😹 W tym roku igieł na podłodze nie będzie 🌲',T_KOT,None),
  ('igly_sypia_sie_sypialnia',[('v2',2.2,1.2),('k3',4.8,0.2)],[(0,2.2,['Żywa girlanda','już się sypie?']),(2.2,4.6,['A ta w sypialni','przez całe święta'])],
   'Żywa girlanda już się sypie? Ta w sypialni wygląda tak samo przez całe święta 🌲',T_DOM,None),
@@ -67,11 +67,11 @@ W=[
   'Znowu odkurzasz igły? Ta girlanda jest miękka jak prawdziwy cedr i nie gubi igieł 🌲',T_DOM,None),
  ('igly_sypia_sie_szafka',[('v2',2.2,1.2),('k1',4.8,0.2)],[(0,2.2,['Żywe gałązki','po tygodniu…']),(2.2,4.6,['A ta pod telewizorem','całe święta'])],
   'Żywe gałązki po tygodniu? Ta pod telewizorem wygląda tak samo przez całe święta 🌲',T_DOM,None),
- ('wyglada_jak_zywa',[('g1',2.4,0.2),('s1',2.4,2.6),('f1',2.0,0.0)],[(0,2.4,['Wygląda jak żywa…']),(2.4,4.8,['…a nie gubi igieł'])],
+ ('wyglada_jak_zywa',[('g1',2.4,0.2),('s1',2.4,2.6),('p2',2.0,5.5)],[(0,2.4,['Wygląda jak żywa…']),(2.4,4.8,['…a nie gubi igieł'])],
   'Wygląda jak żywa, a nie gubi igieł 🌲 Miękka, gęsta i gotowa na całe święta.',T_DOM,None),
  ('igly_sypia_sie_schody_wieczorem',[('v2',2.2,1.2),('p1',4.8,3.0)],[(0,2.2,['Wystarczy dotknąć…']),(2.2,4.6,['A ta przetrwa','całe święta'])],
   'Wystarczy dotknąć i igły lecą? Ta girlanda przetrwa całe święta 🌲',T_SCHODY,None),
- ('lista_grudzien',[('t1',2.4,1.0),('f1',2.0,0.0),('n2',3.6,1.0)],[(0,2.4,['Stół wigilijny…']),(2.4,4.4,['…kominek…']),(4.4,6.0,['…i schody'])],
+ ('lista_grudzien',[('t1',2.4,1.0),('p2',2.0,5.5),('n2',3.6,1.0)],[(0,2.4,['Stół wigilijny…']),(2.4,4.4,['…kominek…']),(4.4,6.0,['…i schody'])],
   'Stół wigilijny, kominek i schody: jedna girlanda na całe święta 🌲',T_DOM,Z),
  ('igly_odkurzacz_ostatnie_dni',[('v1',2.2,0.5),('p1',4.8,3.0)],[(0,2.2,['Odkurzanie igieł','w Wigilię?']),(2.2,4.6,['Zamów do 10 grudnia,','zdąży na święta'])],
   'Odkurzanie igieł w Wigilię? Ta girlanda nie gubi igieł i wygląda jak żywa 🌲',T_SCHODY,None),
@@ -83,12 +83,15 @@ def konflikt(a,b):
     ca=set(s[0] for s in a); cb=set(s[0] for s in b)
     return bool(after(a)&after(b)) or (a[0][0] in IGLY and b[0][0] in IGLY) or bool(ca&STOL and cb&STOL)
 # przydział: dzień i -> rano nowy, wieczór stary; zamiana, gdy para się gryzie
+# przydział zamrożony 8.11 (po wymianie f1 na c3/p2), żeby nie przetasować gotowego harmonogramu
+ORDER=[0, 1, 2, 3, 6, 5, 4, 7, 9, 8, 10, 11, 12, 15, 14, 13, 22, 17, 18, 21, 20, 19, 16, 23, 24, 25, 26, 27, 29, 28]
 order=list(range(len(W)))
-for i in range(len(order)):
+for i in ([] if ORDER else range(len(order))):
     if konflikt(W[order[i]][1],V[i][1]):
         for j in range(i+1,len(order)):
             if not konflikt(W[order[j]][1],V[i][1]) and not konflikt(W[order[i]][1],V[j][1]):
                 order[i],order[j]=order[j],order[i]; break
+if ORDER: order=ORDER
 def opis(o,tags,i,fb):
     _,t=termin(i)
     r=[o,t,'📦 Darmowa dostawa i 30 dni na zwrot.']
