@@ -545,3 +545,4 @@ AKTUALNE paczki 2 filmy dziennie (po poprawce 8.11 wieczór; zastępują wcześn
 - Tydzień 2 (bez zmian): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b4e37f9c-9981-4a00-9e47-69211b355d78.zip
 - Tydzień 3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/851931d3-a20c-4912-b834-73fd50ae2924.zip
 - Tydzień 4: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/65abca04-003c-4e61-8e36-368143769960.zip
+Poprawka 2 (8.11 wieczór, zgłoszenie Doriana): w s1 (schody od dnia do wieczora, kling) śnieg pada w środku domu i na girlandzie wyskakują lampki; w g1 (dłonie przy oknie, kling) od ok. 2 s śnieg w pokoju. Oba ujęcia wycofane (11 filmów porannych: 9, 10, 12, 13, 17, 18, 21, 22, 29.11 oraz 3 i 5.12). Zamiast nich p1 (schody wieczorem, śnieg tylko za oknem), n2 (schody z kokardami), n4 (dłoń w gałązkach), k3 (sypialnia). Sprawdzone: w p1, t1, c3, k2 śnieg tylko za oknem.
