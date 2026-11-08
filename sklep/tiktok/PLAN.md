@@ -540,3 +540,8 @@ Godziny: rano pon–pt 12:00, sob–ndz 10:30; wieczór pon–pt 19:30, sob–nd
 - Tydzień 3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/74d9401c-4e00-46ab-b308-bd84f4897340.zip
 - Tydzień 4: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/80fc3361-7a13-413e-bc4b-c90e00d3b8ed.zip
 Poprawka 8.11 wieczór (zgłoszenie Doriana): w ujęciu f1 (kominek, grok) od ok. 1 s na girlandzie wyrasta kokarda; w n5 (kot) od ok. 2,5 s kamera gwałtownie opada na podłogę. Przejrzane klatka po klatce wszystkie ujęcia; reszta bez takich wad. f1 wymienione na c3/p2 w 4 filmach (10.11 rano, 1.12 rano, 5.12 rano, 8.12 rano), n5 tylko 0–2,2 s (12.11 wieczór, 13.11 rano, 28.11 rano, 7.12 wieczór). Przydział filmów do dni zamrożony (ORDER w build13.py). Paczki tygodni 1, 3 i 4 wysłane ponownie (linki niżej), tydzień 2 bez zmian.
+AKTUALNE paczki 2 filmy dziennie (po poprawce 8.11 wieczór; zastępują wcześniejsze linki tygodni 1, 3, 4):
+- Tydzień 1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/ea96a575-199b-4342-9a8e-8ca29c5a62a6.zip
+- Tydzień 2 (bez zmian): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b4e37f9c-9981-4a00-9e47-69211b355d78.zip
+- Tydzień 3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/851931d3-a20c-4912-b834-73fd50ae2924.zip
+- Tydzień 4: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/65abca04-003c-4e61-8e36-368143769960.zip
