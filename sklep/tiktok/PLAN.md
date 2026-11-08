@@ -506,3 +506,9 @@ Nowe filmy (build11, bez kredytów; piaskownica była wyczyszczona, klipy c2, c1
 - igly_przemiana 7 s: c2 + c12 „Co roku igły na całym dywanie?”, potem pusty kominek, na którym pojawia się girlanda (c4) „Wystarczy jedna girlanda”. 20:00 TT i FB.
 Opisy: „Ostatni dzień / ostatnie godziny, START10 tylko do północy”. Sprawdzone: dźwięk, brak zamrożeń, napisy bez przerw.
 ZIP: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/f1397e13-a3c9-4323-8ca1-1b8356581b56.zip
+
+## 8.11: igly_schody (FB 3.11 15:52) nagle 15 355 wyświetleń bez promocji
+Skok po ok. 4 dniach (7.11 po południu, ten sam czas co start reklamy i edycja opisów z kodem). 12 779 widzów, ponad 3 s 7632 (60%), 8 reakcji, 8 kliknięć, 12 nowych obserwujących, 99,6% z zakładki Rolki, widzowie głównie 45–54 (34%) i 35–44 (31,5%).
+schody_wieczorem (2.11): 2552 wyśw., skok w tym samym czasie. schody_szybki: 135 wyśw., +0,9x.
+Shopify 8.11: 16 sesji z facebook (prawie tyle samo co rano), 0 koszyków – wyświetlenia rolki prawie nie dają wejść do sklepu.
+Wnioski: igly_schody to sprawdzony zwycięzca (60% trzymania przy 12,8 tys. widzów) – następna promocja: ten post. Po północy usunąć z opisów zdanie o START10 (wszystkie posty, które je mają).
