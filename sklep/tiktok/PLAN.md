@@ -512,3 +512,11 @@ Skok po ok. 4 dniach (7.11 po południu, ten sam czas co start reklamy i edycja 
 schody_wieczorem (2.11): 2552 wyśw., skok w tym samym czasie. schody_szybki: 135 wyśw., +0,9x.
 Shopify 8.11: 16 sesji z facebook (prawie tyle samo co rano), 0 koszyków – wyświetlenia rolki prawie nie dają wejść do sklepu.
 Wnioski: igly_schody to sprawdzony zwycięzca (60% trzymania przy 12,8 tys. widzów) – następna promocja: ten post. Po północy usunąć z opisów zdanie o START10 (wszystkie posty, które je mają).
+
+## Weekend 7–8.11: wyniki
+TikTok (7.11 wyszły nad_lozkiem i igly_schody_krotka zamiast igly_stol i igly_schody_kokarda; te dwa czekają na TT):
+igly_salon 789 (4 godz.), 3,14 s, 8,3% | igly_schody_krotka 798, 4,2 s, 24,5% | nad_lozkiem 801, 2,81 s, 13,8% | nad_stolem 777, 3,22 s, 16,6% | igly_zamiatanie_2 824, 3,31 s, 12,2%. Nadal każdy ok. 800 i gaśnie po 5 godz.
+Facebook (ponad 3 s / widzowie):
+igly_salon_fb 261/220, 44%, -0,2x (4 godz.) | igly_schody_kokarda_fb 269/222, 37%, -0,2x | igly_stol_fb 468/384, 37,5%, +0,4x | igly_zamiatanie_2_fb 667/539, +0,2x.
+Druga fala starych rolek ze schodami: igly_schody 15 599 / 12 953, schody_wieczorem 6321 / 4913 (rano 2552), schody_szybki 164.
+Wnioski: na FB schody wieczorem działają najlepiej i rozkręcają się po 4–5 dniach (nie oceniać filmu po 1 dniu). Następne filmy: igły + schody wieczorem. Promocja w tygodniu: igly_schody z konta mamy, odbiorcy 35–64.
