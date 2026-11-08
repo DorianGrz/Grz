@@ -520,3 +520,4 @@ Facebook (ponad 3 s / widzowie):
 igly_salon_fb 261/220, 44%, -0,2x (4 godz.) | igly_schody_kokarda_fb 269/222, 37%, -0,2x | igly_stol_fb 468/384, 37,5%, +0,4x | igly_zamiatanie_2_fb 667/539, +0,2x.
 Druga fala starych rolek ze schodami: igly_schody 15 599 / 12 953, schody_wieczorem 6321 / 4913 (rano 2552), schody_szybki 164.
 Wnioski: na FB schody wieczorem działają najlepiej i rozkręcają się po 4–5 dniach (nie oceniać filmu po 1 dniu). Następne filmy: igły + schody wieczorem. Promocja w tygodniu: igly_schody z konta mamy, odbiorcy 35–64.
+Uzupełnienie FB: nad_stolem_fb 304/243, ponad 3 s 34%, śr. 3 s, odpływ po 0:01 | igly_zamiatanie_2_fb 667/540, ponad 3 s 34%, śr. 3 s, 10 s 3,6%. Ranking nowych na FB: igly_salon 44% > igly_stol 37,5% ≈ igly_schody_kokarda 37% > zamiatanie_2 34% ≈ nad_stolem 34%.
