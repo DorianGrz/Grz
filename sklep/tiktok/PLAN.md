@@ -493,3 +493,9 @@ Aktualna paczka na 7.11 (v3): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7Bhj
 Zmiana 4 (decyzja Doriana): ujęcie z drzwiami odrzucone, na sobotę zostaje igly_stol. Aktualna paczka na 7.11 to znowu v2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/049f5c39-87e8-41da-96ee-b7f744218237.zip
 7.11 ok. 14:00, igly_stol_fb po 3 godz.: 268 wyśw. / 225 widzów, ponad 3 s 97 (43%), śr. 4 s, śr. odsetek 47%, 10 s 6,0%, dystrybucja +0,2x, odpływ po 0:02 (zmiana na stół). Decyzja: promować (43% w granicach błędu od progu 45% przy 225 widzach, liczy się czas do końca START10). nad_stolem_fb (6.11): 265 / 215, -0,2x. igly_zamiatanie_2_fb: 473 / 367, +0,3x.
 7.11: promocja FB AKTYWNA (zatwierdzona ok. 16:00). Post zywe_galazki_3 (5.11 15:20), cel „Goście w witrynie”, przycisk „Kup teraz” → https://lesnykominek.pl/fb, nagłówek „Kod START10: -10%”, Advantage+ Polska od 25 lat, 40 zł dziennie, 2 dni (do 9.11 ok. 15:30) – WSTRZYMAĆ w niedzielę 8.11 ok. 23:30 (koniec START10). Konto reklamowe 1087905100652037 (konto Doriana; Facebook pokazuje baner o weryfikacji). Od następnej promocji: konto reklamowe mamy z jej kartą. Wyniki do sprawdzenia w niedzielę ok. 10:00 (kliknięcia w link, koszt kliknięcia, sesje i koszyki w Shopify).
+
+## Wyniki promocji FB (8.11 ok. 10:00, po ok. 18 godz.)
+Wydano 23,87 zł. Wyświetlenia 1868, zasięg 1476, 3-s odtworzenia 845, kliknięcia linku 47 (CTR ok. 2,5%), wyświetlenia strony docelowej 38, koszt 0,63 zł za wejście.
+Odbiorcy: 84% kobiety; 65+ ok. 38%, 55–64 ok. 24%, 45–54 ok. 14%.
+Shopify od 7.11: sesje z facebook 23 (7.11: 8, 8.11: 15), 1 dodanie do koszyka (7.11), 0 kas, 0 zamówień. Prawie wszystko na telefonie, wejście na /products/girlanda-cedrowa.
+Decyzja: tanie wejścia, więc budżet na niedzielę 60 zł dziennie; wstrzymać o 23:30. Za mało danych, żeby oceniać stronę produktu (23 wejścia).
