@@ -529,3 +529,13 @@ Skrypt: skrypty/build12.py (30 filmów, wzór: problem na początku – igły, t
 - Tydzień 3 (23–29.11): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/d33f8ae3-0efc-49d8-bd52-9cb4a7bcee12.zip
 - Tydzień 4 (30.11–8.12): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/5d0dcc66-79b6-4ff6-a4eb-182d520b4c97.zip
 Adresy klipów źródłowych (p1, p2, k1–k3, n0–n6): wynik show_generation_by_ids 8.11, wpisane do klipy.json -> sekcja urls_8_11.
+
+## Paczka na miesiąc v2 (zastępuje v1): 2 filmy dziennie, 9.11–8.12
+Zmiany wg Doriana: bez dopisków „nie są w zestawie”, na FB 3 hasztagi (#dekoracjeswiateczne #girlanda #święta), 2 filmy dziennie.
+6 nowych ujęć (35 kredytów, zostało 0,5): v1 odkurzanie igieł 04e5e801 (grok), v2 sypiące się suche gałązki 7ca95da7 (grok), t1 stół wigilijny 022bb904 (grok, z o4), f1 kominek z ogniem 4edd4d30 (grok, z o1; używane tylko 0–2 s, potem pojawia się kokarda), s1 schody od dnia do wieczora 15a86aac (kling, z o3), g1 dłonie przy gałązkach w oknie 4a5e2449 (kling, z o2). Adres: hf_20261108_1454xx_<id>.mp4.
+Skrypt: skrypty/build13.py (rano 30 nowych, wieczór 30 z build12; w jednym dniu bez wspólnego ujęcia „po”, bez dwóch początków ze starymi igłami, bez dwóch stołów). Sprawdzone: 120 plików, dźwięk, brak zamrożeń.
+Godziny: rano pon–pt 12:00, sob–ndz 10:30; wieczór pon–pt 19:30, sob–ndz 20:00.
+- Tydzień 1: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/235dface-feba-445e-908f-642830490cb0.zip
+- Tydzień 2: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/b4e37f9c-9981-4a00-9e47-69211b355d78.zip
+- Tydzień 3: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/74d9401c-4e00-46ab-b308-bd84f4897340.zip
+- Tydzień 4: https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/80fc3361-7a13-413e-bc4b-c90e00d3b8ed.zip
