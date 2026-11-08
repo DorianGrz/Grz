@@ -521,3 +521,11 @@ igly_salon_fb 261/220, 44%, -0,2x (4 godz.) | igly_schody_kokarda_fb 269/222, 37
 Druga fala starych rolek ze schodami: igly_schody 15 599 / 12 953, schody_wieczorem 6321 / 4913 (rano 2552), schody_szybki 164.
 Wnioski: na FB schody wieczorem działają najlepiej i rozkręcają się po 4–5 dniach (nie oceniać filmu po 1 dniu). Następne filmy: igły + schody wieczorem. Promocja w tygodniu: igly_schody z konta mamy, odbiorcy 35–64.
 Uzupełnienie FB: nad_stolem_fb 304/243, ponad 3 s 34%, śr. 3 s, odpływ po 0:01 | igly_zamiatanie_2_fb 667/540, ponad 3 s 34%, śr. 3 s, 10 s 3,6%. Ranking nowych na FB: igly_salon 44% > igly_stol 37,5% ≈ igly_schody_kokarda 37% > zamiatanie_2 34% ≈ nad_stolem 34%.
+
+## Paczka na miesiąc (9.11–8.12), 1 film dziennie na TT i FB
+Skrypt: skrypty/build12.py (30 filmów, wzór: problem na początku – igły, tania girlanda, kot, puste schody/kominek – potem schody wieczorem, kominek z ogniem, stół, szafka, sypialnia). Zasady: PLAN_MIESIAC.md (też w każdej paczce jako 00_ZASADY_NA_MIESIAC.txt). Sprawdzone: 60 plików, dźwięk, brak zamrożeń, napisy czytelne.
+- Tydzień 1 (9–15.11): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/6e041a69-8ca1-4b40-b17a-fdf4c68c8697.zip
+- Tydzień 2 (16–22.11): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/d37a1eaf-a600-4697-8b20-c04038e71056.zip
+- Tydzień 3 (23–29.11): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/d33f8ae3-0efc-49d8-bd52-9cb4a7bcee12.zip
+- Tydzień 4 (30.11–8.12): https://d2ol7oe51mr4n9.cloudfront.net/user_3KQ7BhjkUQWsSeMmcqc63otpXU3/5d0dcc66-79b6-4ff6-a4eb-182d520b4c97.zip
+Adresy klipów źródłowych (p1, p2, k1–k3, n0–n6): wynik show_generation_by_ids 8.11, wpisane do klipy.json -> sekcja urls_8_11.
