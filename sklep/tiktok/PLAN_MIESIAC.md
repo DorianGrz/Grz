@@ -7,8 +7,9 @@ DZIŚ, NIEDZIELA 8.11
 4. Bio strony na Facebooku: jeśli jest tam „-10%” albo START10, usuń.
 
 CODZIENNIE (9.11–8.12)
-- 1 film dziennie, ten sam na TikToku i Facebooku. Pon–pt 19:30, sob–ndz 20:00.
-- Pliki i gotowe opisy: paczki „tydzień 1–4”, plik 00_HARMONOGRAM_I_OPISY.txt (data przy każdym filmie).
+- 2 filmy dziennie, ten sam film na TikToku i Facebooku: RANO pon–pt 12:00, sob–ndz 10:30; WIECZÓR pon–pt 19:30, sob–ndz 20:00.
+- Pliki i gotowe opisy: paczki „tydzień 1–4”, plik 00_HARMONOGRAM_I_OPISY.txt. Nazwa pliku: data_1rano_… albo data_2wieczor_….
+- Na Facebooku 3 hasztagi (#dekoracjeswiateczne #girlanda #święta – tyle miał film z 15 tys. wyświetleń), na TikToku 5.
 - ZAWSZE włącz etykietę SI (Facebook: „Dodaj etykietę SI”, TikTok: Więcej opcji -> „Treść wygenerowana przez AI”).
 - TikTok: dodaj popularny świąteczny dźwięk z biblioteki (oryginał ścisz do 0%) albo zostaw pozytywkę z pliku.
 - Facebook: link https://lesnykominek.pl/fb musi być w opisie (jest w gotowych opisach).
@@ -21,6 +22,7 @@ KOMENTARZE (odpowiadaj w ciągu kilku godzin, zawsze życzliwie)
 - „Czy zdąży na święta?” -> „Tak, przy zamówieniu do 10 grudnia. Dostawa trwa 4–8 dni roboczych 📦”
 - „Jak długa?” -> „Jeden kawałek ma 1,5 m. Kominek: 2 kawałki, Cały dom: 4 kawałki 🌲”
 - „Zwrot?” -> „Masz 30 dni na zwrot 🙂”
+- „Czy lampki / kokardy są w zestawie?” -> „W zestawie jest sama girlanda 🌲 Lampki i kokardy możesz dodać według uznania.”
 - Hejt albo spam: nie kłóć się. Odpowiedz spokojnie albo ukryj komentarz.
 - Nie wymyślaj opinii ani liczby sprzedanych sztuk.
 
